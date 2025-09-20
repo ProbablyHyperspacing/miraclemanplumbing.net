@@ -1,0 +1,131 @@
+{
+  "plumbing-services": {
+    "slug": "plumbing-services",
+    "seo": {
+      "title": "Professional Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert plumbing services in Prescott Valley, Arizona. Emergency repairs, installations, maintenance, and more. Call (928) 830-3575 for reliable plumbing solutions."
+    },
+    "hero": {
+      "title": "PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Comprehensive Plumbing Solutions",
+      "description": "We approach every plumbing task knowing that no two systems—or circumstances—are the same. Miracle Man Plumbing Inc. proudly delivers a thorough range of plumbing services customized to fit the particular requirements of commercial and residential premises.",
+      "items": [
+        {
+          "icon": "Wrench",
+          "title": "Thorough System Analysis",
+          "description": "Our knowledgeable staff provides accuracy, efficiency, and dedication to every plumbing project, from minor leaks to complete system renovations using sophisticated diagnostic tools and established methods."
+        },
+        {
+          "icon": "Settings",
+          "title": "Complete Solutions Range",
+          "description": "From new installations to preventative maintenance to complicated repairs, we aim to provide consistent solutions that improve the performance and dependability of your plumbing system."
+        },
+        {
+          "icon": "Shield",
+          "title": "Professional Excellence",
+          "description": "Our method is characterized by clear communication, timely service, and skilled labor. We thoroughly identify and fix problems the first time using advanced techniques."
+        },
+        {
+          "icon": "Clock",
+          "title": "Trusted Local Service",
+          "description": "We are happy to provide the towns of Prescott Valley, Arizona, and the surrounding areas with consistent plumbing solutions that mirror our fundamental principles of professionalism and quality in all we do."
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Ensure Reliable, Long-Term Infrastructure Success with Our Solutions",
+      "paragraphs": [
+        "At Miracle Man Plumbing Inc., our dedication is to providing plumbing solutions that surpass expectations through consistent workmanship and attention to detail. From basic repairs to complex systems, we give every property we serve specialized knowledge.",
+        "Clients in Prescott Valley, Arizona, and surrounding areas depend on us for solutions that mix durability, performance, and peace of mind. We are the experts who get plumbing done correctly the first time."
+      ],
+      "image": {
+        "src": "/images/MMPworker.jpg.webp",
+        "alt": "Professional Plumbing Infrastructure"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Estimate",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call (928) 830-3575",
+          "href": "tel:(928) 830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Plumbing Services Include",
+      "services": [
+        {
+          "icon": "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
+          "title": "Backflow Prevention & Testing",
+          "description": "Protect your water supply with professional backflow prevention services and annual testing to ensure compliance with local regulations and maintain water quality standards."
+        },
+        {
+          "icon": "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16",
+          "title": "Garbage Disposal Services",
+          "description": "Complete garbage disposal repair, replacement, and installation services. We handle clogs, mechanical issues, and upgrades to keep your kitchen running smoothly."
+        },
+        {
+          "icon": "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Leak Detection & Repair",
+          "description": "Advanced leak detection technology to find hidden leaks and prevent water damage. Fast, efficient repairs that save you money on water bills and property damage."
+        },
+        {
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Water Heater Services",
+          "description": "Water heater installation, repair, and maintenance for both traditional and tankless systems. Energy-efficient solutions to provide reliable hot water year-round."
+        },
+        {
+          "icon": "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+          "title": "Drain Cleaning Services",
+          "description": "Professional drain cleaning using advanced equipment to clear stubborn clogs and restore proper drainage. Preventive cleaning to avoid future blockages."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Fixture Installation & Repair",
+          "description": "Complete plumbing fixture services including faucets, toilets, sinks, and showers. Expert installation and repair to enhance your home's functionality and value."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  }
+}

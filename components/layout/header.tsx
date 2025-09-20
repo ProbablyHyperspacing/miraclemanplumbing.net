@@ -126,11 +126,6 @@ export function Header() {
                     width={200}
                     height={72}
                     className="h-16 w-auto object-contain"
-                    onError={(e) => {
-                      // Fallback to text if image doesn't exist
-                      e.currentTarget.style.display = 'none'
-                      e.currentTarget.nextElementSibling?.classList.remove('hidden')
-                    }}
                   />
                   <span className="hidden font-bold text-2xl text-primary ml-4">
                     Miracle Man Plumbing
@@ -144,11 +139,13 @@ export function Header() {
                   if (item.hasDropdown && item.dropdownItems) {
                     return (
                       <DropdownMenu key={item.href}>
-                        <DropdownMenuTrigger className="flex items-center space-x-1 text-gray-700 hover:text-primary font-medium transition-colors focus:outline-none">
-                          <span>{item.label}</span>
-                          <ChevronDown className="h-4 w-4" />
+                        <DropdownMenuTrigger asChild>
+                          <button className="flex items-center space-x-1 text-gray-700 hover:text-primary font-medium transition-colors focus:outline-none">
+                            <span>{item.label}</span>
+                            <ChevronDown className="h-4 w-4" />
+                          </button>
                         </DropdownMenuTrigger>
-                        <DropdownMenuContent className="w-56">
+                        <DropdownMenuContent className="w-56" align="start">
                           {item.dropdownItems.map((dropdownItem) => (
                             <DropdownMenuItem key={dropdownItem.href} asChild>
                               <Link
@@ -193,11 +190,6 @@ export function Header() {
                   width={120}
                   height={60}
                   className="h-12 w-auto"
-                  onError={(e) => {
-                    // Fallback to text if image doesn't exist
-                    e.currentTarget.style.display = 'none'
-                    e.currentTarget.nextElementSibling?.classList.remove('hidden')
-                  }}
                 />
                 <span className="hidden font-bold text-xl text-primary ml-2">
                   Miracle Man Plumbing

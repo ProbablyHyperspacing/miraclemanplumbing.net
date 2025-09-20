@@ -1,0 +1,245 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Service Page Schema",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "description": "URL slug for the service page (e.g., 'plumbing-services')"
+    },
+    "seo": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Page title for SEO"
+        },
+        "description": {
+          "type": "string",
+          "description": "Meta description for SEO"
+        }
+      },
+      "required": ["title", "description"]
+    },
+    "hero": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Main hero title (e.g., 'PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA')"
+        }
+      },
+      "required": ["title"]
+    },
+    "comprehensiveSolutions": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Section title"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "type": "string",
+                "description": "Lucide icon name for the solution"
+              },
+              "title": {
+                "type": "string",
+                "description": "Solution title"
+              },
+              "description": {
+                "type": "string",
+                "description": "Solution description"
+              }
+            },
+            "required": ["icon", "title", "description"]
+          }
+        }
+      },
+      "required": ["title", "items"]
+    },
+    "infrastructureSection": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Infrastructure section title"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Array of paragraph text content"
+        },
+        "image": {
+          "type": "object",
+          "properties": {
+            "src": {
+              "type": "string",
+              "description": "Image source path"
+            },
+            "alt": {
+              "type": "string",
+              "description": "Image alt text"
+            }
+          },
+          "required": ["src", "alt"]
+        },
+        "ctas": {
+          "type": "object",
+          "properties": {
+            "primary": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                }
+              },
+              "required": ["text", "href"]
+            },
+            "secondary": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                },
+                "href": {
+                  "type": "string"
+                }
+              },
+              "required": ["text", "href"]
+            }
+          },
+          "required": ["primary", "secondary"]
+        }
+      },
+      "required": ["title", "paragraphs", "image", "ctas"]
+    },
+    "servicesInclude": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Services section title"
+        },
+        "services": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "type": "string",
+                "description": "SVG path data for the service icon"
+              },
+              "title": {
+                "type": "string",
+                "description": "Service title"
+              },
+              "description": {
+                "type": "string",
+                "description": "Service description"
+              }
+            },
+            "required": ["icon", "title", "description"]
+          }
+        }
+      },
+      "required": ["title", "services"]
+    },
+    "testimonials": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Testimonials section title"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Testimonials section subtitle"
+        },
+        "reviews": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "text": {
+                "type": "string",
+                "description": "Review text content"
+              },
+              "author": {
+                "type": "string",
+                "description": "Review author name"
+              },
+              "rating": {
+                "type": "number",
+                "minimum": 1,
+                "maximum": 5,
+                "description": "Star rating (1-5)"
+              }
+            },
+            "required": ["text", "author", "rating"]
+          }
+        }
+      },
+      "required": ["title", "subtitle", "reviews"]
+    },
+    "contact": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Contact section title"
+        },
+        "subtitle": {
+          "type": "string",
+          "description": "Contact section subtitle"
+        },
+        "mapTitle": {
+          "type": "string",
+          "description": "Map section title"
+        },
+        "locationInfo": {
+          "type": "object",
+          "properties": {
+            "address": {
+              "type": "string",
+              "description": "Business address"
+            },
+            "phone": {
+              "type": "string",
+              "description": "Phone number"
+            },
+            "hours": {
+              "type": "string",
+              "description": "Business hours text"
+            }
+          },
+          "required": ["address", "phone", "hours"]
+        },
+        "mapEmbedUrl": {
+          "type": "string",
+          "description": "Google Maps embed URL"
+        }
+      },
+      "required": ["title", "subtitle", "mapTitle", "locationInfo", "mapEmbedUrl"]
+    }
+  },
+  "required": [
+    "slug",
+    "seo",
+    "hero",
+    "comprehensiveSolutions",
+    "infrastructureSection",
+    "servicesInclude",
+    "testimonials",
+    "contact"
+  ]
+}

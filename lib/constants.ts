@@ -14,21 +14,12 @@ export const SITE_CONFIG = {
 
 export const NAVIGATION_ITEMS = [
   { href: '/', label: 'Home' },
-  { 
-    href: '/services', 
+  {
+    href: '/services',
     label: 'Services',
     hasDropdown: true,
     dropdownItems: [
-      { href: '/services/emergency-repairs', label: 'Emergency Repairs' },
-      { href: '/services/drain-cleaning', label: 'Drain Cleaning' },
-      { href: '/services/water-heater', label: 'Water Heater Services' },
-      { href: '/services/pipe-repair', label: 'Pipe Repair' },
-      { href: '/services/leak-detection', label: 'Leak Detection' },
-      { href: '/services/bathroom-plumbing', label: 'Bathroom Plumbing' },
-      { href: '/services/kitchen-plumbing', label: 'Kitchen Plumbing' },
-      { href: '/services/sewer-services', label: 'Sewer Services' },
-      { href: '/services/installation', label: 'Installation Services' },
-      { href: '/services/maintenance', label: 'Maintenance' },
+      { href: '/plumbing-services', label: 'Plumbing Services' },
     ]
   },
   { href: '/reviews', label: 'Reviews' },
