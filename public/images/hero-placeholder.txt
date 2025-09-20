@@ -1,0 +1,5 @@
+# Place your MMPtemphero.jpg.webp file here
+
+The hero section is looking for: public/images/MMPtemphero.jpg.webp
+
+If the image is not found, the hero section will fall back to a blue gradient background.
