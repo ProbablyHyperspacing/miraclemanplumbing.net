@@ -2,7 +2,14 @@ import { NextResponse } from 'next/server'
 import { Resend } from 'resend'
 import { z } from 'zod'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+// Initialize Resend only if API key is available
+const getResendInstance = () => {
+  const apiKey = process.env.RESEND_API_KEY
+  if (!apiKey) {
+    throw new Error('RESEND_API_KEY environment variable is not set')
+  }
+  return new Resend(apiKey)
+}
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Name is required'),
@@ -15,11 +22,21 @@ const contactFormSchema = z.object({
 export async function POST(request: Request) {
   try {
     const body = await request.json()
-    
+
     // Validate the form data
     const validatedData = contactFormSchema.parse(body)
-    
+
+    // Check if Resend is configured
+    if (!process.env.RESEND_API_KEY) {
+      console.log('Contact form submission received (Resend not configured):', validatedData)
+      return NextResponse.json({
+        success: true,
+        message: 'Thank you for your message. We will get back to you soon!'
+      })
+    }
+
     // Send email using Resend
+    const resend = getResendInstance()
     await resend.emails.send({
       from: process.env.RESEND_FROM_EMAIL || 'noreply@miraclemanplumbing.com',
       to: process.env.CONTACT_EMAIL || 'info@miraclemanplumbing.com',
