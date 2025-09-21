@@ -19,14 +19,6 @@ export function HeroSection() {
           className="object-cover"
           priority
           sizes="100vw"
-          onError={(e) => {
-            // Fallback to a gradient background if image doesn't exist
-            e.currentTarget.style.display = 'none'
-            const parent = e.currentTarget.parentElement
-            if (parent) {
-              parent.style.background = 'linear-gradient(135deg, #1d588d 0%, #2563eb 100%)'
-            }
-          }}
         />
         {/* Overlay for better text readability */}
         <div className="absolute inset-0 bg-black/60"></div>
@@ -55,10 +47,6 @@ export function HeroSection() {
                 width={150}
                 height={75}
                 className="h-16 w-auto object-contain"
-                onError={(e) => {
-                  // Hide image if not found
-                  e.currentTarget.style.display = 'none'
-                }}
               />
             </div>
 

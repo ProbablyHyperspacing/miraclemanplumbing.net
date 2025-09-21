@@ -1,0 +1,2121 @@
+{
+  "plumbing-services": {
+    "slug": "plumbing-services",
+    "seo": {
+      "title": "Professional Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert plumbing services in Prescott Valley, Arizona. Emergency repairs, installations, maintenance, and more. Call (928) 830-3575 for reliable plumbing solutions."
+    },
+    "hero": {
+      "title": "PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Comprehensive Plumbing Solutions",
+      "items": [
+        {
+          "icon": "Wrench",
+          "title": "Thorough System Analysis",
+          "description": "Our knowledgeable staff provides accuracy, efficiency, and dedication to every plumbing project, from minor leaks to complete system renovations using sophisticated diagnostic tools and established methods."
+        },
+        {
+          "icon": "Settings",
+          "title": "Complete Solutions Range",
+          "description": "From new installations to preventative maintenance to complicated repairs, we aim to provide consistent solutions that improve the performance and dependability of your plumbing system."
+        },
+        {
+          "icon": "Shield",
+          "title": "Professional Excellence",
+          "description": "Our method is characterized by clear communication, timely service, and skilled labor. We thoroughly identify and fix problems the first time using advanced techniques."
+        },
+        {
+          "icon": "Clock",
+          "title": "Trusted Local Service",
+          "description": "We are happy to provide the towns of Prescott Valley, Arizona, and the surrounding areas with consistent plumbing solutions that mirror our fundamental principles of professionalism and quality in all we do."
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Ensure Reliable, Long-Term Infrastructure Success with Our Solutions",
+      "paragraphs": [
+        "We approach every plumbing task knowing that no two systems—or circumstances—are the same. Miracle Man Plumbing Inc. proudly delivers a thorough range of plumbing services customized to fit the particular requirements of commercial and residential premises.",
+        "At Miracle Man Plumbing Inc., our dedication is to providing plumbing solutions that surpass expectations through consistent workmanship and attention to detail. From basic repairs to complex systems, we give every property we serve specialized knowledge.",
+        "Clients in Prescott Valley, Arizona, and surrounding areas depend on us for solutions that mix durability, performance, and peace of mind. We are the experts who get plumbing done correctly the first time."
+      ],
+      "image": {
+        "src": "/images/plumbing-services-hero.jpg",
+        "alt": "Professional Plumbing Infrastructure"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Estimate",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Plumbing Services Include",
+      "services": [
+        {
+          "icon": "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
+          "title": "Backflow Prevention & Testing",
+          "description": "Protect your water supply with professional backflow prevention services and annual testing to ensure compliance with local regulations and maintain water quality standards."
+        },
+        {
+          "icon": "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16",
+          "title": "Garbage Disposal Services",
+          "description": "Complete garbage disposal repair, replacement, and installation services. We handle clogs, mechanical issues, and upgrades to keep your kitchen running smoothly."
+        },
+        {
+          "icon": "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Leak Detection & Repair",
+          "description": "Advanced leak detection technology to find hidden leaks and prevent water damage. Fast, efficient repairs that save you money on water bills and property damage."
+        },
+        {
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Water Heater Services",
+          "description": "Water heater installation, repair, and maintenance for both traditional and tankless systems. Energy-efficient solutions to provide reliable hot water year-round."
+        },
+        {
+          "icon": "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+          "title": "Drain Cleaning Services",
+          "description": "Professional drain cleaning using advanced equipment to clear stubborn clogs and restore proper drainage. Preventive cleaning to avoid future blockages."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Fixture Installation & Repair",
+          "description": "Complete plumbing fixture services including faucets, toilets, sinks, and showers. Expert installation and repair to enhance your home's functionality and value."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "residential-plumbing-services": {
+    "slug": "residential-plumbing-services",
+    "seo": {
+      "title": "Residential Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert residential plumbing services in Prescott Valley, Arizona. From water pressure testing to leak repairs, fixture installations, and whole-home solutions. Trusted local plumbers with quality workmanship."
+    },
+    "hero": {
+      "title": "RESIDENTIAL PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Protecting What Matters Most with Thoughtful Residential Plumbing Care",
+      "items": [
+        {
+          "icon": "Gauge",
+          "title": "Pressure Testing & Balancing",
+          "description": "Comprehensive diagnostics and water pressure optimization across all fixtures and zones"
+        },
+        {
+          "icon": "Home",
+          "title": "Whole-Home Solutions",
+          "description": "From single-family homes to condos, tailored solutions for every residence type"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Expert Repairs & Installations",
+          "description": "Fixture installations, leak repairs, and repiping with quality and attention to detail"
+        },
+        {
+          "icon": "Shield",
+          "title": "Preventive Care",
+          "description": "Solutions that restore comfort, improve efficiency, and prevent future problems"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Elevate Residential Comfort through Our Smart, Seamless Plumbing Solutions",
+      "paragraphs": [
+        "Home plumbing systems need attention, accuracy, and care to guarantee continuous comfort and operation. Miracle Man Plumbing Inc. provides tailored residential plumbing solutions that meet homeowners' daily demands and long-term aspirations.",
+        "From pressure changes to repiping and fixture installations to leak repairs, we tackle every job with quality and attention to detail in mind. Your home's plumbing should run quietly in the background; hence, we know it should support your way of life without interruption.",
+        "Proudly serving Prescott Valley, Arizona, and the neighboring areas, we value your happiness and treat your home with utmost care with seamless plumbing systems. Our qualified experts come with the appropriate instruments, information, and respect for your house to offer services that are as efficient as they are minimally invasive.",
+        "Our concentrated, customer-first attitude helps every home we serve. Using accuracy and foresight, we fix plumbing problems to lower future disruptions and boost comfort. Rely on our outstanding plumbing workmanship and quick service to maintain your home's performance."
+      ],
+      "image": {
+        "src": "/images/residential-plumbing-hero.jpg",
+        "alt": "Professional residential plumbing services in Prescott Valley home"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Estimate",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-775-4987"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Residential Plumbing Services Include",
+      "services": [
+        {
+          "icon": "M12 2L2 7v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V7l-10-5z",
+          "title": "Whole-Home Water Pressure Testing & Balancing",
+          "description": "We provide detailed diagnostics and water pressure balancing across all fixtures and plumbing zones within your home. This ensures optimal water distribution, reduces stress on pipes, and enhances the overall functionality of your plumbing system."
+        },
+        {
+          "icon": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
+          "title": "Outdoor Plumbing & Hose Bib Installation",
+          "description": "Our outdoor plumbing services include installing and replacing hose bibs, frost-proof spigots, and dedicated outdoor water lines. These are essential for landscaping, gardening, and exterior cleaning and are built to withstand seasonal changes."
+        },
+        {
+          "icon": "M12 2v10l3.88 3.88c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13 10.59V2h-1z",
+          "title": "Water Recirculation Pump Installation",
+          "description": "Our recirculation systems ensure hot water reaches every tap quickly, minimizing wait time and waste. These systems are especially valuable in larger homes or multi-story residences and are designed for quiet, efficient operation."
+        },
+        {
+          "icon": "M7 2v11h3v9l7-12h-4l3-8z",
+          "title": "In-Line Water Filtration System Maintenance",
+          "description": "We offer expert care for in-line filtration systems, including filter replacements, performance checks, and system cleaning. Proper maintenance ensures the consistent delivery of clean, contaminant-free water for drinking, bathing, and daily use."
+        },
+        {
+          "icon": "M2 20h20v-4H2v4zm2-3h2v2H4v-2zM2 4v4h20V4H2zm4 3H4V5h2v2z",
+          "title": "Crawl Space & Attic Plumbing Solutions",
+          "description": "Our team is equipped to work in crawl spaces and attics, handling repairs, rerouting, and insulation of water lines. This service is essential for homes with unconventional plumbing paths or seasonal vulnerabilities."
+        },
+        {
+          "icon": "M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z",
+          "title": "Septic-to-Municipal Sewer Transition Services",
+          "description": "We provide full-service support for homes moving from a septic setup to municipal sewer systems, including line disconnection, reconnection, and permitting. Our work ensures compliance with local regulations and a smooth transition."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your residential plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "commercial-plumbing-services": {
+    "slug": "commercial-plumbing-services",
+    "seo": {
+      "title": "Commercial Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional commercial plumbing services in Prescott Valley, Arizona. Expert solutions for businesses including fixture installation, backflow prevention, grease trap cleaning, and water conservation upgrades."
+    },
+    "hero": {
+      "title": "COMMERCIAL PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Keeping Business Flowing with Purpose-Built Commercial Plumbing Systems",
+      "items": [
+        {
+          "icon": "Building2",
+          "title": "Commercial Expertise",
+          "description": "Specialized solutions for offices, restaurants, retail spaces, and industrial facilities"
+        },
+        {
+          "icon": "Clock",
+          "title": "Minimal Downtime",
+          "description": "Quick, efficient repairs and installations to keep your business operating smoothly"
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Code Compliance",
+          "description": "Complete adherence to commercial plumbing codes and regulations"
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Preventive Maintenance",
+          "description": "Proactive inspections and maintenance to prevent costly interruptions"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Scale Organizational Success with Our High-Performance Plumbing Solutions",
+      "paragraphs": [
+        "Given their complexity and importance in sustaining day-to-day business operations, we understand that commercial plumbing systems need a deliberate, professional approach. Miracle Man Plumbing Inc. offers expert commercial plumbing services that guarantee continuous operation, complete code compliance, and long-term dependability.",
+        "Serving Prescott Valley, Arizona, and neighboring regions, we deliver professional, dependable, skilled care to every business plumbing project. Our highly trained staff handles every difficulty accurately and efficiently, from emergency leak detection and drain clearing to complicated system installations, backflow prevention, and water pressure control.",
+        "Operating proactively—prioritizing thorough inspections, preventative maintenance, and quick repairs—we know the need to cut downtime and avoid expensive interruptions. We provide tailored plumbing systems that fit your infrastructure and use patterns, from industrial warehouses to multi-story office buildings to busy restaurants to retail space.",
+        "Miracle Man Plumbing Inc. knows that businesses need efficient plumbing systems to flourish. Engineered to handle volume, efficiency, and compliance, our solutions range from tiny shops to significant commercial buildings. We don't only solve problems; we also expect and prevent them."
+      ],
+      "image": {
+        "src": "/images/commercial-plumbing-hero.jpg",
+        "alt": "Commercial plumbing services for businesses in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Commercial Quote",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-775-4987"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Commercial Plumbing Services Include",
+      "services": [
+        {
+          "icon": "M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z",
+          "title": "Restroom & Commercial Fixture Installation & Repair",
+          "description": "We install and repair high-performance plumbing fixtures designed for heavy-use environments, including toilets, urinals, sinks, and faucets. Our solutions balance durability, water efficiency, and user comfort to maintain smooth operations."
+        },
+        {
+          "icon": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z",
+          "title": "Stormwater Management Solutions",
+          "description": "We provide stormwater management services, including installing and maintaining drainage systems that effectively handle rainwater runoff. Our systems protect your property from flooding, water damage, and soil erosion."
+        },
+        {
+          "icon": "M12 2v10l3.88 3.88c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13 10.59V2h-1z",
+          "title": "Water Meter Installation & Management",
+          "description": "We install and manage water meters to ensure accurate monitoring and billing for commercial properties. Our systems help businesses track water usage, optimize consumption, and identify leaks or inefficiencies early on."
+        },
+        {
+          "icon": "M21 3H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z",
+          "title": "Water Conservation & Efficiency Upgrades",
+          "description": "Our water conservation services focus on reducing water consumption and improving efficiency by installing high-efficiency fixtures and systems. We recommend solutions that help your business lower utility costs while being environmentally responsible."
+        },
+        {
+          "icon": "M9 2v6H2v13h20V8h-7V2H9zm-2 9h10v2H7v-2zm0 4h10v2H7v-2z",
+          "title": "Industrial Equipment Plumbing Services",
+          "description": "We specialize in plumbing services for industrial equipment such as boilers, water filtration systems, and manufacturing machines. Our experienced team ensures these complex systems are correctly connected and maintained."
+        },
+        {
+          "icon": "M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z",
+          "title": "Grease Trap & Interceptor Cleaning Services",
+          "description": "We offer regular cleaning and maintenance of grease traps and interceptors for food service establishments. This service ensures that your commercial kitchen's plumbing system operates efficiently and complies with regulations."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "drain-cleaning-services": {
+    "slug": "drain-cleaning-services",
+    "seo": {
+      "title": "Drain Cleaning Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional drain cleaning services in Prescott Valley, Arizona. Expert clog removal, video inspections, main line cleaning, and preventive maintenance for residential and commercial properties."
+    },
+    "hero": {
+      "title": "DRAIN CLEANING SOLUTIONS IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Clearing the Way for Efficiency with Advanced Drain Cleaning Solutions",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Advanced Diagnostics",
+          "description": "Video camera inspections and thorough diagnostics to identify root causes"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Complete Clog Removal",
+          "description": "Professional removal of hair, grease, soap residue, and mineral deposits"
+        },
+        {
+          "icon": "Shield",
+          "title": "Preventive Solutions",
+          "description": "Long-term maintenance to prevent future blockages and system issues"
+        },
+        {
+          "icon": "Home",
+          "title": "Customized Service",
+          "description": "Tailored solutions for your system's unique design and needs"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Safeguard Your System with Our Precision Drain Maintenance That Lasts",
+      "paragraphs": [
+        "Often, ongoing backups, slow drains, and persistent clogs indicate more serious problems in your plumbing system that need more than simply transient solutions. Miracle Man Plumbing Inc. specializes in professional drain cleaning services meant to remove build-up, stop future blockages, and completely restore the efficiency of your plumbing system.",
+        "We serve clients across Prescott Valley, Arizona, and nearby regions and offer professional drain cleaning solutions for cleanliness, long-term functionality, and total client satisfaction. Our staff removes even the most tenacious blockages using cutting-edge tools and methods, ensuring no harm to your pipes.",
+        "From soap residue and oil build-up to hair blockages and mineral deposits, we tackle the fundamental cause, not only the symptoms. Every property has its plumbing dynamics. Hence, we customize our services to fit your system's design and needs.",
+        "Our drain cleaning services at Miracle Man Plumbing Inc. are about restoring your system's balance, not only removing clogs. We remove build-up and assist in preventing problems by combining meticulous methodology with professional-grade gear. Our work will provide deeper, longer-lasting outcomes compared to a superficial level."
+      ],
+      "image": {
+        "src": "/images/drain-cleaning-hero.jpg",
+        "alt": "Professional drain cleaning services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Drain Service",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Drain Cleaning Services Include",
+      "services": [
+        {
+          "icon": "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+          "title": "Comprehensive Drain Inspection & Diagnosis",
+          "description": "We begin every drain cleaning service with a thorough inspection using advanced diagnostic tools, such as video camera inspections, to identify the root cause of the issue. This allows us to accurately determine the condition of your plumbing system."
+        },
+        {
+          "icon": "M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4",
+          "title": "Clog Removal & Drain Repair",
+          "description": "When drains become clogged, it often indicates a deeper issue within the system. We expertly clear out the blockages and, if necessary, repair damaged or deteriorating pipes to ensure your drains function optimally."
+        },
+        {
+          "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+          "title": "Floor Drain Cleaning",
+          "description": "We provide cleaning services for floor drains that are often clogged with debris, grease, and sediment. Our team ensures that your floor drains are clear and working efficiently, reducing the risk of water backup and flooding."
+        },
+        {
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
+          "title": "Kitchen Drain Cleaning",
+          "description": "Kitchen drains are prone to blockages due to grease, food particles, and soap residue. Our kitchen drain cleaning services focus on thoroughly removing build-up to restore optimal drainage and prevent unpleasant odors."
+        },
+        {
+          "icon": "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z",
+          "title": "Bathroom Drain Cleaning",
+          "description": "From sinks to showers to tubs, bathroom drains often accumulate hair, soap scum, and other debris. We thoroughly clean and clear bathroom drains to ensure they remain functional, clean, and free from future clogs."
+        },
+        {
+          "icon": "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
+          "title": "Main Line Cleaning & Maintenance",
+          "description": "Our main line cleaning service ensures that the primary sewer line remains clear and free from obstructions. Regular maintenance prevents major blockages, backups, and costly repairs, safeguarding your entire plumbing system."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "water-heater-services": {
+    "slug": "water-heater-services",
+    "seo": {
+      "title": "Water Heater Repair & Installation in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert water heater repair and installation services in Prescott Valley, Arizona. Tankless and traditional water heater solutions, emergency repairs, and maintenance. 24/7 service available."
+    },
+    "hero": {
+      "title": "WATER HEATER REPAIR & INSTALLATION SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Empowering Everyday Living with Reliable Water Heating Systems",
+      "items": [
+        {
+          "icon": "Thermometer",
+          "title": "Expert Diagnostics",
+          "description": "Quick identification and resolution of temperature fluctuations and system failures"
+        },
+        {
+          "icon": "Zap",
+          "title": "Energy Efficient Solutions",
+          "description": "Modern tankless and high-efficiency systems to reduce energy costs"
+        },
+        {
+          "icon": "Clock",
+          "title": "24/7 Emergency Service",
+          "description": "Round-the-clock emergency repairs when you need hot water most"
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "Code Compliant Installation",
+          "description": "Professional installations meeting all local building codes and regulations"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Enhance Efficiency with Our Professional Water Heater Repairs and Installations",
+      "paragraphs": [
+        "Regular access to hot water ensures comfort more than most other factors. Miracle Man Plumbing Inc. provides expert water heater repair and installation services to offer consistent, energy-efficient solutions for your home.",
+        "Our experienced professionals quickly diagnose and fix problems using high-quality components and the best procedures, whether you suffer from fluctuating temperatures, water leaks, or total system failure. Our business gladly serves the towns of Prescott Valley, Arizona, and its neighboring locations.",
+        "Whether your needs call for a tankless upgrade or a conventional replacement, we also help you choose new systems that fit your lifestyle, water use, and space constraints. Our efforts guarantee long-term dependability and excellent operation of your water heater.",
+        "From comprehensive repairs to smooth installations, we ensure your system runs dependably when needed. When regular hot water is important for your comfort or company, we provide the knowledge, tools, and experience required to produce reliable outcomes with the least disturbance."
+      ],
+      "image": {
+        "src": "/images/water-heater-service-hero.jpg",
+        "alt": "Professional water heater installation and repair in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Quote",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Water Heater Repair & Installation Services Include",
+      "services": [
+        {
+          "icon": "M12 3v9l3-3m-6 0l3 3m-3-9a9 9 0 110 18 9 9 0 010-18z",
+          "title": "Water Heater Installation",
+          "description": "We offer expert installation of traditional tank water heaters and modern tankless systems. Our team ensures the new system is sized correctly to meet your household's needs, installed efficiently, and complies with all local building codes."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Water Heater Repair",
+          "description": "Our experienced technicians are skilled in diagnosing and repairing various water heater issues. From inconsistent water temperatures to leaks or total system failures, we quickly identify the problem and offer reliable, long-lasting repairs."
+        },
+        {
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Tankless Water Heater Installation & Repair",
+          "description": "We specialize in installing and repairing tankless water heaters, which offer on-demand hot water and energy savings. Our professionals provide precise and efficient service to keep your tankless system running smoothly."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Water Heater Replacement",
+          "description": "We offer seamless replacement services when it's time to replace an old, failing water heater. We will remove your outdated unit, dispose of it properly, and install a new, energy-efficient water heater that suits your needs."
+        },
+        {
+          "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+          "title": "Water Heater Maintenance",
+          "description": "Routine maintenance is essential to prolong the life of your water heater. Our maintenance services include flushing the tank, checking the anode rod, inspecting the thermostat, and evaluating overall performance to prevent costly repairs."
+        },
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Emergency Water Heater Services",
+          "description": "If your water heater fails unexpectedly, we provide 24/7 emergency repair services to restore your hot water quickly. We can resolve your water heater problems promptly with minimal disruption to your daily routine."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "hydro-jetting-services": {
+    "slug": "hydro-jetting-services",
+    "seo": {
+      "title": "Hydro Jetting Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional hydro jetting services in Prescott Valley, Arizona. High-pressure water cleaning for sewer lines, grease traps, and drain pipes. Safe, non-invasive solution for stubborn clogs and build-up."
+    },
+    "hero": {
+      "title": "HYDRO JETTING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Delivering Next-Level Pipe Cleaning with Safe, Non-Invasive Hydro Jetting Technology",
+      "items": [
+        {
+          "icon": "Zap",
+          "title": "High-Pressure Cleaning",
+          "description": "Powerful water jets effectively remove grease, roots, sludge, and debris"
+        },
+        {
+          "icon": "Shield",
+          "title": "Non-Invasive Method",
+          "description": "Safe cleaning that preserves pipe integrity while removing blockages"
+        },
+        {
+          "icon": "Leaf",
+          "title": "Eco-Friendly Solution",
+          "description": "Environmentally safe cleaning using only high-pressure water"
+        },
+        {
+          "icon": "Target",
+          "title": "Precision Technology",
+          "description": "Thorough evaluation and targeted cleaning for lasting results"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Cut Through Clogs with the Power of Our Precision Hydro Jetting Services",
+      "paragraphs": [
+        "Hydro jetting provides a strong, non-invasive option for removing major clogs and build-up when conventional drain cleaning techniques disappoint. Miracle Man Plumbing Inc. uses high-pressure water to provide skilled hydro jetting services that efficiently clear dirt, sludge, roots, and grease from your pipes.",
+        "Without compromising the integrity of your plumbing system, this innovative method restores full flow and stops future obstructions. Before hydro jetting, our knowledgeable staff members thoroughly evaluate the state of your pipes to guarantee that the procedure is safe and successful.",
+        "Hydro jetting provides a deeper clean than traditional rodding or snaking techniques, perfect for commercial and residential premises. It quickly fixes persistent blockages, sluggish drains, and bad smells.",
+        "Miracle Man Plumbing Inc.'s hydro jetting services offer customers a strong yet safe approach to restoring the full capabilities of their plumbing system. This innovative cleaning method targets clogs at the source, eliminating pipe buildup and backflow issues."
+      ],
+      "image": {
+        "src": "/images/hydro-jetting-hero.jpg",
+        "alt": "Professional hydro jetting services clearing pipes in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Hydro Jetting",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Hydro Jetting Services Include",
+      "services": [
+        {
+          "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+          "title": "Residential Hydro Jetting Services",
+          "description": "We offer residential hydro jetting services that provide a thorough, non-invasive method for clearing clogs and build-up in your home's plumbing system. Our hydro jetting technology removes debris from slow-draining sinks, clogged sewer lines, and stubborn grease build-up."
+        },
+        {
+          "icon": "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+          "title": "Commercial Hydro Jetting Services",
+          "description": "We provide specialized hydro jetting services for commercial properties such as restaurants, office buildings, or multi-unit complexes. It clears large-scale blockages, reduces downtime, and restores your plumbing system's performance."
+        },
+        {
+          "icon": "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z",
+          "title": "Sewer Line Hydro Jetting",
+          "description": "Our sewer line hydro jetting services remove stubborn roots, grease, and debris accumulating in your sewer system. Using high-pressure water, we thoroughly clean the inside of your pipes, preventing blockages that could lead to backups or leaks."
+        },
+        {
+          "icon": "M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z",
+          "title": "Grease Trap Hydro Jetting",
+          "description": "Grease build-up in commercial kitchens can cause significant plumbing problems. Our grease trap hydro jetting services use high-pressure water to remove grease, oil, and sludge from your pipes, ensuring they remain clear and function optimally."
+        },
+        {
+          "icon": "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z",
+          "title": "Drain Line Hydro Jetting",
+          "description": "Hydro jetting is highly effective for clearing clogged drain lines. Our technicians use precision hydro jetting to clear all types of debris and blockages, from hair and soap scum to food particles and mineral deposits, providing a deeper clean than traditional snaking."
+        },
+        {
+          "icon": "M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z",
+          "title": "Mainline Hydro Jetting",
+          "description": "Mainline hydro jetting clears significant blockages in your primary drainage lines. Whether caused by tree roots, accumulated sludge, or construction debris, our technology quickly restores flow in your main sewer or drain line, preventing further damage."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "toilet-repair-replacement": {
+    "slug": "toilet-repair-replacement",
+    "seo": {
+      "title": "Toilet Repair & Replacement in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert toilet repair and replacement services in Prescott Valley, Arizona. Professional clog removal, leak repair, installation, and maintenance. Fast, reliable solutions for residential and commercial properties."
+    },
+    "hero": {
+      "title": "TOILET REPAIR & REPLACEMENT SOLUTIONS IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Restoring Hygiene and Comfort with Comprehensive Toilet Services",
+      "items": [
+        {
+          "icon": "Wrench",
+          "title": "Expert Repairs",
+          "description": "Quick solutions for running toilets, weak flushing, and persistent leaks"
+        },
+        {
+          "icon": "Droplet",
+          "title": "Water Efficiency",
+          "description": "Water-saving repairs and modern fixtures to reduce utility bills"
+        },
+        {
+          "icon": "CheckCircle",
+          "title": "ADA Compliant",
+          "description": "Commercial-grade and ADA-compliant installations available"
+        },
+        {
+          "icon": "Clock",
+          "title": "Fast Service",
+          "description": "Prompt diagnostics and efficient repairs with minimal disruption"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Elevate Convenience with Our Professional Toilet Solutions That Last",
+      "paragraphs": [
+        "A crucial component of daily life, toilets can appear as little problems left untreated, turning into significant water waste, higher utility bills, or annoying interruptions. Miracle Man Plumbing Inc. offers thorough toilet repair and replacement services designed to fit the specific requirements of your house or company.",
+        "From a worn-out fixture needing modernization to consistent running, weak flushing, and ongoing leaks, our knowledgeable staff provides quick, efficient answers that value efficiency, durability, and design. Proudly serving Prescott Valley, Arizona, and nearby regions, we provide professional toilet services.",
+        "We conduct precise diagnostics to identify the problem, advise the most sensible action, and ensure long-lasting outcomes using premium-quality parts. From elegant household renovations to commercial-grade, ADA-compliant installations, we manage every project with professional care.",
+        "Toilet problems call for quick, efficient remedies; we provide just that at Miracle Man Plumbing Inc. Whether replacing old models or repairing leaks and flush concerns, we ensure your bathroom recovers comfort and performance."
+      ],
+      "image": {
+        "src": "/images/toilet-repair-hero.jpg",
+        "alt": "Professional toilet repair and replacement services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Estimate",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Toilet Repair & Replacement Services Include",
+      "services": [
+        {
+          "icon": "M19 14l-7 7m0 0l-7-7m7 7V3",
+          "title": "Clog Removal and Unclogging Services",
+          "description": "Clogs can severely affect your toilet's functionality. We offer professional clog removal services using safe and effective techniques to restore proper flow and prevent damage to your plumbing system."
+        },
+        {
+          "icon": "M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4",
+          "title": "Toilet Tank Repair and Maintenance",
+          "description": "A malfunctioning toilet tank can cause leaks, weak flushing, or water wastage. We provide comprehensive toilet tank repair services, addressing flush valve, fill valve, float mechanism issues and more."
+        },
+        {
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Toilet Flushing Mechanism Repair",
+          "description": "We address issues with toilet flushing mechanisms, such as faulty flappers, flush valves, and handle assemblies. Our repair services restore your toilet's flushing power, preventing clogs, slow flushes, and water wastage."
+        },
+        {
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4",
+          "title": "Toilet Seal Replacement and Leak Repair",
+          "description": "Leaking toilets can waste significant amounts of water and lead to structural damage. We provide thorough leak detection and repair services, including replacing worn-out seals and gaskets at the base, tank, and supply line."
+        },
+        {
+          "icon": "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+          "title": "Toilet Installation for New Construction or Renovations",
+          "description": "We offer professional toilet installation services for new home construction or bathroom renovations. Our team ensures the installation is done accurately, focusing on comfort, functionality, and aesthetic integration."
+        },
+        {
+          "icon": "M15 12a3 3 0 11-6 0 3 3 0 016 0z",
+          "title": "Toilet Bowl Repair and Restoration",
+          "description": "We offer repair and restoration services for toilets with cracks, chips, or discoloration in the bowl. We use premium materials to seal and fix cracks, ensuring a durable and long-lasting result."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "faucet-fixture-repair": {
+    "slug": "faucet-fixture-repair",
+    "seo": {
+      "title": "Faucet & Fixture Repair Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional faucet and fixture repair services in Prescott Valley, Arizona. Expert leak repair, rust removal, low water pressure solutions, and fixture upgrades for residential and commercial properties."
+    },
+    "hero": {
+      "title": "FAUCET & FIXTURE REPAIR SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Refining Your Space with Precision Faucet & Fixture Restorations",
+      "items": [
+        {
+          "icon": "Droplet",
+          "title": "Leak Prevention",
+          "description": "Expert repair of drips and leaks to save water and reduce utility bills"
+        },
+        {
+          "icon": "Gauge",
+          "title": "Pressure Optimization",
+          "description": "Solutions for low water pressure and flow inconsistencies"
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Aesthetic Enhancement",
+          "description": "Modern upgrades and replacements to match your style preferences"
+        },
+        {
+          "icon": "Shield",
+          "title": "Durable Solutions",
+          "description": "High-quality components and lasting repairs for long-term reliability"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Perfect the Flow with Our Flawless Faucets & Fixture Repairs",
+      "paragraphs": [
+        "Good taps and well-kept fittings are necessary for daily convenience and for improving any area's visual attractiveness and efficiency. Faucet and fixture repair at Miracle Man Plumbing Inc. is treated as a fine art rather than a quick fix.",
+        "Our knowledgeable specialists examine the underlying problem and provide focused, durable repairs, whether your issue is a consistent trickle, rusted parts, low water pressure, or outdated equipment. Our efficient team proudly services Prescott Valley, Arizona, and neighboring areas.",
+        "We also offer tailored suggestions that fit your objectives and taste for people seeking aesthetic changes or water-saving improvements. Every repair uses high-quality components and methods customized to fit residential or business demands.",
+        "At Miracle Man Plumbing Inc., every fixture is essential for the flow and feel of your environment. From loud taps to worn-out valves, we quickly fix problems with a fine-tuned eye for detail. Rely on us for aesthetically pleasing and efficient solutions."
+      ],
+      "image": {
+        "src": "/images/faucet-fixture-hero.jpg",
+        "alt": "Professional faucet and fixture repair services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Repair",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Faucet & Fixture Repair Services Include",
+      "services": [
+        {
+          "icon": "M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2",
+          "title": "Leaky Faucet Repair",
+          "description": "Leaky faucets can lead to water wastage and higher utility bills. We specialize in repairing leaky faucets caused by worn-out washers, damaged seals, or faulty valve components, providing a durable solution."
+        },
+        {
+          "icon": "M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z",
+          "title": "Low Water Pressure Solutions",
+          "description": "Our experienced technicians use advanced tools to identify the source of low water pressure, whether it's clogged aerators, pipe blockages, or fixture malfunctions, and perform necessary repairs to restore optimal levels."
+        },
+        {
+          "icon": "M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14",
+          "title": "Rust and Corrosion Removal",
+          "description": "We offer specialized repair services to address corrosion and rust build-up from mineral deposits and other factors, replacing damaged parts and restoring visual appeal and functionality."
+        },
+        {
+          "icon": "M19 14l-7 7m0 0l-7-7m7 7V3",
+          "title": "Dripping Tap Repair",
+          "description": "Our team quickly identifies the source of dripping taps, whether worn-out washers, seals, or internal parts like valve seats, and repairs or replaces necessary components for a water-efficient faucet."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Faucet Replacement and Upgrades",
+          "description": "We provide replacement services for old, damaged, or outdated faucets, helping you select modern options that match your needs, whether for improved water efficiency, style, or features like touchless technology."
+        },
+        {
+          "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+          "title": "Fixture Replacement and Installation",
+          "description": "We offer repair and replacement services for various plumbing fixtures, including sinks, bathtubs, and laundry basins. Our team ensures new fixtures fit seamlessly while enhancing functionality and appearance."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "leak-detection-repair": {
+    "slug": "leak-detection-repair",
+    "seo": {
+      "title": "Leak Detection & Repair Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert leak detection and repair services in Prescott Valley, Arizona. Advanced technology for slab leak detection, pipe repair, and emergency services. 20 years of experience protecting properties."
+    },
+    "hero": {
+      "title": "LEAK DETECTION & REPAIR SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Protecting Your Property with Prompt Plumbing Solutions",
+      "items": [
+        {
+          "icon": "Search",
+          "title": "Advanced Detection",
+          "description": "Thermal imaging and acoustic sensors for precise leak location"
+        },
+        {
+          "icon": "Shield",
+          "title": "Property Protection",
+          "description": "Non-invasive methods that preserve your walls and foundations"
+        },
+        {
+          "icon": "AlertTriangle",
+          "title": "Emergency Response",
+          "description": "24/7 availability for urgent leak situations and flooding"
+        },
+        {
+          "icon": "Award",
+          "title": "20 Years Experience",
+          "description": "Two decades of reliable service in Prescott Valley area"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Plumbing You Can Rely On",
+      "paragraphs": [
+        "Undetected leaks can lead to serious issues for homeowners and business owners in Prescott Valley, Arizona, and neighboring communities. Whether it's a dripping pipe behind a wall, a slab leak beneath the foundation, or water escaping from damaged fixtures, fast and accurate detection is essential.",
+        "At Miracle Man Plumbing Inc., we bring 20 years of hands-on plumbing experience to every job, serving Prescott Valley and the surrounding areas with dependable leak detection and repair services. Leaks not only waste water but also put structures at risk for costly repairs, mold growth, and long-term damage.",
+        "That's why our team uses advanced equipment and expert techniques to locate the exact source of a leak, without unnecessary destruction to your home or business. From small pinhole leaks to larger system failures, we provide reliable repairs that restore the integrity of your plumbing.",
+        "Even a small leak can lead to big problems if ignored. With two decades of experience and a local reputation for reliability, our team works hard to find and fix leaks quickly. We provide advanced diagnostics and quality repairs for lasting solutions to avoid repeat issues."
+      ],
+      "image": {
+        "src": "/images/leak-detection-hero.jpg",
+        "alt": "Professional leak detection and repair services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Leak Detection",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Complete Leak Detection & Repair Services",
+      "services": [
+        {
+          "icon": "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+          "title": "Advanced Leak Detection Technology",
+          "description": "We use cutting-edge diagnostic tools like thermal imaging, acoustic sensors, and moisture meters to locate leaks with minimal disruption. These non-invasive technologies allow us to find leaks hidden within walls, ceilings, or underground."
+        },
+        {
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
+          "title": "Slab Leak Identification and Solutions",
+          "description": "Slab leaks develop silently under your home or business. We detect slab leaks quickly when you notice symptoms like rising water bills, warm floors, or unexplained moisture, and offer targeted repair options like pipe rerouting or tunneling."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Pipe Repair, Rerouting, and Replacement",
+          "description": "When older pipes deteriorate or sustained damage leads to frequent leaks, we offer pipe rerouting or complete replacement. We assess your plumbing system and determine the most effective and durable solution for long-term performance."
+        },
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Emergency Leak Repair Response",
+          "description": "Leaks can become emergencies when they occur unexpectedly or start flooding your property. Our team responds quickly to isolate the source, contain the damage, and make immediate repairs, day or night."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "garbage-disposal-repair-replacement": {
+    "slug": "garbage-disposal-repair-replacement",
+    "seo": {
+      "title": "Garbage Disposal Repair & Replacement in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert garbage disposal repair and replacement services in Prescott Valley, Arizona. Professional jam clearing, leak repair, and new disposal installation. 20+ years of experience."
+    },
+    "hero": {
+      "title": "GARBAGE DISPOSAL REPAIR & REPLACEMENT SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Trusted Garbage Disposal Services",
+      "items": [
+        {
+          "icon": "Settings",
+          "title": "Expert Diagnostics",
+          "description": "Full inspection to identify issues from faulty wiring to motor failure"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Professional Replacement",
+          "description": "Complete removal and installation of new, reliable disposal units"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Jam Clearing",
+          "description": "Safe removal of blockages and restoration of full functionality"
+        },
+        {
+          "icon": "Shield",
+          "title": "Leak Prevention",
+          "description": "Seal maintenance and repair to protect your kitchen from water damage"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Keeping Your Kitchen Working Without Interruptions",
+      "paragraphs": [
+        "A faulty garbage disposal can quickly disrupt the flow of your kitchen and lead to unpleasant issues like backed-up sinks or persistent odors. In Prescott Valley, Arizona, and the surrounding regions, Miracle Man Plumbing Inc. offers reliable garbage disposal repair and replacement services for both homes and businesses.",
+        "With over 20 years of experience, we provide efficient, professional solutions tailored to your system's needs. Whether your disposal is jammed, leaking, or no longer operating, our licensed plumbers deliver fast diagnostics and skilled repairs or replacements as needed.",
+        "We understand how essential your garbage disposal is for keeping your kitchen clean and functional. That's why we work diligently to minimize downtime and restore your plumbing with precision and care. Serving customers throughout Prescott Valley and neighboring towns, we are committed to high-quality workmanship.",
+        "A reliable garbage disposal is key to a clean and efficient kitchen. Whether it's a minor fix or a full system upgrade, we ensure every job is done right the first time. With 20 years of plumbing experience, our team offers dependable solutions and responsive support."
+      ],
+      "image": {
+        "src": "/images/garbage-disposal-hero.jpg",
+        "alt": "Professional garbage disposal repair and replacement in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Service",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Comprehensive Garbage Disposal Services",
+      "services": [
+        {
+          "icon": "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+          "title": "Detailed Troubleshooting and Repairs",
+          "description": "Our team begins every visit with a full inspection to identify the underlying issue. From faulty wiring and worn-out seals to broken blades or motor failure, we provide repairs that are thorough and long-lasting."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Full-Service Disposal Replacement",
+          "description": "If your disposal is beyond repair, we offer professional replacement services. We help you choose a reliable new unit, remove the old disposal, handle all connections, and install the new model with accuracy."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Clearing Jams and Restoring Functionality",
+          "description": "If your disposal has stopped spinning or is humming without turning, our plumbers safely disassemble the unit, clear the blockage, and restore function. We test all moving parts and ensure the disposal is fully operational."
+        },
+        {
+          "icon": "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4",
+          "title": "Leak Repair and Seal Maintenance",
+          "description": "Garbage disposals often leak due to worn gaskets, loose connections, or cracks. We perform a detailed assessment to locate the leak's source and replace or repair faulty seals and components to keep your kitchen protected."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "sewer-line-inspection-repair": {
+    "slug": "sewer-line-inspection-repair",
+    "seo": {
+      "title": "Sewer Line Inspection & Repair in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional sewer line inspection and repair services in Prescott Valley, Arizona. Video camera inspections, trenchless repairs, emergency service, and maintenance. 20+ years experience."
+    },
+    "hero": {
+      "title": "SEWER LINE INSPECTION & REPAIR SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Comprehensive Sewer Solutions for Homes and Businesses",
+      "items": [
+        {
+          "icon": "Camera",
+          "title": "Video Inspections",
+          "description": "Advanced camera technology for accurate, non-invasive diagnostics"
+        },
+        {
+          "icon": "Tool",
+          "title": "Trenchless Repairs",
+          "description": "Minimal excavation options to preserve your property"
+        },
+        {
+          "icon": "AlertCircle",
+          "title": "Emergency Response",
+          "description": "24/7 availability for urgent sewer line issues and backups"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Preventive Maintenance",
+          "description": "Regular cleaning and maintenance to prevent future problems"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Restore Your Sewer System with Trusted Help",
+      "paragraphs": [
+        "Sewer line issues are more than just inconvenient—they can disrupt daily routines and cause extensive property damage if left unresolved. In Prescott Valley, Arizona, Miracle Man Plumbing Inc. delivers expert sewer line inspection and repair services tailored to both residential and commercial needs.",
+        "With over 20 years of plumbing experience, we understand how critical it is to address sewer problems quickly and accurately. Whether you're experiencing frequent drain clogs, foul odors, or soggy patches in your yard, these symptoms often indicate a deeper problem underground.",
+        "Our team uses advanced tools and modern techniques to locate and fix issues before they escalate. From properties in the heart of Prescott Valley to those in surrounding communities, we provide responsive, dependable service backed by experience.",
+        "Sewer line problems must not be ignored. Unresolved issues can damage your home or business and pose serious health risks. We use proven methods and tools for effective results. Whether facing a minor issue or needing a full system evaluation, rely on our experience to do the job right."
+      ],
+      "image": {
+        "src": "/images/sewer-line-hero.jpg",
+        "alt": "Professional sewer line inspection and repair services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Inspection",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Sewer Line Services",
+      "services": [
+        {
+          "icon": "M15 12a3 3 0 11-6 0 3 3 0 016 0z",
+          "title": "Video Camera Sewer Inspections",
+          "description": "We use advanced video cameras for detailed inspections of your sewer lines. This non-invasive method offers a real-time view of your plumbing, allowing us to identify blockages, cracks, corrosion, and root intrusion without digging."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Sewer Line Cleaning and Maintenance",
+          "description": "Our team uses high-pressure hydro jetting and mechanical snaking to clear your sewer lines. This service removes clogs and prevents future backups. Regular maintenance is crucial for smooth operation, especially in high water usage properties."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Sewer Line Repairs and Full Replacements",
+          "description": "We offer trenchless repair options when possible, minimizing excavation. If full replacement is required, we ensure efficiency, clear communication, and minimal disruption. Each job emphasizes attention to detail and long-term reliability."
+        },
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Emergency Sewer Line Assistance",
+          "description": "Our emergency response team addresses serious issues like backups, line collapses, or overflowing drains. We arrive promptly with the right tools to provide immediate relief and restore safety and functionality to your property."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "pipe-repair-repiping": {
+    "slug": "pipe-repair-repiping",
+    "seo": {
+      "title": "Pipe Repair & Repiping Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert pipe repair and whole-home repiping services in Prescott Valley, Arizona. Emergency leak repairs, PEX and copper repiping, commercial solutions. 20+ years of experience."
+    },
+    "hero": {
+      "title": "PIPE REPAIR & REPIPING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Trusted Solutions for Long-Term Plumbing Performance",
+      "items": [
+        {
+          "icon": "AlertTriangle",
+          "title": "Emergency Repairs",
+          "description": "Fast response for pipe leaks to prevent water damage"
+        },
+        {
+          "icon": "Home",
+          "title": "Whole-Home Repiping",
+          "description": "Complete replacement with modern PEX or copper piping"
+        },
+        {
+          "icon": "Building",
+          "title": "Commercial Solutions",
+          "description": "Minimal disruption repairs scheduled during off-peak hours"
+        },
+        {
+          "icon": "Search",
+          "title": "Advanced Detection",
+          "description": "Video cameras and acoustic sensors for early problem detection"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Reliable Plumbing Work That Lasts",
+      "paragraphs": [
+        "Damaged or aging pipes can disrupt your home or business and lead to more serious plumbing issues if left unaddressed. At Miracle Man Plumbing Inc., we provide expert pipe repair and repiping services to homeowners and businesses in Prescott Valley, Arizona, and nearby communities.",
+        "Whether you're dealing with minor leaks or require a complete pipe replacement, our team brings over 20 years of hands-on experience to every job. We focus on identifying root causes and delivering lasting solutions that keep your plumbing system operating efficiently.",
+        "Homes in older neighborhoods may need repiping due to corrosion or outdated materials, while newer properties might face unexpected breaks from poor installation or ground shifts. Our professional approach ensures that pipes are repaired or replaced with precision, reducing the risk of recurring problems.",
+        "We are committed to providing dependable pipe repair and repiping services backed by two decades of industry experience. Our skilled team handles everything from emergency fixes to full system upgrades for both homes and businesses. Let us help you protect your property and maintain a smooth-running plumbing system."
+      ],
+      "image": {
+        "src": "/images/pipe-repair-hero.jpg",
+        "alt": "Professional pipe repair and repiping services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Estimate",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Plumbing Services to Restore Flow and Safety",
+      "services": [
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Emergency Pipe Leak Repairs",
+          "description": "Water leaks can damage walls, floors, and foundations. Our emergency service responds quickly using specialized tools to locate leaks in walls, slabs, or underground. We perform durable repairs using materials that match or exceed your existing piping."
+        },
+        {
+          "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+          "title": "Whole-Home Repiping Services",
+          "description": "Our repiping services replace outdated plumbing with durable PEX or copper. We assess your system and create a timeline to fit your schedule, working in phases to minimize disruption. Your new system offers better water pressure, durability, and less maintenance."
+        },
+        {
+          "icon": "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
+          "title": "Commercial Pipe Repair & Replacement",
+          "description": "We offer custom pipe repair services for all businesses, working with building managers to schedule repairs during off-peak hours. Whether a burst pipe or complete replacement, we handle each project efficiently to minimize disruption to your operations."
+        },
+        {
+          "icon": "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
+          "title": "Pipe Inspections and Leak Detection",
+          "description": "Our inspection uses advanced technologies like video cameras and acoustic sensors to detect problems early. We check for pinhole leaks, joint failures, and signs of corrosion. Early detection protects your property and reduces repair costs."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "water-filtration-installation": {
+    "slug": "water-filtration-installation",
+    "seo": {
+      "title": "Water Filtration System Installation in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional water filtration system installation in Prescott Valley, Arizona. Whole-home filters, reverse osmosis, under-sink systems. 20 years experience providing clean water solutions."
+    },
+    "hero": {
+      "title": "WATER FILTRATION SYSTEM INSTALLATION SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Clean, Safe Water Solutions for Homes and Businesses",
+      "items": [
+        {
+          "icon": "Home",
+          "title": "Whole-Home Systems",
+          "description": "Complete filtration at point of entry for every faucet and appliance"
+        },
+        {
+          "icon": "Droplet",
+          "title": "Reverse Osmosis",
+          "description": "Multi-stage filtration for the purest water quality available"
+        },
+        {
+          "icon": "Filter",
+          "title": "Targeted Solutions",
+          "description": "Under-sink filters for specific areas like kitchens and breakrooms"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "System Upgrades",
+          "description": "Modern replacements for improved performance and maintenance"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Ensure Clean and Safe Water for Every Need",
+      "paragraphs": [
+        "In Prescott Valley, Arizona, and the neighboring regions, having clean, reliable water isn't just a luxury—it's a necessity. Miracle Man Plumbing Inc., with 20 years of plumbing experience, provides professional water filtration system installation for both residential and commercial clients.",
+        "Whether your water contains sediment, minerals, or chlorine, a custom-installed filtration system can significantly improve taste, safety, and usability. Local water conditions vary, and our team understands the challenges faced in this area.",
+        "From the moment water enters your home or business, a properly installed filtration system can protect your plumbing, appliances, and—most importantly—your health. Serving Prescott Valley and surrounding communities, we work to enhance water quality with attention to detail.",
+        "At Miracle Man Plumbing Inc., we're passionate about bringing you clean, reliable water with our expertly installed filtration systems. From full-home installations to focused upgrades, we tailor each solution to meet your water quality goals."
+      ],
+      "image": {
+        "src": "/images/water-filtration-hero.jpg",
+        "alt": "Professional water filtration system installation in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Get Free Consultation",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Water Filtration System Installation Services",
+      "services": [
+        {
+          "icon": "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6",
+          "title": "Whole-Home Filtration Systems",
+          "description": "Whole-home systems filter water at the point of entry, providing cleaner water to every faucet and appliance. These installations address sediment, chlorine, rust, and other contaminants common in municipal and well water."
+        },
+        {
+          "icon": "M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10",
+          "title": "Under-Sink Filter Installation",
+          "description": "An under-sink water filter is a compact solution for clean drinking and cooking water. These systems target specific areas to improve taste and remove odors caused by chlorine or organic materials, installed with minimal disruption."
+        },
+        {
+          "icon": "M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14",
+          "title": "Reverse Osmosis Installation",
+          "description": "Reverse osmosis systems remove contaminants like lead, nitrates, and dissolved solids through multi-stage filtration. Perfect for those needing bottled-water quality, our RO installations deliver constant clean water supply."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "System Upgrades and Replacements",
+          "description": "We provide expert replacements and upgrades for outdated filtration systems. Take advantage of better performance, improved filtration, and easier maintenance with modern technology and seamless transitions."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "water-softener-services": {
+    "slug": "water-softener-services",
+    "seo": {
+      "title": "Water Softener Installation & Maintenance in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional water softener installation and maintenance services in Prescott Valley, Arizona. Expert system installation, salt delivery, repairs, and regular maintenance. 20+ years experience."
+    },
+    "hero": {
+      "title": "WATER SOFTENER INSTALLATION & MAINTENANCE SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Enhancing Your Water Quality for Better Health and Efficiency",
+      "items": [
+        {
+          "icon": "Droplet",
+          "title": "Mineral Removal",
+          "description": "Eliminate calcium and magnesium for softer, cleaner water"
+        },
+        {
+          "icon": "Shield",
+          "title": "Appliance Protection",
+          "description": "Prevent limescale build-up and extend appliance lifespan"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Regular Maintenance",
+          "description": "Scheduled check-ups and salt delivery for optimal performance"
+        },
+        {
+          "icon": "Wrench",
+          "title": "Expert Repairs",
+          "description": "Quick diagnosis and repair for all makes and models"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Maintaining Soft, Clean Water for Your Home or Business",
+      "paragraphs": [
+        "Hard water is a common problem faced by homeowners and businesses in Prescott Valley, Arizona, and the surrounding areas. It can lead to several issues, such as mineral build-up in your pipes, clogged appliances, and affect the quality of your skin and hair.",
+        "Miracle Man Plumbing Inc., with over 20 years of experience in residential and commercial plumbing services, is here to offer reliable water softener installation and maintenance. We understand the impact of hard water, which is why we provide effective solutions to improve water quality.",
+        "Our water softeners are designed to remove hard minerals like calcium and magnesium, ensuring smoother water flow, better appliance performance, and healthier skin and hair. Whether you need a new system installed or ongoing maintenance, our expert team is ready to provide top-notch service.",
+        "We are dedicated to providing the residents and businesses of Prescott Valley, Arizona, and the surrounding areas with high-quality water softener services. Our installation, maintenance, and repair offerings ensure that your water softening system functions properly year-round."
+      ],
+      "image": {
+        "src": "/images/water-softener-hero.jpg",
+        "alt": "Professional water softener installation and maintenance in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Consultation",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Water Softener Services",
+      "services": [
+        {
+          "icon": "M12 3v9l3-3m-6 0l3 3m-3-9a9 9 0 110 18 9 9 0 010-18z",
+          "title": "Water Softener Installation",
+          "description": "We assess your water quality to recommend the best softener type. We install high-quality systems that eliminate minerals like calcium and magnesium, preventing limescale in pipes and appliances with seamless integration."
+        },
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Regular Maintenance & System Check-ups",
+          "description": "We offer maintenance services like system inspections, salt level checks, filter replacements, and evaluations. Regular maintenance extends your softener's lifespan, boosts efficiency, and detects potential issues early."
+        },
+        {
+          "icon": "M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Salt Delivery & Refilling Services",
+          "description": "We offer salt delivery and refilling services, keeping your softener stocked. Our team delivers the right salt and handles refilling, ensuring your system operates at peak efficiency and maximizing your investment."
+        },
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Troubleshooting & Repair Services",
+          "description": "We offer troubleshooting and repair for all makes and models. Our team inspects to identify the root cause, providing fast solutions to restore performance. We'll replace faulty components and ensure smooth operation."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "emergency-plumbing-services": {
+    "slug": "emergency-plumbing-services",
+    "seo": {
+      "title": "Emergency Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "24/7 emergency plumbing services in Prescott Valley, Arizona. Fast response for burst pipes, water heater failures, clogged drains, and sewer backups. Over 20 years of experience."
+    },
+    "hero": {
+      "title": "EMERGENCY PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Fast, Reliable Solutions for Plumbing Emergencies",
+      "items": [
+        {
+          "icon": "Clock",
+          "title": "24/7 Availability",
+          "description": "Round-the-clock emergency response when you need us most"
+        },
+        {
+          "icon": "Zap",
+          "title": "Rapid Response",
+          "description": "Quick arrival and immediate action to minimize damage"
+        },
+        {
+          "icon": "Shield",
+          "title": "Damage Prevention",
+          "description": "Fast solutions to prevent flooding and structural damage"
+        },
+        {
+          "icon": "Award",
+          "title": "20+ Years Experience",
+          "description": "Proven expertise handling all types of plumbing emergencies"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Trusted Emergency Plumbing Solutions",
+      "paragraphs": [
+        "When a plumbing emergency strikes, quick action is essential to prevent further damage and avoid inconvenience. At Miracle Man Plumbing Inc., located in Prescott Valley, Arizona, we offer 24/7 emergency plumbing services to address urgent plumbing issues in both residential and commercial properties.",
+        "Our experienced team is just a call away to help you handle issues such as burst pipes, clogged drains, water heater failures, and more. Plumbing emergencies can cause significant disruption to your daily life, and we are committed to providing fast, effective, and reliable solutions.",
+        "With over 20 years of experience serving Prescott Valley and the surrounding areas, we have earned a reputation for professionalism and expertise. Whether you're dealing with a leak in the middle of the night or a plumbing malfunction during business hours, we're here to ensure your plumbing systems are functioning properly.",
+        "Plumbing emergencies don't wait, and neither do we. Our team is always ready to respond and get your systems back on track quickly. With over 20 years of experience, we pride ourselves on fast response times and quality service."
+      ],
+      "image": {
+        "src": "/images/emergency-plumbing-hero.jpg",
+        "alt": "24/7 emergency plumbing services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Call Emergency Line",
+          "href": "tel:928-830-3575"
+        },
+        "secondary": {
+          "text": "Contact Us",
+          "href": "/contact"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Emergency Plumbing Services",
+      "services": [
+        {
+          "icon": "M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
+          "title": "Burst Pipe Repairs",
+          "description": "We provide rapid response 24/7 with advanced tools to locate and repair burst pipes. We first shut off the water supply to prevent flooding and assess the damage for effective repairs, restoring your plumbing system to avoid future issues."
+        },
+        {
+          "icon": "M19 14l-7 7m0 0l-7-7m7 7V3",
+          "title": "Drain Cleaning & Unclogging",
+          "description": "We offer drain cleaning for sinks, bathtubs, toilets, and sewer lines, using snaking and high-pressure water jetting to clear blockages. Our plumbers diagnose root causes with video inspection and provide long-term solutions."
+        },
+        {
+          "icon": "M13 10V3L4 14h7v7l9-11h-7z",
+          "title": "Water Heater Repair & Replacement",
+          "description": "We specialize in emergency repairs for both traditional and tankless water heaters. We address faulty thermostats, broken heating elements, sediment buildup, and leaks. If repairs are ineffective, we offer replacement options."
+        },
+        {
+          "icon": "M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z",
+          "title": "Sewer Line Repair & Replacement",
+          "description": "We swiftly identify and repair sewer line problems using advanced video inspection technology. We utilize traditional digging or trenchless techniques to restore the line with minimal disruption."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "shower-tub-plumbing": {
+    "slug": "shower-tub-plumbing",
+    "seo": {
+      "title": "Shower & Tub Plumbing Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Professional shower and tub plumbing services in Prescott Valley, Arizona. Expert repairs, installations, drain cleaning, and water pressure solutions. 20+ years of trusted service."
+    },
+    "hero": {
+      "title": "SHOWER & TUB PLUMBING SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Expert Solutions for Your Plumbing Needs",
+      "items": [
+        {
+          "icon": "Wrench",
+          "title": "Complete Repairs",
+          "description": "From leaky faucets to faulty valves, we fix all shower and tub issues"
+        },
+        {
+          "icon": "Droplet",
+          "title": "Drain Solutions",
+          "description": "Advanced drain cleaning to remove clogs and ensure smooth water flow"
+        },
+        {
+          "icon": "Settings",
+          "title": "Professional Installation",
+          "description": "Expert installation of new showers and tubs to industry standards"
+        },
+        {
+          "icon": "Gauge",
+          "title": "Pressure Optimization",
+          "description": "Diagnose and fix low water pressure for better shower experience"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Ensure the Comfort of Your Home with Professional Plumbing",
+      "paragraphs": [
+        "Shower and tub plumbing plays a key role in your daily comfort and routine, whether at home or in a commercial space. In Prescott Valley, Arizona, and the surrounding areas, Miracle Man Plumbing Inc. has built a trusted reputation for providing high-quality plumbing services.",
+        "With over 20 years of experience in the industry, our team of skilled professionals handles all types of plumbing needs, from repairs to installations and maintenance. We understand that plumbing issues can disrupt your day-to-day life, which is why we prioritize fast, reliable solutions.",
+        "Whether you're dealing with leaks, clogged drains, or low water pressure, we offer comprehensive services to restore your plumbing to full functionality. Our goal is to provide lasting solutions that bring comfort and convenience to your home or business.",
+        "Serving Prescott Valley, Arizona, and the surrounding areas for over 20 years, we've built a reputation for quality and trust. Contact us today to schedule your shower and tub plumbing service, and experience a level of service that ensures your plumbing works as it should."
+      ],
+      "image": {
+        "src": "/images/shower-tub-plumbing-hero.jpg",
+        "alt": "Professional shower and tub plumbing services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Service",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Shower & Tub Plumbing Services",
+      "services": [
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Shower & Tub Repair Services",
+          "description": "From minor leaks to major plumbing issues, our team handles all types of shower and tub repairs. Whether it's a broken faucet, leaky pipes, or faulty valves, we identify the problem and fix it efficiently."
+        },
+        {
+          "icon": "M19 14l-7 7m0 0l-7-7m7 7V3",
+          "title": "Drain Cleaning and Unclogging",
+          "description": "We provide expert drain cleaning services to remove blockages and ensure water flows freely. Our team uses advanced tools and techniques to clear clogs, reducing the risk of recurring problems."
+        },
+        {
+          "icon": "M12 3v9l3-3m-6 0l3 3m-3-9a9 9 0 110 18 9 9 0 010-18z",
+          "title": "Shower & Tub Installation",
+          "description": "We help you select the right model for your space and install it according to industry standards. Whether you're remodeling or upgrading to a more modern fixture, we ensure a seamless installation."
+        },
+        {
+          "icon": "M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z",
+          "title": "Water Pressure Adjustment",
+          "description": "If you're dealing with low pressure, we can diagnose the issue and make necessary adjustments. Our team addresses factors like pipe blockages, valve issues, or water heater malfunctions."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  },
+  "main-water-line-services": {
+    "slug": "main-water-line-services",
+    "seo": {
+      "title": "Main Water Line Services in Prescott Valley, AZ | Miracle Man Plumbing",
+      "description": "Expert main water line repair, replacement, and installation in Prescott Valley, Arizona. Professional maintenance and leak detection for residential and commercial properties. 20+ years experience."
+    },
+    "hero": {
+      "title": "MAIN WATER LINE SERVICES IN PRESCOTT VALLEY, ARIZONA"
+    },
+    "comprehensiveSolutions": {
+      "title": "Dependable Plumbing Solutions for Your Water Supply Needs",
+      "items": [
+        {
+          "icon": "Wrench",
+          "title": "Expert Repairs",
+          "description": "Advanced leak detection and prompt restoration of water flow"
+        },
+        {
+          "icon": "RefreshCw",
+          "title": "Line Replacement",
+          "description": "Full replacement of old or damaged lines to code standards"
+        },
+        {
+          "icon": "Plus",
+          "title": "New Installation",
+          "description": "Professional installation for new construction and developments"
+        },
+        {
+          "icon": "Shield",
+          "title": "Preventive Maintenance",
+          "description": "Regular inspections and testing to prevent costly issues"
+        }
+      ]
+    },
+    "infrastructureSection": {
+      "title": "Protect Your Property's Water Line",
+      "paragraphs": [
+        "At Miracle Man Plumbing Inc., we understand how vital a functioning main water line is for your home or business. Serving Prescott Valley, Arizona, and the surrounding areas, we offer comprehensive main water line services to ensure a continuous and safe water supply.",
+        "Our skilled team, with over 20 years of experience, specializes in diagnosing, repairing, and maintaining main water lines. We're committed to offering high-quality service that ensures your water system runs smoothly for years to come.",
+        "Whether your property needs a simple repair, a complete line replacement, or regular maintenance, we have the expertise to handle all water line needs. With advanced tools and techniques, we aim to minimize disruption while delivering effective solutions.",
+        "Your main water line is essential for your property's water supply, and maintaining it helps avoid costly repairs and ensures consistent flow. With over 20 years of experience, our team provides expert plumbing solutions to meet your needs."
+      ],
+      "image": {
+        "src": "/images/main-water-line-hero.jpg",
+        "alt": "Professional main water line services in Prescott Valley"
+      },
+      "ctas": {
+        "primary": {
+          "text": "Schedule Service",
+          "href": "/contact"
+        },
+        "secondary": {
+          "text": "Call Now",
+          "href": "tel:928-830-3575"
+        }
+      }
+    },
+    "servicesInclude": {
+      "title": "Our Main Water Line Services",
+      "services": [
+        {
+          "icon": "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z",
+          "title": "Main Water Line Repair",
+          "description": "Our team offers expert main water line repair services, diagnosing issues accurately and restoring water flow promptly. We utilize advanced technology to detect leaks and carry out effective repairs with minimal disruption."
+        },
+        {
+          "icon": "M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15",
+          "title": "Main Water Line Replacement",
+          "description": "When your water line is old or damaged, we offer expert replacement services. We remove the old line and install a durable pipe that meets local codes and performs for years with minimal disruption."
+        },
+        {
+          "icon": "M12 4v16m8-8H4",
+          "title": "Water Line Installation",
+          "description": "For new homes, businesses, or water lines, we provide expert installation services. We collaborate with property owners and developers to customize installations that adhere to local building codes."
+        },
+        {
+          "icon": "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
+          "title": "Water Line Maintenance",
+          "description": "We offer comprehensive maintenance services, including inspections, cleaning, and pressure testing to catch potential problems early. Regular care extends your system's lifespan and ensures reliable water supply."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "HAPPY CUSTOMERS!",
+      "subtitle": "What our customers say",
+      "reviews": [
+        {
+          "text": "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
+          "author": "Ray P.",
+          "rating": 5
+        },
+        {
+          "text": "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
+          "author": "Robert O.",
+          "rating": 5
+        },
+        {
+          "text": "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
+          "author": "Volkmar S.",
+          "rating": 5
+        },
+        {
+          "text": "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
+          "author": "Emma E.",
+          "rating": 5
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get Your Free Estimate",
+      "subtitle": "Ready to solve your plumbing needs? Contact us today for professional service you can trust.",
+      "mapTitle": "Visit Our Location",
+      "locationInfo": {
+        "address": "3501 N Dale Dr, Prescott Valley, AZ 86314",
+        "phone": "(928) 830-3575",
+        "hours": "24/7 Emergency Service"
+      },
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.8942!2d-112.4619!3d34.596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d23e640d81ab1%3A0xbd6ed9ae57a8535!2s3501%20N%20Dale%20Dr%2C%20Prescott%20Valley%2C%20AZ%2086314!5e0!3m2!1sen!2sus!4v1693842759000!5m2!1sen!2sus"
+    }
+  }
+}

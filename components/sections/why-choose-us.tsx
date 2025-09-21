@@ -48,9 +48,6 @@ export function WhyChooseUs() {
               width={400}
               height={450}
               className="rounded-lg shadow-xl object-cover h-full w-auto"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none'
-              }}
             />
           </div>
           

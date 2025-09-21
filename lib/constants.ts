@@ -12,15 +12,23 @@ export const SITE_CONFIG = {
   }
 }
 
+// Import service data to generate navigation dynamically
+import serviceDataFile from './service-pages-data.json'
+
+const generateServiceNavItems = () => {
+  return Object.values(serviceDataFile).map((service: any) => ({
+    href: `/${service.slug}`,
+    label: service.hero.title.split(' IN ')[0].toLowerCase().replace(/\b\w/g, (l: string) => l.toUpperCase())
+  }))
+}
+
 export const NAVIGATION_ITEMS = [
   { href: '/', label: 'Home' },
   {
     href: '/services',
     label: 'Services',
     hasDropdown: true,
-    dropdownItems: [
-      { href: '/plumbing-services', label: 'Plumbing Services' },
-    ]
+    dropdownItems: generateServiceNavItems()
   },
   { href: '/reviews', label: 'Reviews' },
   { href: '/gallery', label: 'Gallery' },

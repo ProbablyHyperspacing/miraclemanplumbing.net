@@ -1,13 +1,38 @@
 import Image from 'next/image'
-import { Wrench, Settings, Shield, Clock } from 'lucide-react'
-import serviceData from '@/lib/service-pages-data.json'
+import {
+  Wrench, Settings, Shield, Clock, Gauge, Home, Building2, CheckCircle,
+  TrendingUp, AlertCircle, AlertTriangle, Award, Building, Camera,
+  Droplet, Filter, Leaf, Plus, RefreshCw, Search, Sparkles, Target,
+  Thermometer, Zap
+} from 'lucide-react'
+import serviceDataFile from '@/lib/service-pages-data.json'
 import { notFound } from 'next/navigation'
 
 const iconMap = {
   Wrench,
   Settings,
   Shield,
-  Clock
+  Clock,
+  Gauge,
+  Home,
+  Building2,
+  CheckCircle,
+  TrendingUp,
+  AlertCircle,
+  AlertTriangle,
+  Award,
+  Building,
+  Camera,
+  Droplet,
+  Filter,
+  Leaf,
+  Plus,
+  RefreshCw,
+  Search,
+  Sparkles,
+  Target,
+  Thermometer,
+  Zap
 }
 
 type ServicePageData = {
@@ -78,15 +103,16 @@ type ServicePageData = {
 
 // Generate static params for all services in the JSON
 export async function generateStaticParams() {
-  const services = Object.keys(serviceData)
+  const services = Object.keys(serviceDataFile)
   return services.map((service) => ({
     service: service
   }))
 }
 
 // Generate metadata for each service page
-export async function generateMetadata({ params }: { params: { service: string } }) {
-  const data = serviceData[params.service as keyof typeof serviceData] as ServicePageData
+export async function generateMetadata({ params }: { params: Promise<{ service: string }> }) {
+  const { service } = await params
+  const data = serviceDataFile[service as keyof typeof serviceDataFile] as ServicePageData
 
   if (!data) {
     return {
@@ -101,8 +127,9 @@ export async function generateMetadata({ params }: { params: { service: string }
   }
 }
 
-export default function ServicePage({ params }: { params: { service: string } }) {
-  const data = serviceData[params.service as keyof typeof serviceData] as ServicePageData
+export default async function ServicePage({ params }: { params: Promise<{ service: string }> }) {
+  const { service } = await params
+  const data = serviceDataFile[service as keyof typeof serviceDataFile] as ServicePageData
 
   // Return 404 if service not found
   if (!data) {
@@ -155,7 +182,7 @@ export default function ServicePage({ params }: { params: { service: string } })
                 const IconComponent = iconMap[item.icon as keyof typeof iconMap]
                 return (
                   <div key={index} className="flex items-start gap-4">
-                    <div className={`${index === 0 ? 'bg-[#28b8e9]' : 'bg-[#1d588d]'} rounded-lg p-3 mt-1 flex-shrink-0`}>
+                    <div className="bg-[#28b8e9] rounded-lg p-3 mt-1 flex-shrink-0">
                       <IconComponent className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -175,7 +202,7 @@ export default function ServicePage({ params }: { params: { service: string } })
                 const IconComponent = iconMap[item.icon as keyof typeof iconMap]
                 return (
                   <div key={index + 2} className="flex items-start gap-4">
-                    <div className={`${index === 0 ? 'bg-[#28b8e9]' : 'bg-[#1d588d]'} rounded-lg p-3 mt-1 flex-shrink-0`}>
+                    <div className="bg-[#28b8e9] rounded-lg p-3 mt-1 flex-shrink-0">
                       <IconComponent className="w-6 h-6 text-white" />
                     </div>
                     <div>
@@ -234,8 +261,8 @@ export default function ServicePage({ params }: { params: { service: string } })
                     src={data.infrastructureSection.image.src}
                     alt={data.infrastructureSection.image.alt}
                     width={500}
-                    height={400}
-                    className="rounded-xl shadow-2xl object-cover"
+                    height={500}
+                    className="rounded-xl shadow-2xl object-cover w-[500px] h-[500px]"
                   />
                 </div>
               </div>
