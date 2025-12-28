@@ -33,6 +33,13 @@ export function ContactForm() {
     formState: { errors },
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
+    defaultValues: {
+      name: '',
+      email: '',
+      phone: '',
+      service: '',
+      message: '',
+    },
   })
 
   const onSubmit = async (data: ContactFormData) => {
@@ -114,7 +121,7 @@ export function ContactForm() {
         <div>
           <Label htmlFor="service" className="text-[#0B2545] font-medium">Service Type *</Label>
           <Select onValueChange={(value) => setValue('service', value)}>
-            <SelectTrigger>
+            <SelectTrigger className="bg-white text-[#0B2545]">
               <SelectValue placeholder="Select a service" />
             </SelectTrigger>
             <SelectContent>
@@ -145,7 +152,7 @@ export function ContactForm() {
         )}
       </div>
       
-      <Button type="submit" disabled={isSubmitting} className="w-full bg-[#EDB23A] hover:bg-[#C08222] text-white">
+      <Button type="submit" disabled={isSubmitting} className="w-full bg-[#EDB23A] hover:bg-[#C08222] text-[#0B2545]">
         {isSubmitting ? 'Sending...' : 'Get Free Quote'}
       </Button>
     </form>
