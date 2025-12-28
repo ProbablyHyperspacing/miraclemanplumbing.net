@@ -1,5 +1,6 @@
 import { Star, Plus, Users, ThumbsUp, Award } from 'lucide-react'
 import { Metadata } from 'next'
+import Link from 'next/link'
 import { ReviewsGrid } from './reviews-grid'
 
 export const metadata: Metadata = {
@@ -201,7 +202,7 @@ export default function ReviewsPage() {
               Share Your Experience
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Had a great experience with Miracle Man Plumbing? We'd love to hear about it! Your feedback helps us improve and helps other customers make informed decisions.
+              Had a great experience with Miracle Man Plumbing? We&apos;d love to hear about it! Your feedback helps us improve and helps other customers make informed decisions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -213,12 +214,12 @@ export default function ReviewsPage() {
                 <Plus className="w-5 h-5 mr-2" />
                 Leave a Google Review
               </a>
-              <a
+              <Link
                 href="/contact"
                 className="border-2 border-[#0B2545] text-[#0B2545] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#0B2545] hover:text-white transition-colors inline-flex items-center justify-center"
               >
                 Contact Us Today
-              </a>
+              </Link>
             </div>
           </div>
         </div>

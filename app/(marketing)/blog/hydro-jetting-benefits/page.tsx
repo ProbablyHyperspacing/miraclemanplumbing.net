@@ -89,7 +89,7 @@ export default function HydroJettingBenefitsPage() {
                 How Hydro Jetting Prevents Future Problems
               </h2>
               <p>
-                Over time, your pipes can collect layers of grime, soap scum, grease, and mineral deposits that gradually lead to slower drains and frequent clogs. Standard cleaning methods often only provide temporary relief. Hydro jetting goes beyond surface cleaning by completely clearing out buildup and flushing the entire pipe system. As a result, you'll experience fewer blockages, better water flow, and improved plumbing health. Regular hydro jetting can even help extend the life of your pipes and prevent costly emergency repairs.
+                Over time, your pipes can collect layers of grime, soap scum, grease, and mineral deposits that gradually lead to slower drains and frequent clogs. Standard cleaning methods often only provide temporary relief. Hydro jetting goes beyond surface cleaning by completely clearing out buildup and flushing the entire pipe system. As a result, you&apos;ll experience fewer blockages, better water flow, and improved plumbing health. Regular hydro jetting can even help extend the life of your pipes and prevent costly emergency repairs.
               </p>
 
               <h2 className="text-2xl md:text-3xl font-bold text-[#0B2545] mt-12 mb-6">
@@ -110,12 +110,12 @@ export default function HydroJettingBenefitsPage() {
                 Cost Savings Over Time
               </h2>
               <p>
-                While hydro jetting might have a higher upfront cost compared to traditional pipe cleaning methods, it provides significant long-term savings. By thoroughly cleaning your pipes, you reduce the likelihood of major plumbing emergencies, sewer line replacements, and frequent service calls. Homeowners and businesses that invest in regular hydro jetting enjoy improved plumbing performance, fewer disruptions, and reduced repair bills. It's a smart investment that protects your plumbing and your wallet over the years.
+                While hydro jetting might have a higher upfront cost compared to traditional pipe cleaning methods, it provides significant long-term savings. By thoroughly cleaning your pipes, you reduce the likelihood of major plumbing emergencies, sewer line replacements, and frequent service calls. Homeowners and businesses that invest in regular hydro jetting enjoy improved plumbing performance, fewer disruptions, and reduced repair bills. It&apos;s a smart investment that protects your plumbing and your wallet over the years.
               </p>
 
               <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl p-8 text-white mt-12">
                 <p className="text-lg leading-relaxed">
-                  When you need professional hydro jetting services in Prescott Valley, AZ, Miracle Man Plumbing Inc. is the trusted team to call. With over 20 years of experience, we have the expertise to safely and efficiently clear your pipes, no matter the severity of the blockage. Our team uses the latest hydro jetting technology to ensure your plumbing is thoroughly cleaned and protected. Don't wait for clogs to cause bigger problems—contact us today to schedule your hydro jetting service and experience the benefits of a cleaner, healthier plumbing system!
+                  When you need professional hydro jetting services in Prescott Valley, AZ, Miracle Man Plumbing Inc. is the trusted team to call. With over 20 years of experience, we have the expertise to safely and efficiently clear your pipes, no matter the severity of the blockage. Our team uses the latest hydro jetting technology to ensure your plumbing is thoroughly cleaned and protected. Don&apos;t wait for clogs to cause bigger problems—contact us today to schedule your hydro jetting service and experience the benefits of a cleaner, healthier plumbing system!
                 </p>
 
                 <div className="mt-6">

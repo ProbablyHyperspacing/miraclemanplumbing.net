@@ -2,6 +2,7 @@
 
 import { Phone, MapPin, Clock, Award, Shield, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 const serviceAreas = [
   "Prescott Valley, AZ",
@@ -145,7 +146,7 @@ export function FullSpectrumSection() {
               asChild
               className="bg-white text-[#0B2545] hover:bg-[#C08222] hover:text-white font-bold text-sm lg:text-lg px-4 lg:px-8 py-2 lg:py-4"
             >
-              <a href="/contact">Get Free Estimate</a>
+              <Link href="/contact">Get Free Estimate</Link>
             </Button>
           </div>
         </div>

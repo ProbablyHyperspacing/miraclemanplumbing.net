@@ -1,5 +1,6 @@
 import { MapPin, Phone, Clock, Award } from 'lucide-react'
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Areas We Serve | Miracle Man Plumbing - Prescott Valley & Surrounding Areas',
@@ -139,7 +140,7 @@ export default function AreasWeServePage() {
               Need Plumbing Service in Your Area?
             </h2>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-              Don't see your location listed? Give us a call! We may still be able to serve your area or can recommend a trusted local plumber.
+              Don&apos;t see your location listed? Give us a call! We may still be able to serve your area or can recommend a trusted local plumber.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -149,12 +150,12 @@ export default function AreasWeServePage() {
                 <Phone className="w-5 h-5 mr-2" />
                 Call (928) 830-3575
               </a>
-              <a
+              <Link
                 href="/contact"
                 className="border-2 border-[#0B2545] text-[#0B2545] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#0B2545] hover:text-white transition-colors inline-flex items-center justify-center"
               >
                 Get Free Estimate
-              </a>
+              </Link>
             </div>
           </div>
         </div>

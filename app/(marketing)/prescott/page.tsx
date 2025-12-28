@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -56,7 +57,7 @@ export default function PrescottPage() {
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p>
-                Plumbing is more than simply pipes and fixtures - it's about providing dependable infrastructure that supports everyday life, commercial activities, and long-term property value. Plumbing systems for homes and businesses need to be carefully planned, installed, and maintained to meet the needs of contemporary life and business. From making sure water flows effectively in homes to installing customized systems in intricate business areas, skilled residential & commercial plumbing services are essential to creating surroundings that are both healthy and useful.
+                Plumbing is more than simply pipes and fixtures - it&apos;s about providing dependable infrastructure that supports everyday life, commercial activities, and long-term property value. Plumbing systems for homes and businesses need to be carefully planned, installed, and maintained to meet the needs of contemporary life and business. From making sure water flows effectively in homes to installing customized systems in intricate business areas, skilled residential & commercial plumbing services are essential to creating surroundings that are both healthy and useful.
               </p>
 
               <p>
@@ -64,12 +65,12 @@ export default function PrescottPage() {
               </p>
 
               <p>
-                The future of plumbing is smarter, more sustainable, and more resilient. Technologies like leak detection sensors, touchless fixtures, greywater recycling, and high-efficiency water heaters are becoming standard expectations rather than luxuries. Residential & commercial plumbing services are evolving into proactive partnerships, focused not only on fixing problems but on improving water management, conserving resources, and minimizing risk. As systems grow more integrated with smart home and building technologies, the role of expert plumbers continues to expand, combining traditional craftsmanship with cutting-edge innovation. Expert plumbing remains one of the most critical investments in any property's future.
+                The future of plumbing is smarter, more sustainable, and more resilient. Technologies like leak detection sensors, touchless fixtures, greywater recycling, and high-efficiency water heaters are becoming standard expectations rather than luxuries. Residential & commercial plumbing services are evolving into proactive partnerships, focused not only on fixing problems but on improving water management, conserving resources, and minimizing risk. As systems grow more integrated with smart home and building technologies, the role of expert plumbers continues to expand, combining traditional craftsmanship with cutting-edge innovation. Expert plumbing remains one of the most critical investments in any property&apos;s future.
               </p>
 
               <div className="bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#EDB23A] mt-8">
                 <p className="text-lg font-medium text-[#0B2545]">
-                  Miracle Man Plumbing Inc. in Prescott, AZ, offers expert residential and commercial plumbing services, including repairs, installations, maintenance, and emergency solutions. With decades of experience, we deliver reliable, high-quality plumbing support tailored to meet every property's unique needs.
+                  Miracle Man Plumbing Inc. in Prescott, AZ, offers expert residential and commercial plumbing services, including repairs, installations, maintenance, and emergency solutions. With decades of experience, we deliver reliable, high-quality plumbing support tailored to meet every property&apos;s unique needs.
                 </p>
               </div>
             </div>
@@ -88,7 +89,7 @@ export default function PrescottPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700">
                 <p>
-                  Prescott, AZ, located roughly 100 miles north of Phoenix, is in the lap of the Bradshaw Mountains in central Arizona. Originally established as the capital of the Arizona Territory in 1864, the city developed from a military and mining outpost to a center of government and culture. With warm summers and sporadic winter snowfall, Prescott boasts a unique four-season environment due to its elevation of over 5,000 feet. A dynamic landscape is produced by the geography's combination of granite boulders, pine trees, and open plains. Due to its unique combination of frontier history and contemporary energy, Prescott stands out in Arizona's changing high-country narrative.
+                  Prescott, AZ, located roughly 100 miles north of Phoenix, is in the lap of the Bradshaw Mountains in central Arizona. Originally established as the capital of the Arizona Territory in 1864, the city developed from a military and mining outpost to a center of government and culture. With warm summers and sporadic winter snowfall, Prescott boasts a unique four-season environment due to its elevation of over 5,000 feet. A dynamic landscape is produced by the geography&apos;s combination of granite boulders, pine trees, and open plains. Due to its unique combination of frontier history and contemporary energy, Prescott stands out in Arizona&apos;s changing high-country narrative.
                 </p>
               </div>
             </div>
@@ -162,7 +163,7 @@ export default function PrescottPage() {
 
               <div className="max-w-4xl mx-auto mb-8">
                 <p className="text-lg text-white/90 leading-relaxed">
-                  At Miracle Man Plumbing Inc. in Prescott, AZ, we've spent over 20 years delivering trusted residential and commercial plumbing solutions. We handle everything from drain cleaning, water heater repair & installation, and hydrojetting to pipe repair & repiping, water filtration system installation, and water softener installation & maintenance. Our expert team also specializes in leak detection & repair, sewer line inspections & repair, toilet repairs & replacement, faucet & fixture repair, garbage disposal repair & replacement, and main water line services. Whether it's emergency plumbing, shower upgrades, or softener maintenance, we are prepared for every job. We build lasting solutions you can rely on.
+                  At Miracle Man Plumbing Inc. in Prescott, AZ, we&apos;ve spent over 20 years delivering trusted residential and commercial plumbing solutions. We handle everything from drain cleaning, water heater repair & installation, and hydrojetting to pipe repair & repiping, water filtration system installation, and water softener installation & maintenance. Our expert team also specializes in leak detection & repair, sewer line inspections & repair, toilet repairs & replacement, faucet & fixture repair, garbage disposal repair & replacement, and main water line services. Whether it&apos;s emergency plumbing, shower upgrades, or softener maintenance, we are prepared for every job. We build lasting solutions you can rely on.
                 </p>
               </div>
 
@@ -174,12 +175,12 @@ export default function PrescottPage() {
                   <Phone className="w-5 h-5 mr-2" />
                   Call (928) 830-3575
                 </a>
-                <a
+                <Link
                   href="/contact"
                   className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -237,7 +238,7 @@ export default function PrescottPage() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="text-[#0B2545] font-bold text-lg">
                   — {review.author}

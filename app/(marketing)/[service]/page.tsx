@@ -343,7 +343,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="text-[#0B2545] font-bold text-lg">
                   — {review.author}

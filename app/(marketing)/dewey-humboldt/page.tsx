@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -56,7 +57,7 @@ export default function DeweyHumboldtPage() {
 
             <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
               <p>
-                For any residential or commercial property in Dewey-Humboldt, AZ, plumbing issues belong to the group of most disruptive ones, and they often crop up when you least expect them. Small problems such as clogged drains, leaky faucets, etc. can quickly become major problems if not addressed properly and timely. And this is precisely where the importance of using residential & commercial plumbing services comes into play. Whether it's installations, repairs, or maintenance, plumbing jobs need skills, expertise, and experience for their proper completion. Fortunately, the professionals at a leading residential & commercial plumbing service provider will be able to tackle a wide variety of plumbing jobs. They'll ensure the jobs are done to the highest standards, saving you from unnecessary stress and expensive repairs in the long run.
+                For any residential or commercial property in Dewey-Humboldt, AZ, plumbing issues belong to the group of most disruptive ones, and they often crop up when you least expect them. Small problems such as clogged drains, leaky faucets, etc. can quickly become major problems if not addressed properly and timely. And this is precisely where the importance of using residential & commercial plumbing services comes into play. Whether it&apos;s installations, repairs, or maintenance, plumbing jobs need skills, expertise, and experience for their proper completion. Fortunately, the professionals at a leading residential & commercial plumbing service provider will be able to tackle a wide variety of plumbing jobs. They&apos;ll ensure the jobs are done to the highest standards, saving you from unnecessary stress and expensive repairs in the long run.
               </p>
 
               <p>
@@ -84,7 +85,7 @@ export default function DeweyHumboldtPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
                 <p>
-                  Located approximately 81 miles from Phoenix, the town of Dewey-Humboldt belongs to Yavapai County, Arizona. The community is located about 21 miles from Prescott, the county seat. It was established in the late 1860s after the discovery of gold on Lynx Creek. It officially became a town on December 20, 2004, through the incorporation of the towns of Dewey and Humboldt. As per the data from the USCB, 18.79 square miles is the total area covered by Dewey-Humboldt. At the 2020 census, the town's population was 4,326.
+                  Located approximately 81 miles from Phoenix, the town of Dewey-Humboldt belongs to Yavapai County, Arizona. The community is located about 21 miles from Prescott, the county seat. It was established in the late 1860s after the discovery of gold on Lynx Creek. It officially became a town on December 20, 2004, through the incorporation of the towns of Dewey and Humboldt. As per the data from the USCB, 18.79 square miles is the total area covered by Dewey-Humboldt. At the 2020 census, the town&apos;s population was 4,326.
                 </p>
                 <p>
                   A few noteworthy tourist attractions in Dewey-Humboldt include Mortimer Farms, Green Gulch Trailhead, Mogollon Vineyards, and Quailwood Greens Golf Course.
@@ -161,7 +162,7 @@ export default function DeweyHumboldtPage() {
 
               <div className="max-w-4xl mx-auto mb-8">
                 <p className="text-lg text-white/90 leading-relaxed">
-                  Having started its journey in 2005, today, Miracle Man Plumbing Inc. has become the go-to residential & commercial plumbing service provider in Dewey-Humboldt, AZ. Led by a licensed and certified Master Plumber, our company offers a comprehensive range of plumbing services, meaning you can rely on our team as the one-stop solution for all your plumbing needs. We've obtained an A+ BBB rating for providing exceptional customer service.
+                  Having started its journey in 2005, today, Miracle Man Plumbing Inc. has become the go-to residential & commercial plumbing service provider in Dewey-Humboldt, AZ. Led by a licensed and certified Master Plumber, our company offers a comprehensive range of plumbing services, meaning you can rely on our team as the one-stop solution for all your plumbing needs. We&apos;ve obtained an A+ BBB rating for providing exceptional customer service.
                 </p>
                 <p className="text-lg text-white/90 leading-relaxed mt-4">
                   To receive your free estimate, call us today!
@@ -176,12 +177,12 @@ export default function DeweyHumboldtPage() {
                   <Phone className="w-5 h-5 mr-2" />
                   Call (928) 830-3575
                 </a>
-                <a
+                <Link
                   href="/contact"
                   className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -239,7 +240,7 @@ export default function DeweyHumboldtPage() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="text-[#0B2545] font-bold text-lg">
                   — {review.author}

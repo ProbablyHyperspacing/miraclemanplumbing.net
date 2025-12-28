@@ -82,14 +82,14 @@ export default function RegularDrainCleaningPage() {
             {/* Article Content */}
             <div className="prose prose-lg max-w-none text-gray-700 space-y-8">
               <p className="text-xl leading-relaxed">
-                Keeping your home's drains clean is one of the most essential yet overlooked parts of maintaining a healthy plumbing system. Over time, debris like grease, soap, food particles, and hair can build up in your pipes, leading to slow drains, unpleasant odors, and even severe blockages. Regular drain cleaning not only helps you avoid these issues but also extends the life of your plumbing, saving you from costly repairs in the future.
+                Keeping your home&apos;s drains clean is one of the most essential yet overlooked parts of maintaining a healthy plumbing system. Over time, debris like grease, soap, food particles, and hair can build up in your pipes, leading to slow drains, unpleasant odors, and even severe blockages. Regular drain cleaning not only helps you avoid these issues but also extends the life of your plumbing, saving you from costly repairs in the future.
               </p>
 
               <h2 className="text-2xl md:text-3xl font-bold text-[#0B2545] mt-12 mb-6">
                 The Dangers of Neglecting Drain Maintenance
               </h2>
               <p>
-                When drains are neglected, the buildup inside pipes becomes harder and harder to remove. Minor clogs can turn into full blockages, causing backups that may damage your home's floors and walls. In some cases, standing water can create a breeding ground for bacteria and mold, which can pose serious health risks for you and your family. Preventative maintenance like routine drain cleaning ensures that your plumbing system stays in good condition and your home remains safe and hygienic.
+                When drains are neglected, the buildup inside pipes becomes harder and harder to remove. Minor clogs can turn into full blockages, causing backups that may damage your home&apos;s floors and walls. In some cases, standing water can create a breeding ground for bacteria and mold, which can pose serious health risks for you and your family. Preventative maintenance like routine drain cleaning ensures that your plumbing system stays in good condition and your home remains safe and hygienic.
               </p>
 
               <h2 className="text-2xl md:text-3xl font-bold text-[#0B2545] mt-12 mb-6">
@@ -110,26 +110,26 @@ export default function RegularDrainCleaningPage() {
                 Long-Term Savings and Protection
               </h2>
               <p>
-                Homeowners should also consider the long-term financial benefits of maintaining clean drains. Ignoring small clogs can lead to major plumbing emergencies that require expensive interventions, such as pipe replacements or extensive water damage restoration. A simple, affordable maintenance routine can help you avoid these costly problems and extend the lifespan of your entire plumbing system. It's a smart investment in the overall value and comfort of your home.
+                Homeowners should also consider the long-term financial benefits of maintaining clean drains. Ignoring small clogs can lead to major plumbing emergencies that require expensive interventions, such as pipe replacements or extensive water damage restoration. A simple, affordable maintenance routine can help you avoid these costly problems and extend the lifespan of your entire plumbing system. It&apos;s a smart investment in the overall value and comfort of your home.
               </p>
 
               <h2 className="text-2xl md:text-3xl font-bold text-[#0B2545] mt-12 mb-6">
                 Professional Drain Cleaning vs. DIY Solutions
               </h2>
               <p>
-                There are many ways to clean your drains, from natural remedies like baking soda and vinegar to professional hydro-jetting services. While DIY methods can offer temporary relief, they often don't address the root of the problem. Professional plumbers use specialized tools to thoroughly remove buildup without damaging your pipes. They can also spot potential issues early, helping you fix them before they turn into major problems.
+                There are many ways to clean your drains, from natural remedies like baking soda and vinegar to professional hydro-jetting services. While DIY methods can offer temporary relief, they often don&apos;t address the root of the problem. Professional plumbers use specialized tools to thoroughly remove buildup without damaging your pipes. They can also spot potential issues early, helping you fix them before they turn into major problems.
               </p>
 
               <h2 className="text-2xl md:text-3xl font-bold text-[#0B2545] mt-12 mb-6">
                 How Often Should You Clean Your Drains?
               </h2>
               <p>
-                Many experts recommend scheduling professional drain cleaning at least once a year. However, households with heavy usage, such as large families or homes with frequent guests, might benefit from more frequent cleanings. Additionally, if you notice warning signs like slow drains, frequent clogs, or unpleasant smells, it's a clear indication that you should call a professional as soon as possible.
+                Many experts recommend scheduling professional drain cleaning at least once a year. However, households with heavy usage, such as large families or homes with frequent guests, might benefit from more frequent cleanings. Additionally, if you notice warning signs like slow drains, frequent clogs, or unpleasant smells, it&apos;s a clear indication that you should call a professional as soon as possible.
               </p>
 
               <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl p-8 text-white mt-12">
                 <p className="text-lg leading-relaxed">
-                  Miracle Man Plumbing Inc. has proudly served homeowners in Prescott Valley, AZ, for over 20 years with reliable and professional plumbing solutions. Don't wait for a major plumbing issue to disrupt your home—schedule your regular drain cleaning service today and experience the peace of mind that comes from a properly maintained plumbing system. Call us now to keep your drains flowing freely!
+                  Miracle Man Plumbing Inc. has proudly served homeowners in Prescott Valley, AZ, for over 20 years with reliable and professional plumbing solutions. Don&apos;t wait for a major plumbing issue to disrupt your home—schedule your regular drain cleaning service today and experience the peace of mind that comes from a properly maintained plumbing system. Call us now to keep your drains flowing freely!
                 </p>
 
                 <div className="mt-6">

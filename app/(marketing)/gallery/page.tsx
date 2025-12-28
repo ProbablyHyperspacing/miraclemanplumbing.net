@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Gallery | Miracle Man Plumbing - Our Work in Prescott Valley, AZ',
@@ -177,12 +178,12 @@ export default function GalleryPage() {
               Contact Miracle Man Plumbing today for professional, reliable plumbing services in Prescott Valley and surrounding areas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="bg-[#0B2545] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#091B36] transition-colors shadow-lg"
               >
                 Get Free Estimate
-              </a>
+              </Link>
               <a
                 href="tel:+19282777663"
                 className="border-2 border-[#0B2545] text-[#0B2545] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#0B2545] hover:text-white transition-colors"

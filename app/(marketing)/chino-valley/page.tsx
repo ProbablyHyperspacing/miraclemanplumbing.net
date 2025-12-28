@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -88,7 +89,7 @@ export default function ChinoValleyPage() {
               </h2>
               <div className="prose prose-lg max-w-none text-gray-700">
                 <p>
-                  Chino Valley is a town located in Yavapai County, in the central highlands of Arizona. Chino Valley offers a rural, small-town lifestyle. Residents enjoy a close-knit community with a friendly atmosphere. The town has a history rooted in agriculture, which continues to influence its culture and economy. Visitors can explore Granite Creek Vineyards, an organic vineyard offering wine tastings in a picturesque setting. Establishments like Lucy's Bar & Grill provide a taste of local cuisine and hospitality. The area is ideal for off-roading, hiking, and exploring the natural beauty of the high desert.
+                  Chino Valley is a town located in Yavapai County, in the central highlands of Arizona. Chino Valley offers a rural, small-town lifestyle. Residents enjoy a close-knit community with a friendly atmosphere. The town has a history rooted in agriculture, which continues to influence its culture and economy. Visitors can explore Granite Creek Vineyards, an organic vineyard offering wine tastings in a picturesque setting. Establishments like Lucy&apos;s Bar & Grill provide a taste of local cuisine and hospitality. The area is ideal for off-roading, hiking, and exploring the natural beauty of the high desert.
                 </p>
               </div>
             </div>
@@ -174,12 +175,12 @@ export default function ChinoValleyPage() {
                   <Phone className="w-5 h-5 mr-2" />
                   Call (928) 830-3575
                 </a>
-                <a
+                <Link
                   href="/contact"
                   className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -237,7 +238,7 @@ export default function ChinoValleyPage() {
                   </div>
                 </div>
                 <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="text-[#0B2545] font-bold text-lg">
                   — {review.author}
