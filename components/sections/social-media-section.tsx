@@ -108,39 +108,39 @@ export function SocialMediaSection() {
   }
 
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-8 md:px-12 lg:px-16">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1d588d] mb-4">
+    <section className="py-10 lg:py-20 bg-white">
+      <div className="container mx-auto px-4 lg:px-16">
+        <div className="text-center mb-8 lg:mb-16">
+          <h2 className="text-2xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4 nav-font">
             Follow Our Work
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-sm lg:text-xl text-gray-600">
             Stay updated with our latest projects and plumbing tips
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-12">
           {/* Instagram Feed */}
-          <div className="bg-white rounded-2xl shadow-xl border overflow-hidden">
+          <div className="bg-white rounded-xl lg:rounded-2xl shadow-lg lg:shadow-xl border overflow-hidden">
             {/* Instagram Header */}
-            <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 p-6">
+            <div className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 p-4 lg:p-6">
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                    <Instagram className="w-6 h-6 text-pink-600" />
+                <div className="flex items-center gap-3 lg:gap-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-white rounded-full flex items-center justify-center">
+                    <Instagram className="w-5 h-5 lg:w-6 lg:h-6 text-pink-600" />
                   </div>
                   <div>
-                    <h3 className="text-white font-bold text-xl">@miraclemanplumbing</h3>
-                    <p className="text-white/80 text-sm">Follow our latest work</p>
+                    <h3 className="text-white font-bold text-sm lg:text-xl">@miraclemanplumbing</h3>
+                    <p className="text-white/80 text-xs lg:text-sm">Follow our latest work</p>
                   </div>
                 </div>
-                <Button 
+                <Button
                   asChild
                   size="sm"
-                  className="bg-white text-pink-600 hover:bg-gray-100"
+                  className="bg-white text-pink-600 hover:bg-gray-100 text-xs lg:text-sm px-3 lg:px-4"
                 >
-                  <Link 
-                    href="https://instagram.com/miraclemanplumbing" 
+                  <Link
+                    href="https://instagram.com/miraclemanplumbing"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -151,7 +151,7 @@ export function SocialMediaSection() {
             </div>
 
             {/* Instagram Grid */}
-            <div className="p-4">
+            <div className="p-3 lg:p-4">
               <div className="grid grid-cols-3 gap-1">
                 {posts.instagram.map((post) => (
                   <div key={post.id} className="relative aspect-square group cursor-pointer">
@@ -162,8 +162,8 @@ export function SocialMediaSection() {
                       className="object-cover"
                       sizes="(max-width: 1024px) 33vw, 16vw"
                     />
-                    {/* Hover overlay */}
-                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    {/* Hover overlay - hidden on mobile */}
+                    <div className="absolute inset-0 bg-black/50 opacity-0 lg:group-hover:opacity-100 transition-opacity flex items-center justify-center">
                       <div className="flex items-center gap-4 text-white text-sm">
                         <span className="flex items-center gap-1">
                           ❤️ {post.likes}
@@ -180,26 +180,26 @@ export function SocialMediaSection() {
           </div>
 
           {/* Facebook Feed */}
-          <div className="bg-white rounded-2xl shadow-xl border overflow-hidden">
+          <div className="bg-white rounded-xl lg:rounded-2xl shadow-lg lg:shadow-xl border overflow-hidden">
             {/* Facebook Header */}
-            <div className="bg-blue-600 p-6">
+            <div className="bg-blue-600 p-4 lg:p-6">
               <div className="flex items-center justify-between">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                    <Facebook className="w-6 h-6 text-blue-600" />
+                <div className="flex items-center gap-3 lg:gap-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-white rounded-full flex items-center justify-center">
+                    <Facebook className="w-5 h-5 lg:w-6 lg:h-6 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-white font-bold text-xl">Miracle Man Plumbing Inc.</h3>
-                    <p className="text-white/80 text-sm">Stay updated with our latest news</p>
+                    <h3 className="text-white font-bold text-sm lg:text-xl">Miracle Man Plumbing Inc.</h3>
+                    <p className="text-white/80 text-xs lg:text-sm">Stay updated with our latest news</p>
                   </div>
                 </div>
-                <Button 
+                <Button
                   asChild
                   size="sm"
-                  className="bg-white text-blue-600 hover:bg-gray-100"
+                  className="bg-white text-blue-600 hover:bg-gray-100 text-xs lg:text-sm px-3 lg:px-4"
                 >
-                  <Link 
-                    href="https://facebook.com/miraclemanplumbinginc" 
+                  <Link
+                    href="https://facebook.com/miraclemanplumbinginc"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -210,7 +210,7 @@ export function SocialMediaSection() {
             </div>
 
             {/* Facebook Photo Grid */}
-            <div className="p-4">
+            <div className="p-3 lg:p-4">
               <div className="grid grid-cols-2 gap-2">
                 {posts.facebook.map((post) => (
                   <div key={post.id} className="relative aspect-[4/3] group cursor-pointer rounded-lg overflow-hidden">
@@ -221,8 +221,8 @@ export function SocialMediaSection() {
                       className="object-cover"
                       sizes="(max-width: 1024px) 50vw, 25vw"
                     />
-                    {/* Hover overlay */}
-                    <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                    {/* Hover overlay - hidden on mobile */}
+                    <div className="absolute inset-0 bg-black/50 opacity-0 lg:group-hover:opacity-100 transition-opacity flex items-center justify-center">
                       <div className="flex items-center gap-3 text-white text-sm">
                         <span className="flex items-center gap-1">
                           👍 {post.likes}
@@ -245,32 +245,32 @@ export function SocialMediaSection() {
         </div>
 
         {/* View More Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-12">
-          <Button 
+        <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 justify-center mt-8 lg:mt-12">
+          <Button
             asChild
-            size="lg"
-            className="bg-pink-600 hover:bg-pink-700 text-white px-8 py-3"
+            size="default"
+            className="bg-pink-600 hover:bg-pink-700 text-white px-4 lg:px-8 py-2 lg:py-3 text-sm lg:text-base"
           >
-            <Link 
-              href="https://instagram.com/miraclemanplumbing" 
+            <Link
+              href="https://instagram.com/miraclemanplumbing"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Instagram className="w-5 h-5 mr-2" />
+              <Instagram className="w-4 h-4 lg:w-5 lg:h-5 mr-2" />
               View Instagram
             </Link>
           </Button>
-          <Button 
+          <Button
             asChild
-            size="lg"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
+            size="default"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-4 lg:px-8 py-2 lg:py-3 text-sm lg:text-base"
           >
-            <Link 
-              href="https://facebook.com/miraclemanplumbinginc" 
+            <Link
+              href="https://facebook.com/miraclemanplumbinginc"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Facebook className="w-5 h-5 mr-2" />
+              <Facebook className="w-4 h-4 lg:w-5 lg:h-5 mr-2" />
               View Facebook
             </Link>
           </Button>

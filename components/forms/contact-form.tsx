@@ -73,7 +73,7 @@ export function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <Label htmlFor="name" className="text-[#1d588d] font-medium">Name *</Label>
+          <Label htmlFor="name" className="text-[#0B2545] font-medium">Name *</Label>
           <Input
             id="name"
             {...register('name')}
@@ -85,7 +85,7 @@ export function ContactForm() {
         </div>
         
         <div>
-          <Label htmlFor="email" className="text-[#1d588d] font-medium">Email *</Label>
+          <Label htmlFor="email" className="text-[#0B2545] font-medium">Email *</Label>
           <Input
             id="email"
             type="email"
@@ -100,7 +100,7 @@ export function ContactForm() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <Label htmlFor="phone" className="text-[#1d588d] font-medium">Phone *</Label>
+          <Label htmlFor="phone" className="text-[#0B2545] font-medium">Phone *</Label>
           <Input
             id="phone"
             {...register('phone')}
@@ -112,7 +112,7 @@ export function ContactForm() {
         </div>
         
         <div>
-          <Label htmlFor="service" className="text-[#1d588d] font-medium">Service Type *</Label>
+          <Label htmlFor="service" className="text-[#0B2545] font-medium">Service Type *</Label>
           <Select onValueChange={(value) => setValue('service', value)}>
             <SelectTrigger>
               <SelectValue placeholder="Select a service" />
@@ -133,7 +133,7 @@ export function ContactForm() {
       </div>
       
       <div>
-        <Label htmlFor="message" className="text-[#1d588d] font-medium">Message *</Label>
+        <Label htmlFor="message" className="text-[#0B2545] font-medium">Message *</Label>
         <Textarea
           id="message"
           {...register('message')}
@@ -145,7 +145,7 @@ export function ContactForm() {
         )}
       </div>
       
-      <Button type="submit" disabled={isSubmitting} className="w-full bg-[#28b8e9] hover:bg-[#1fa3d1] text-white">
+      <Button type="submit" disabled={isSubmitting} className="w-full bg-[#EDB23A] hover:bg-[#C08222] text-white">
         {isSubmitting ? 'Sending...' : 'Get Free Quote'}
       </Button>
     </form>

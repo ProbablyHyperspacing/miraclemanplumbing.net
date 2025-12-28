@@ -25,7 +25,7 @@ const generateServiceNavItems = () => {
 export const NAVIGATION_ITEMS = [
   { href: '/', label: 'Home' },
   {
-    href: '/services',
+    href: '/plumbing-services',
     label: 'Services',
     hasDropdown: true,
     dropdownItems: generateServiceNavItems()
@@ -42,22 +42,22 @@ export const SERVICES = [
   {
     title: 'Emergency Repairs',
     description: '24/7 emergency plumbing repairs',
-    href: '/services/emergency'
+    href: '/emergency-plumbing'
   },
   {
     title: 'Installation',
     description: 'Professional plumbing installation services',
-    href: '/services/installation'
+    href: '/plumbing-services'
   },
   {
     title: 'Maintenance',
     description: 'Regular maintenance and inspections',
-    href: '/services/maintenance'
+    href: '/plumbing-services'
   },
   {
     title: 'Drain Cleaning',
     description: 'Professional drain cleaning services',
-    href: '/services/drain-cleaning'
+    href: '/drain-cleaning'
   },
 ]
 

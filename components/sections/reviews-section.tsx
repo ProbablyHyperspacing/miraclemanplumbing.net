@@ -71,18 +71,18 @@ export function ReviewsSection() {
 
   return (
     <>
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1d588d] mb-4">
+      <section className="py-10 lg:py-20 bg-white">
+        <div className="container mx-auto px-4 lg:px-16">
+          <div className="text-center mb-8 lg:mb-16">
+            <h2 className="text-2xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4 nav-font">
               What Our Customers Say
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-sm lg:text-xl text-gray-600">
               Real reviews from satisfied customers in Prescott Valley
             </p>
           </div>
-          
-          <Carousel 
+
+          <Carousel
             className="w-full max-w-6xl mx-auto"
             opts={{
               align: "start",
@@ -91,55 +91,55 @@ export function ReviewsSection() {
           >
             <CarouselContent className="-ml-2">
               {reviews.map((review, index) => (
-                <CarouselItem key={index} className="pl-2 md:basis-1/2 lg:basis-1/3">
-                  <Card 
-                    className="h-[350px] flex flex-col shadow-lg hover:shadow-xl transition-shadow cursor-pointer"
+                <CarouselItem key={index} className="pl-2 basis-[85%] md:basis-1/2 lg:basis-1/3">
+                  <Card
+                    className="h-[300px] lg:h-[350px] flex flex-col shadow-lg hover:shadow-xl transition-shadow cursor-pointer bg-white border-none"
                     onClick={() => setSelectedReview(index)}
                   >
-                    <CardContent className="p-6 flex flex-col h-full">
+                    <CardContent className="p-4 lg:p-6 flex flex-col h-full">
                       {/* Header */}
-                      <div className="flex items-start justify-between mb-4">
+                      <div className="flex items-start justify-between mb-3 lg:mb-4">
                         <div className="flex-1">
-                          <div className="flex items-center gap-2 mb-1">
-                            <h4 className="font-semibold text-[#1d588d]">{review.name}</h4>
+                          <div className="flex items-center gap-2 mb-1 flex-wrap">
+                            <h4 className="font-semibold text-[#0B2545] text-sm lg:text-base">{review.name}</h4>
                             {review.badge && (
-                              <span className="bg-[#28b8e9] text-white text-xs px-2 py-1 rounded-full">
+                              <span className="bg-[#EDB23A] text-white text-[10px] lg:text-xs px-2 py-0.5 lg:py-1 rounded-full">
                                 {review.badge}
                               </span>
                             )}
                           </div>
-                          <p className="text-sm text-gray-500 mb-2">
+                          <p className="text-xs lg:text-sm text-gray-500 mb-2">
                             {review.timeAgo}
                           </p>
-                          
+
                           {/* Star Rating */}
-                          <div className="flex items-center gap-1 mb-4">
+                          <div className="flex items-center gap-1 mb-3 lg:mb-4">
                             {[...Array(review.rating)].map((_, i) => (
-                              <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                              <Star key={i} className="w-3 h-3 lg:w-4 lg:h-4 fill-yellow-400 text-yellow-400" />
                             ))}
                           </div>
                         </div>
                       </div>
-                      
+
                       {/* Review Text */}
                       <div className="flex-1">
-                        <p className="text-gray-700 leading-relaxed text-sm">
-                          {truncateText(review.review, 180)}
+                        <p className="text-gray-700 leading-relaxed text-xs lg:text-sm">
+                          {truncateText(review.review, 150)}
                         </p>
-                        {review.review.length > 180 && (
-                          <button className="text-[#28b8e9] text-sm font-medium mt-2 hover:underline">
+                        {review.review.length > 150 && (
+                          <button className="text-[#EDB23A] text-xs lg:text-sm font-medium mt-2 hover:underline">
                             Read more
                           </button>
                         )}
                       </div>
-                      
+
                       {/* Google Logo */}
-                      <div className="mt-4 pt-4 border-t border-gray-100">
+                      <div className="mt-3 lg:mt-4 pt-3 lg:pt-4 border-t border-gray-100">
                         <div className="flex items-center gap-2">
-                          <div className="w-5 h-5 bg-gradient-to-r from-blue-500 via-red-500 via-yellow-500 to-green-500 rounded-full flex items-center justify-center">
-                            <span className="text-white text-xs font-bold">G</span>
+                          <div className="w-4 h-4 lg:w-5 lg:h-5 bg-gradient-to-r from-blue-500 via-red-500 via-yellow-500 to-green-500 rounded-full flex items-center justify-center">
+                            <span className="text-white text-[10px] lg:text-xs font-bold">G</span>
                           </div>
-                          <span className="text-xs text-gray-500">Google Review</span>
+                          <span className="text-[10px] lg:text-xs text-gray-500">Google Review</span>
                         </div>
                       </div>
                     </CardContent>
@@ -147,22 +147,22 @@ export function ReviewsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="bg-white border-gray-200 text-[#1d588d] hover:bg-gray-50" />
-            <CarouselNext className="bg-white border-gray-200 text-[#1d588d] hover:bg-gray-50" />
+            <CarouselPrevious className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
+            <CarouselNext className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
           </Carousel>
-          
+
           {/* Leave a Review Button */}
-          <div className="text-center mt-12">
-            <Button 
+          <div className="text-center mt-8 lg:mt-12">
+            <Button
               asChild
-              className="bg-[#28b8e9] hover:bg-[#1fa3d1] text-white px-6 py-3 text-lg font-semibold"
+              className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-4 lg:px-6 py-2 lg:py-3 text-sm lg:text-lg font-semibold"
             >
-              <a 
+              <a
                 href="https://search.google.com/local/writereview?placeid=ChIJsRrYQOYjLYcRNYV65Zrt1gs"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Plus className="w-5 h-5 mr-2" />
+                <Plus className="w-4 h-4 lg:w-5 lg:h-5 mr-2" />
                 Leave a Review
               </a>
             </Button>
@@ -179,11 +179,11 @@ export function ReviewsSection() {
               <div className="flex items-start justify-between mb-4">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
-                    <h4 className="text-xl font-semibold text-[#1d588d]">
+                    <h4 className="text-xl font-semibold text-[#0B2545]">
                       {reviews[selectedReview].name}
                     </h4>
                     {reviews[selectedReview].badge && (
-                      <span className="bg-[#28b8e9] text-white text-sm px-3 py-1 rounded-full">
+                      <span className="bg-[#EDB23A] text-white text-sm px-3 py-1 rounded-full">
                         {reviews[selectedReview].badge}
                       </span>
                     )}

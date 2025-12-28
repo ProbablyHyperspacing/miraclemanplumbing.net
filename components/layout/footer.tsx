@@ -4,91 +4,91 @@ import { Phone, MapPin, Clock, Mail, Facebook, Instagram } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="bg-[#1d588d] text-white">
-      <div className="container mx-auto px-8 md:px-12 lg:px-16 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <footer className="bg-[#0B2545] text-white">
+      <div className="container mx-auto px-4 lg:px-16 py-10 lg:py-16">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Company Info */}
-          <div>
-            <div className="mb-6">
+          <div className="col-span-2 lg:col-span-1 text-center lg:text-left">
+            <div className="mb-4 lg:mb-6 flex justify-center lg:justify-start">
               <Image
-                src="/images/Miracle-Man-Plumbing-Prescott-Logo-Border.png"
+                src="/MiracleMan_Logo_Colour.png"
                 alt="Miracle Man Plumbing Logo"
-                width={200}
-                height={80}
-                className="h-16 w-auto"
+                width={240}
+                height={100}
+                className="h-16 lg:h-20 w-auto"
               />
             </div>
-            <p className="text-gray-200 mb-6 leading-relaxed">
+            <p className="text-white mb-4 lg:mb-6 leading-relaxed text-xs lg:text-base">
               Professional plumbing services you can trust. Serving Prescott Valley and surrounding areas since 2005.
             </p>
-            <div className="space-y-3">
-              <div className="flex items-center">
-                <Phone className="w-5 h-5 text-[#28b8e9] mr-3" />
-                <a href="tel:928-830-3575" className="text-white hover:text-[#28b8e9] transition-colors font-semibold">
+            <div className="space-y-2 lg:space-y-3">
+              <div className="flex items-center justify-center lg:justify-start">
+                <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
+                <a href="tel:928-830-3575" className="text-white hover:text-[#EDB23A] transition-colors font-semibold text-sm lg:text-base">
                   928-830-3575
                 </a>
               </div>
-              <div className="flex items-center">
-                <Clock className="w-5 h-5 text-[#28b8e9] mr-3" />
-                <span className="text-[#28b8e9] font-semibold">Available 24/7</span>
+              <div className="flex items-center justify-center lg:justify-start">
+                <Clock className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
+                <span className="text-[#EDB23A] font-semibold text-sm lg:text-base">Available 24/7</span>
               </div>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Our Services</h4>
-            <ul className="space-y-3">
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Emergency Plumbing</Link></li>
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Water Heater Services</Link></li>
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Drain Cleaning</Link></li>
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Pipe Repair & Installation</Link></li>
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Leak Detection</Link></li>
-              <li><Link href="/services" className="text-gray-200 hover:text-[#28b8e9] transition-colors">Hydro Jetting</Link></li>
+            <h4 className="font-bold text-sm lg:text-lg mb-3 lg:mb-6 text-[#EDB23A]">Our Services</h4>
+            <ul className="space-y-2 lg:space-y-3">
+              <li><Link href="/emergency-plumbing" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Emergency Plumbing</Link></li>
+              <li><Link href="/water-heater-services" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Water Heater Services</Link></li>
+              <li><Link href="/drain-cleaning" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Drain Cleaning</Link></li>
+              <li><Link href="/pipe-repair-repiping" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Pipe Repair</Link></li>
+              <li><Link href="/leak-detection-repair" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Leak Detection</Link></li>
+              <li><Link href="/hydro-jetting" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Hydro Jetting</Link></li>
             </ul>
           </div>
 
           {/* Service Areas */}
           <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Service Areas</h4>
-            <ul className="space-y-3">
-              <li className="text-gray-200">Prescott Valley, AZ</li>
-              <li className="text-gray-200">Prescott, AZ</li>
-              <li className="text-gray-200">Chino Valley, AZ</li>
-              <li className="text-gray-200">Dewey-Humboldt, AZ</li>
-              <li className="text-gray-200">Miller Valley, AZ</li>
-              <li><Link href="/service-areas" className="text-[#28b8e9] hover:text-white transition-colors">View All Areas</Link></li>
+            <h4 className="font-bold text-sm lg:text-lg mb-3 lg:mb-6 text-[#EDB23A]">Service Areas</h4>
+            <ul className="space-y-2 lg:space-y-3">
+              <li className="text-gray-200 text-xs lg:text-base">Prescott Valley, AZ</li>
+              <li><Link href="/prescott" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Prescott, AZ</Link></li>
+              <li><Link href="/chino-valley" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Chino Valley, AZ</Link></li>
+              <li><Link href="/dewey-humboldt" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">Dewey-Humboldt, AZ</Link></li>
+              <li className="text-gray-200 text-xs lg:text-base">Miller Valley, AZ</li>
+              <li><Link href="/areas-we-serve" className="text-[#EDB23A] hover:text-white transition-colors text-xs lg:text-base">View All Areas</Link></li>
             </ul>
           </div>
 
           {/* Contact & Social */}
-          <div>
-            <h4 className="font-bold text-lg mb-6 text-white">Contact & Follow</h4>
-            <div className="space-y-4 mb-6">
-              <div className="flex items-start">
-                <MapPin className="w-5 h-5 text-[#28b8e9] mr-3 mt-1 flex-shrink-0" />
-                <div className="text-gray-200">
+          <div className="col-span-2 lg:col-span-1 mt-4 lg:mt-0">
+            <h4 className="font-bold text-sm lg:text-lg mb-3 lg:mb-6 text-[#EDB23A] text-center lg:text-left">Contact & Follow</h4>
+            <div className="space-y-3 lg:space-y-4 mb-4 lg:mb-6">
+              <div className="flex items-start justify-center lg:justify-start">
+                <MapPin className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3 mt-0.5 flex-shrink-0" />
+                <div className="text-gray-200 text-xs lg:text-base">
                   <p>3501 N Dale Dr</p>
                   <p>Prescott Valley, AZ 86314</p>
                 </div>
               </div>
-              <div className="flex items-center">
-                <Mail className="w-5 h-5 text-[#28b8e9] mr-3" />
-                <a href="mailto:info@miraclemanplumbing.net" className="text-gray-200 hover:text-[#28b8e9] transition-colors">
+              <div className="flex items-center justify-center lg:justify-start">
+                <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
+                <a href="mailto:info@miraclemanplumbing.net" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base break-all">
                   info@miraclemanplumbing.net
                 </a>
               </div>
             </div>
 
             {/* Social Media */}
-            <div>
-              <p className="text-white font-semibold mb-3">Follow Us</p>
-              <div className="flex space-x-4">
-                <a href="https://facebook.com/miraclemanplumbing" className="w-10 h-10 bg-[#28b8e9] rounded-full flex items-center justify-center hover:bg-white hover:text-[#1d588d] transition-colors">
-                  <Facebook className="w-5 h-5" />
+            <div className="text-center lg:text-left">
+              <p className="text-white font-semibold mb-2 lg:mb-3 text-sm lg:text-base">Follow Us</p>
+              <div className="flex space-x-3 lg:space-x-4 justify-center lg:justify-start">
+                <a href="https://facebook.com/miraclemanplumbing" className="w-8 h-8 lg:w-10 lg:h-10 bg-[#EDB23A] rounded-full flex items-center justify-center hover:bg-white hover:text-[#0B2545] transition-colors">
+                  <Facebook className="w-4 h-4 lg:w-5 lg:h-5" />
                 </a>
-                <a href="https://instagram.com/miraclemanplumbing" className="w-10 h-10 bg-[#28b8e9] rounded-full flex items-center justify-center hover:bg-white hover:text-[#1d588d] transition-colors">
-                  <Instagram className="w-5 h-5" />
+                <a href="https://instagram.com/miraclemanplumbing" className="w-8 h-8 lg:w-10 lg:h-10 bg-[#EDB23A] rounded-full flex items-center justify-center hover:bg-white hover:text-[#0B2545] transition-colors">
+                  <Instagram className="w-4 h-4 lg:w-5 lg:h-5" />
                 </a>
               </div>
             </div>
@@ -96,14 +96,13 @@ export function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-[#28b8e9]/30 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-gray-200 text-sm">
+        <div className="border-t border-[#EDB23A]/30 mt-8 lg:mt-12 pt-6 lg:pt-8">
+          <div className="flex flex-col items-center space-y-2 lg:flex-row lg:justify-between lg:space-y-0">
+            <div className="text-gray-200 text-xs lg:text-sm text-center">
               <p>&copy; 2024 Miracle Man Plumbing. All rights reserved.</p>
             </div>
-            <div className="flex items-center space-x-6 text-sm text-gray-200">
+            <div className="flex flex-col lg:flex-row items-center lg:space-x-6 text-xs lg:text-sm text-gray-200 text-center">
               <span>Licensed • Bonded • Insured</span>
-              <span className="hidden md:inline">•</span>
               <span>ROC#&apos;S 206195 & 232054</span>
             </div>
           </div>

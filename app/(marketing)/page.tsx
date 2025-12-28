@@ -1,4 +1,6 @@
 import { HeroSection } from '@/components/sections/hero-section'
+import { TrustBadges } from '@/components/sections/trust-badges'
+import { MobileContactForm } from '@/components/sections/mobile-contact-form'
 import { ServicesOverview } from '@/components/sections/services-overview'
 import { CallToActionBar } from '@/components/sections/call-to-action-bar'
 import { WhyChooseUs } from '@/components/sections/why-choose-us'
@@ -15,6 +17,8 @@ export default function HomePage() {
   return (
     <div>
       <HeroSection />
+      <TrustBadges />
+      <MobileContactForm />
       <ServicesOverview />
       <CallToActionBar />
       <WhyChooseUs />

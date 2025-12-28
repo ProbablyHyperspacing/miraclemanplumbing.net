@@ -89,18 +89,18 @@ export function RecentProjectsSection() {
   }, [api])
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-8 md:px-12 lg:px-16">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1d588d] mb-4">
+    <section className="py-10 lg:py-20 bg-white">
+      <div className="container mx-auto px-4 lg:px-16">
+        <div className="text-center mb-8 lg:mb-16">
+          <h2 className="text-2xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4 nav-font">
             Recent Projects
           </h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-sm lg:text-xl text-gray-600">
             Take a look at our latest plumbing work in Prescott Valley
           </p>
         </div>
-        
-        <Carousel 
+
+        <Carousel
           className="w-full max-w-6xl mx-auto"
           setApi={setApi}
           opts={{
@@ -110,9 +110,9 @@ export function RecentProjectsSection() {
         >
           <CarouselContent className="-ml-2">
             {projects.map((project) => (
-              <CarouselItem key={project.id} className="pl-2 md:basis-1/2 lg:basis-1/3">
-                <Card className="h-[400px] flex flex-col shadow-lg hover:shadow-xl transition-shadow group">
-                  <div className="relative h-[250px] overflow-hidden rounded-t-lg">
+              <CarouselItem key={project.id} className="pl-2 basis-[85%] md:basis-1/2 lg:basis-1/3">
+                <Card className="h-[300px] lg:h-[400px] flex flex-col shadow-lg hover:shadow-xl transition-shadow group bg-white border-none">
+                  <div className="relative h-[180px] lg:h-[250px] overflow-hidden rounded-t-lg">
                     <Image
                       src={project.image}
                       alt={project.title}
@@ -121,13 +121,13 @@ export function RecentProjectsSection() {
                       sizes="(max-width: 1024px) 100vw, 50vw"
                     />
                   </div>
-                  
-                  <CardContent className="p-6 flex flex-col justify-between flex-1">
+
+                  <CardContent className="p-4 lg:p-6 flex flex-col justify-between flex-1">
                     <div>
-                      <h3 className="text-xl font-bold text-[#1d588d] mb-2">
+                      <h3 className="text-base lg:text-xl font-bold text-[#0B2545] mb-1 lg:mb-2">
                         {project.title}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-gray-600 text-xs lg:text-sm leading-relaxed">
                         {project.description}
                       </p>
                     </div>
@@ -136,33 +136,33 @@ export function RecentProjectsSection() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="bg-white border-gray-200 text-[#1d588d] hover:bg-gray-50" />
-          <CarouselNext className="bg-white border-gray-200 text-[#1d588d] hover:bg-gray-50" />
+          <CarouselPrevious className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
+          <CarouselNext className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
         </Carousel>
-        
+
         {/* Progress indicators */}
-        <div className="flex justify-center mt-8 gap-2">
+        <div className="flex justify-center mt-6 lg:mt-8 gap-2">
           {projects.map((_, index) => (
             <button
               key={index}
               className={`w-2 h-2 rounded-full transition-colors ${
-                index === current ? 'bg-[#28b8e9]' : 'bg-gray-300'
+                index === current ? 'bg-[#EDB23A]' : 'bg-gray-300'
               }`}
               onClick={() => api?.scrollTo(index)}
             />
           ))}
         </div>
-        
+
         {/* View More Button */}
-        <div className="text-center mt-12">
-          <Button 
+        <div className="text-center mt-8 lg:mt-12">
+          <Button
             asChild
-            size="lg"
-            className="bg-[#28b8e9] hover:bg-[#1fa3d1] text-white px-8 py-3 text-lg font-semibold"
+            size="default"
+            className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-4 lg:px-8 py-2 lg:py-3 text-sm lg:text-lg font-semibold"
           >
             <Link href="/gallery">
               View More Projects
-              <ChevronRight className="w-5 h-5 ml-2" />
+              <ChevronRight className="w-4 h-4 lg:w-5 lg:h-5 ml-2" />
             </Link>
           </Button>
         </div>

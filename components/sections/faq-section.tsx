@@ -73,20 +73,20 @@ export function FAQSection() {
   }
 
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-8 md:px-12 lg:px-16">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1d588d] mb-4">
+    <section className="py-10 lg:py-20 bg-gray-50">
+      <div className="container mx-auto px-4 lg:px-16">
+        <div className="text-center mb-6 lg:mb-16">
+          <h2 className="text-2xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4 nav-font">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-sm lg:text-xl text-gray-600 max-w-2xl mx-auto">
             Find answers to common questions about our plumbing services in Prescott Valley
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-          {/* Left side - Image */}
-          <div className="flex justify-center lg:justify-start h-[450px]">
+          {/* Left side - Image (hidden on mobile) */}
+          <div className="hidden lg:flex justify-start h-[450px]">
             <Image
               src="/images/MMPfaq.jpg.webp"
               alt="Miracle Man Plumbing professional plumber answering customer questions"
@@ -95,31 +95,31 @@ export function FAQSection() {
               className="rounded-lg shadow-xl object-cover h-full w-auto"
             />
           </div>
-          
+
           {/* Right side - FAQ Accordion */}
-          <div className="space-y-4">
+          <div className="space-y-3 lg:space-y-4">
             {faqs.map((faq, index) => (
               <div key={faq.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                 <button
                   onClick={() => toggleAccordion(index)}
-                  className="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors h-[100px]"
+                  className="w-full px-4 lg:px-6 py-4 lg:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors min-h-[70px] lg:h-[100px]"
                 >
-                  <h3 className="text-xl font-bold text-[#1d588d]">
+                  <h3 className="text-sm lg:text-xl font-bold text-[#0B2545] pr-2">
                     {faq.question}
                   </h3>
-                  <ChevronDown 
-                    className={`w-5 h-5 text-[#1d588d] transition-transform duration-300 ${
+                  <ChevronDown
+                    className={`w-5 h-5 text-[#0B2545] transition-transform duration-300 flex-shrink-0 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
                 <div className={`transition-all duration-300 ease-out ${
-                  openIndex === index 
-                    ? 'max-h-40 opacity-100' 
+                  openIndex === index
+                    ? 'max-h-48 lg:max-h-40 opacity-100'
                     : 'max-h-0 opacity-0 overflow-hidden'
                 }`}>
-                  <div className="px-6 pb-4 bg-gray-50">
-                    <p className="text-gray-600 leading-relaxed">
+                  <div className="px-4 lg:px-6 pb-4 bg-gray-50">
+                    <p className="text-gray-600 leading-relaxed text-sm lg:text-base">
                       {faq.answer}
                     </p>
                   </div>
@@ -130,39 +130,39 @@ export function FAQSection() {
         </div>
 
         {/* Additional Full-Width FAQ Section */}
-        <div className="mt-16">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-[#1d588d] mb-4">
+        <div className="mt-10 lg:mt-16">
+          <div className="text-center mb-6 lg:mb-12">
+            <h3 className="text-xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4">
               More Questions & Answers
             </h3>
-            <p className="text-lg text-gray-600">
+            <p className="text-sm lg:text-lg text-gray-600">
               Get detailed answers to common plumbing questions
             </p>
           </div>
-          
-          <div className="space-y-4">
+
+          <div className="space-y-3 lg:space-y-4">
             {additionalFaqs.map((faq, index) => (
               <div key={faq.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                 <button
                   onClick={() => toggleAdditionalAccordion(index)}
-                  className="w-full px-6 py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
+                  className="w-full px-4 lg:px-6 py-4 lg:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
                 >
-                  <h3 className="text-lg md:text-xl font-bold text-[#1d588d] pr-4">
+                  <h3 className="text-sm lg:text-xl font-bold text-[#0B2545] pr-2">
                     {faq.question}
                   </h3>
-                  <ChevronDown 
-                    className={`w-5 h-5 text-[#1d588d] transition-transform duration-300 flex-shrink-0 ${
+                  <ChevronDown
+                    className={`w-5 h-5 text-[#0B2545] transition-transform duration-300 flex-shrink-0 ${
                       additionalOpenIndex === index ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
                 <div className={`transition-all duration-300 ease-out ${
-                  additionalOpenIndex === index 
-                    ? 'max-h-96 opacity-100' 
+                  additionalOpenIndex === index
+                    ? 'max-h-[500px] lg:max-h-96 opacity-100'
                     : 'max-h-0 opacity-0 overflow-hidden'
                 }`}>
-                  <div className="px-6 pb-6 bg-gray-50">
-                    <p className="text-gray-700 leading-relaxed">
+                  <div className="px-4 lg:px-6 pb-4 lg:pb-6 bg-gray-50">
+                    <p className="text-gray-700 leading-relaxed text-sm lg:text-base">
                       {faq.answer}
                     </p>
                   </div>
@@ -171,22 +171,22 @@ export function FAQSection() {
             ))}
           </div>
         </div>
-        
+
         {/* Contact CTA */}
-        <div className="text-center mt-12">
-          <p className="text-gray-600 mb-4">
+        <div className="text-center mt-8 lg:mt-12">
+          <p className="text-gray-600 mb-4 text-sm lg:text-base">
             Still have questions? We&apos;re here to help!
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
+          <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 justify-center">
+            <a
               href="tel:(928) 713-0004"
-              className="inline-flex items-center justify-center px-6 py-3 bg-[#28b8e9] hover:bg-[#1fa3d1] text-white font-semibold rounded-lg transition-colors"
+              className="inline-flex items-center justify-center px-4 lg:px-6 py-2.5 lg:py-3 bg-[#EDB23A] hover:bg-[#C08222] text-white font-semibold rounded-lg transition-colors text-sm lg:text-base"
             >
               Call (928) 713-0004
             </a>
-            <a 
+            <a
               href="mailto:info@miraclemanplumbing.com"
-              className="inline-flex items-center justify-center px-6 py-3 border-2 border-[#1d588d] text-[#1d588d] hover:bg-[#1d588d] hover:text-white font-semibold rounded-lg transition-colors"
+              className="inline-flex items-center justify-center px-4 lg:px-6 py-2.5 lg:py-3 border-2 border-[#0B2545] text-[#0B2545] hover:bg-[#0B2545] hover:text-white font-semibold rounded-lg transition-colors text-sm lg:text-base"
             >
               Send Email
             </a>
