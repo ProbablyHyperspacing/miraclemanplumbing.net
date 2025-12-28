@@ -22,8 +22,7 @@ export function CallToActionBar() {
           <Button
             size="lg"
             asChild
-            variant="outline"
-            className="w-full border-2 border-[#0B2545] text-[#0B2545] hover:bg-[#0B2545] hover:text-white py-4 text-lg font-semibold rounded-full"
+            className="w-full bg-[#0B2545] hover:bg-[#091B36] text-white py-4 text-lg font-semibold rounded-full"
           >
             <Link href="/contact">Get Free Estimate</Link>
           </Button>

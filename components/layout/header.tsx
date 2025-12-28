@@ -206,8 +206,7 @@ export function Header() {
               <Button
                 size="sm"
                 asChild
-                variant="outline"
-                className="border-[#0B2545] text-[#0B2545] hover:bg-[#0B2545] hover:text-white font-semibold px-6 rounded-md"
+                className="bg-[#0B2545] hover:bg-[#091B36] text-white font-semibold px-6 rounded-md"
               >
                 <Link href="/contact">
                   Contact Us
