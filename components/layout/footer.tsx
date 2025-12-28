@@ -13,23 +13,23 @@ export function Footer() {
               <Image
                 src="/MiracleMan_Logo_Colour.png"
                 alt="Miracle Man Plumbing Logo"
-                width={240}
-                height={100}
-                className="h-16 lg:h-20 w-auto"
+                width={280}
+                height={120}
+                className="h-24 lg:h-20 w-auto"
               />
             </div>
             <p className="text-white mb-4 lg:mb-6 leading-relaxed text-xs lg:text-base">
               Professional plumbing services you can trust. Serving Prescott Valley and surrounding areas since 2005.
             </p>
-            <div className="space-y-2 lg:space-y-3">
+            <div className="space-y-3 lg:space-y-3">
+              <a href="tel:+19288303575" className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
+                <Phone className="w-6 h-6 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
+                <span className="text-[#EDB23A] font-bold text-xl lg:text-base">
+                  (928) 830-3575
+                </span>
+              </a>
               <div className="flex items-center justify-center lg:justify-start">
-                <Phone className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
-                <a href="tel:928-830-3575" className="text-white hover:text-[#EDB23A] transition-colors font-semibold text-sm lg:text-base">
-                  928-830-3575
-                </a>
-              </div>
-              <div className="flex items-center justify-center lg:justify-start">
-                <Clock className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
+                <Clock className="w-5 h-5 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
                 <span className="text-[#EDB23A] font-semibold text-sm lg:text-base">Available 24/7</span>
               </div>
             </div>
@@ -72,12 +72,12 @@ export function Footer() {
                   <p>Prescott Valley, AZ 86314</p>
                 </div>
               </div>
-              <div className="flex items-center justify-center lg:justify-start">
+              <a href="mailto:service@miraclemanplumbing.net" className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
                 <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
-                <a href="mailto:info@miraclemanplumbing.net" className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base break-all">
-                  info@miraclemanplumbing.net
-                </a>
-              </div>
+                <span className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base break-all">
+                  service@miraclemanplumbing.net
+                </span>
+              </a>
             </div>
 
             {/* Social Media */}

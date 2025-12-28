@@ -184,9 +184,9 @@ export function Header() {
                 <Image
                   src="/MiracleMan_Logo_Colour.png"
                   alt="Miracle Man Plumbing"
-                  width={280}
-                  height={100}
-                  className="h-20 w-auto"
+                  width={320}
+                  height={120}
+                  className="h-28 w-auto"
                 />
               </Link>
             </div>

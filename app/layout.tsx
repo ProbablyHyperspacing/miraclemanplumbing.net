@@ -28,12 +28,13 @@ export default function RootLayout({
         <Toaster />
         <AnalyticsProviders />
 
-        {/* Floating Inquire Button */}
+        {/* Floating Contact Button */}
         <Link
           href="/contact"
           className="fixed bottom-6 right-6 bg-[#EDB23A] hover:bg-[#C08222] text-[#0B2545] px-6 py-3 rounded-full font-bold shadow-lg hover:shadow-xl transition-all duration-300 z-50 flex items-center space-x-2"
         >
-          <span>Inquire</span>
+          <span className="hidden md:inline">Inquire</span>
+          <span className="md:hidden">Contact</span>
         </Link>
       </body>
     </html>

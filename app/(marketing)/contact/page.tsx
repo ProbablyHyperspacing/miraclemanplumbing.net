@@ -169,26 +169,26 @@ export default function ContactPage() {
                 </h3>
 
                 <div className="space-y-6">
-                  <div className="flex items-center">
+                  <a href="tel:+19288303575" className="flex items-center hover:bg-gray-50 p-2 -m-2 rounded-lg transition-colors">
                     <div className="bg-[#0B2545] rounded-lg p-3 mr-4">
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0B2545]">Phone</h4>
-                      <p className="text-gray-600">(928) 830-3575</p>
+                      <p className="text-[#EDB23A] font-semibold">(928) 830-3575</p>
                       <p className="text-sm text-gray-500">24/7 Emergency Service</p>
                     </div>
-                  </div>
+                  </a>
 
-                  <div className="flex items-center">
+                  <a href="mailto:service@miraclemanplumbing.net" className="flex items-center hover:bg-gray-50 p-2 -m-2 rounded-lg transition-colors">
                     <div className="bg-[#0B2545] rounded-lg p-3 mr-4">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0B2545]">Email</h4>
-                      <p className="text-gray-600">info@miraclemanplumbing.com</p>
+                      <p className="text-[#EDB23A] font-semibold">service@miraclemanplumbing.net</p>
                     </div>
-                  </div>
+                  </a>
 
                   <div className="flex items-center">
                     <div className="bg-[#0B2545] rounded-lg p-3 mr-4">
@@ -206,8 +206,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0B2545]">Hours</h4>
-                      <p className="text-gray-600">Mon-Fri: 8AM-6PM</p>
-                      <p className="text-gray-600">Sat-Sun: Emergency Service Only</p>
+                      <p className="text-gray-600">7 Days a Week: 8AM-6PM</p>
+                      <p className="text-gray-600">24/7 Emergency Service</p>
                     </div>
                   </div>
                 </div>

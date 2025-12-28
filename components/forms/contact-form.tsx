@@ -4,7 +4,6 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
@@ -152,9 +151,13 @@ export function ContactForm() {
         )}
       </div>
       
-      <Button type="submit" disabled={isSubmitting} className="w-full bg-[#EDB23A] hover:bg-[#C08222] text-[#0B2545]">
+      <button
+        type="submit"
+        disabled={isSubmitting}
+        className="w-full bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+      >
         {isSubmitting ? 'Sending...' : 'Get Free Quote'}
-      </Button>
+      </button>
     </form>
   )
 }

@@ -4,11 +4,11 @@ export const SITE_CONFIG = {
   url: 'https://miraclemanplumbing.com',
   phone: '(928) 830-3575',
   phoneDisplay: '928 830 3575',
-  email: 'info@miraclemanplumbing.com',
+  email: 'service@miraclemanplumbing.net',
   address: 'Prescott Valley, AZ',
   hours: {
     emergency: '24/7 Emergency Service',
-    regular: 'Mon-Fri: 8AM-6PM, Sat: 9AM-4PM'
+    regular: '7 Days a Week: 8AM-6PM'
   }
 }
 
