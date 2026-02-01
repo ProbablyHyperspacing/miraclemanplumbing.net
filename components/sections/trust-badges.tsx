@@ -6,7 +6,7 @@ const badges = [
   {
     icon: Star,
     title: "5-Star Rated",
-    subtitle: "70+ Five-Star Reviews"
+    subtitle: "400+ Five-Star Reviews"
   },
   {
     icon: Shield,

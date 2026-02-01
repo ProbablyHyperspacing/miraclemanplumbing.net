@@ -176,7 +176,7 @@ export function Header() {
 
       {/* Mobile Layout */}
       <div className="lg:hidden">
-        <div className="bg-white border-b border-gray-200">
+        <div className="bg-[#0B2545]">
           <div className="container mx-auto px-4">
             {/* Logo Row */}
             <div className="flex items-center justify-center py-4">
@@ -206,7 +206,7 @@ export function Header() {
               <Button
                 size="sm"
                 asChild
-                className="bg-[#0B2545] hover:bg-[#091B36] text-white font-semibold px-6 rounded-md"
+                className="bg-white hover:bg-gray-100 text-[#0B2545] font-semibold px-6 rounded-md"
               >
                 <Link href="/contact">
                   Contact Us
@@ -218,7 +218,7 @@ export function Header() {
                 variant="ghost"
                 size="sm"
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="text-[#0B2545] hover:text-[#EDB23A] hover:bg-transparent ml-2"
+                className="text-white hover:text-[#EDB23A] hover:bg-transparent ml-2"
               >
                 {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
               </Button>
