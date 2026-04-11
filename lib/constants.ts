@@ -35,6 +35,7 @@ export const NAVIGATION_ITEMS = [
   { href: '/areas-we-serve', label: 'Areas We Serve' },
   { href: '/blog', label: 'Blog' },
   { href: '/faqs', label: 'FAQs' },
+  { href: '/careers', label: 'Careers' },
   { href: '/contact', label: 'Contact Us' },
 ]
 
