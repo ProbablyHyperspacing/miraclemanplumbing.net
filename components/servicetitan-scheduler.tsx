@@ -11,7 +11,7 @@ export function ServiceTitanScheduler() {
     s.id = 'se-widget-embed'
     s.src = 'https://embed.scheduler.servicetitan.com/scheduler-v1.js'
     s.setAttribute('data-api-key', 'd6x7vyzymgttqqkzfknobns7')
-    s.setAttribute('data-schedulerid', 'sched_nmq8ab4annna49825sra380q')
+    s.setAttribute('data-schedulerid', 'sched_nmq8ab4anmna49825sra380q')
     s.defer = true
     document.body.appendChild(s)
   }, [])
