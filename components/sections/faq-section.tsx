@@ -36,7 +36,7 @@ const additionalFaqs = [
   {
     id: 6,
     question: "What are the signs that my sewer line might be damaged or clogged?",
-    answer: "Slow drains throughout the house, gurgling toilets, sewage odors, and occasional backups often point to a sewer line issue. Invasive tree roots, shifting soil, or pipe deterioration are common in Prescott Valley. Unlike a simple drain clog, a compromised sewer line needs professional diagnostics. We use video camera inspections to locate the exact problem—whether it's a blockage, break, or sagging section—so we can recommend the most efficient, least invasive repair method possible."
+    answer: "Slow drains throughout the house, gurgling toilets, sewage odors, and occasional backups often point to a sewer line issue. Invasive tree roots, shifting soil, or pipe deterioration are common in Prescott Valley. Unlike a simple drain clog, a compromised sewer line needs professional diagnostics. We use video camera inspections to locate the exact problem, whether it's a blockage, break, or sagging section, so we can recommend the most efficient, least invasive repair method possible."
   },
   {
     id: 7,
@@ -46,7 +46,7 @@ const additionalFaqs = [
   {
     id: 8,
     question: "What are the long-term advantages of installing a tankless water heater?",
-    answer: "Tankless water heaters provide hot water on demand and typically last longer than traditional tanks. They're highly efficient, reducing energy costs, and they save space. For households with unpredictable hot water usage, they offer unlimited supply without standby heat loss. Miracle Man Plumbing Inc. assesses your home's size and usage habits to recommend the right unit and ensure it's installed with proper venting, gas supply, and water filtration—key to ensuring your investment pays off."
+    answer: "Tankless water heaters provide hot water on demand and typically last longer than traditional tanks. They're highly efficient, reducing energy costs, and they save space. For households with unpredictable hot water usage, they offer unlimited supply without standby heat loss. Miracle Man Plumbing Inc. assesses your home's size and usage habits to recommend the right unit and ensure it's installed with proper venting, gas supply, and water filtration, which is key to ensuring your investment pays off."
   },
   {
     id: 9,
@@ -56,7 +56,7 @@ const additionalFaqs = [
   {
     id: 10,
     question: "How can I reduce water waste and lower my monthly bill?",
-    answer: "Start by fixing small leaks—dripping faucets and running toilets waste gallons daily. Install low-flow fixtures and consider a pressure regulator if your pressure exceeds 80 PSI. Water softeners also reduce scaling, improving appliance efficiency. Miracle Man Plumbing Inc. offers water audits and eco-friendly product installations to help you cut waste and save money without sacrificing comfort or performance."
+    answer: "Start by fixing small leaks. Dripping faucets and running toilets waste gallons daily. Install low-flow fixtures and consider a pressure regulator if your pressure exceeds 80 PSI. Water softeners also reduce scaling, improving appliance efficiency. Miracle Man Plumbing Inc. offers water audits and eco-friendly product installations to help you cut waste and save money without sacrificing comfort or performance."
   }
 ]
 

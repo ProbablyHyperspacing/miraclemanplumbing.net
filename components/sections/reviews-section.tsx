@@ -38,7 +38,7 @@ const reviews = [
     name: "Alexis Rounds",
     rating: 5,
     timeAgo: "2 weeks ago",
-    review: "Hands down the best plumbing experience we've ever had. Neil replaced all three of our toilets quickly and with great attention to detail. Extremely knowledgeable, thorough, and clearly committed to quality—no shortcuts taken. We'll definitely be using Miracle Man Plumbing again."
+    review: "Hands down the best plumbing experience we've ever had. Neil replaced all three of our toilets quickly and with great attention to detail. Extremely knowledgeable, thorough, and clearly committed to quality - no shortcuts taken. We'll definitely be using Miracle Man Plumbing again."
   },
   {
     name: "RJ Johnson",

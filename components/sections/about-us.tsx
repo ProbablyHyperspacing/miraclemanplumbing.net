@@ -44,7 +44,7 @@ export function AboutUs() {
                 <span className="font-semibold text-[#0B2545]">Miracle Man Plumbing Inc.</span>, proudly owned and operated by Caleb, has been delivering trusted residential and commercial plumbing services in Prescott Valley, Arizona since 2005.
               </p>
               <p className="text-gray-700 leading-relaxed text-sm lg:text-lg mb-4 lg:mb-6 text-center lg:text-left">
-                As a licensed and certified Master Plumber, Caleb leads with experience, integrity, and a commitment to quality workmanship. From drain cleaning and hydro jetting to water heater repair and installation, we handle it all—day or night.
+                As a licensed and certified Master Plumber, Caleb leads with experience, integrity, and a commitment to quality workmanship. From drain cleaning and hydro jetting to water heater repair and installation, we handle it all, day or night.
               </p>
               <p className="text-gray-700 leading-relaxed text-sm lg:text-lg text-center lg:text-left">
                 Locally owned and available 24/7, we offer honest, fair pricing and dependable service you can count on.

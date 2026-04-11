@@ -129,7 +129,7 @@ export default function RegularDrainCleaningPage() {
 
               <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl p-8 text-white mt-12">
                 <p className="text-lg leading-relaxed">
-                  Miracle Man Plumbing Inc. has proudly served homeowners in Prescott Valley, AZ, for over 20 years with reliable and professional plumbing solutions. Don&apos;t wait for a major plumbing issue to disrupt your home—schedule your regular drain cleaning service today and experience the peace of mind that comes from a properly maintained plumbing system. Call us now to keep your drains flowing freely!
+                  Miracle Man Plumbing Inc. has proudly served homeowners in Prescott Valley, AZ, for over 20 years with reliable and professional plumbing solutions. Don&apos;t wait for a major plumbing issue to disrupt your home. Schedule your regular drain cleaning service today and experience the peace of mind that comes from a properly maintained plumbing system. Call us now to keep your drains flowing freely!
                 </p>
 
                 <div className="mt-6">

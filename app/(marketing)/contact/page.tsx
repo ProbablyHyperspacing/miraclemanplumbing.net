@@ -54,7 +54,7 @@ export default function ContactPage() {
               Schedule Your Service
             </h2>
             <p className="text-xl text-gray-600">
-              Book an appointment online — fast and easy.
+              Book an appointment online, fast and easy.
             </p>
           </div>
 

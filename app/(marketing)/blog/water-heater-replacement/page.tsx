@@ -122,7 +122,7 @@ export default function WaterHeaterReplacementPage() {
 
               <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl p-8 text-white mt-12">
                 <p className="text-lg leading-relaxed">
-                  If you&apos;re experiencing any of these signs, it&apos;s time to call the experts. Miracle Man Plumbing Inc. has been providing trusted plumbing services in Prescott Valley, AZ, for over 20 years. Our skilled team can inspect your system, recommend the best solution, and professionally install a new, efficient water heater tailored to your needs. Don&apos;t wait for a total breakdown—contact us today to schedule your water heater inspection and replacement!
+                  If you&apos;re experiencing any of these signs, it&apos;s time to call the experts. Miracle Man Plumbing Inc. has been providing trusted plumbing services in Prescott Valley, AZ, for over 20 years. Our skilled team can inspect your system, recommend the best solution, and professionally install a new, efficient water heater tailored to your needs. Don&apos;t wait for a total breakdown. Contact us today to schedule your water heater inspection and replacement!
                 </p>
 
                 <div className="mt-6">

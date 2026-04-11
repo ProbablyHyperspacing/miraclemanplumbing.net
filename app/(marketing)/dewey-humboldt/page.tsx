@@ -243,7 +243,7 @@ export default function DeweyHumboldtPage() {
                   &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="text-[#0B2545] font-bold text-lg">
-                  — {review.author}
+                  - {review.author}
                 </div>
               </div>
             ))}

@@ -115,7 +115,7 @@ export default function HydroJettingBenefitsPage() {
 
               <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl p-8 text-white mt-12">
                 <p className="text-lg leading-relaxed">
-                  When you need professional hydro jetting services in Prescott Valley, AZ, Miracle Man Plumbing Inc. is the trusted team to call. With over 20 years of experience, we have the expertise to safely and efficiently clear your pipes, no matter the severity of the blockage. Our team uses the latest hydro jetting technology to ensure your plumbing is thoroughly cleaned and protected. Don&apos;t wait for clogs to cause bigger problems—contact us today to schedule your hydro jetting service and experience the benefits of a cleaner, healthier plumbing system!
+                  When you need professional hydro jetting services in Prescott Valley, AZ, Miracle Man Plumbing Inc. is the trusted team to call. With over 20 years of experience, we have the expertise to safely and efficiently clear your pipes, no matter the severity of the blockage. Our team uses the latest hydro jetting technology to ensure your plumbing is thoroughly cleaned and protected. Don&apos;t wait for clogs to cause bigger problems. Contact us today to schedule your hydro jetting service and experience the benefits of a cleaner, healthier plumbing system!
                 </p>
 
                 <div className="mt-6">
