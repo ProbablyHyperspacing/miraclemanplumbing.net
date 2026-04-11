@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { BookNowButton } from '@/components/ui/book-now-button'
 import { ContactForm } from '@/components/forms/contact-form'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { SITE_CONFIG } from '@/lib/constants'
@@ -105,13 +106,9 @@ export function HeroSection() {
 
               {/* Action Buttons */}
               <div className="flex gap-4">
-                <Button
-                  size="lg"
-                  asChild
-                  className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold"
-                >
-                  <Link href="/contact">Contact Us</Link>
-                </Button>
+                <BookNowButton className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold rounded-md">
+                  Book Now
+                </BookNowButton>
 
                 <Button
                   size="lg"

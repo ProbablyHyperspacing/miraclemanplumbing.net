@@ -56,7 +56,7 @@ export function AboutUs() {
           <div className="flex justify-center order-1 lg:order-2">
             <div className="relative">
               <Image
-                src="/images/MMPteam.JPG"
+                src="/miracle man team photo.jpg"
                 alt="Miracle Man Plumbing Team"
                 width={500}
                 height={600}

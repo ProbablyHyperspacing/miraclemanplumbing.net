@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { MapPin, Phone, Clock, Mail } from 'lucide-react'
+import { ContactForm } from '@/components/forms/contact-form'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Miracle Man Plumbing - Prescott Valley, AZ',
@@ -45,120 +46,43 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Form Section */}
+      {/* Scheduler Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-8 md:px-12 lg:px-16">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#0B2545] mb-4">
+              Schedule Your Service
+            </h2>
+            <p className="text-xl text-gray-600">
+              Book an appointment online — fast and easy.
+            </p>
+          </div>
+
+          {/* ServiceTitan Scheduler Embed */}
+          <div className="max-w-3xl mx-auto" id="servicetitan-scheduler">
+            <div className="se-booking-show" />
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form & Info Section */}
+      <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-8 md:px-12 lg:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Left side - Contact Form */}
+            {/* Left side - General Inquiry Form */}
             <div className="space-y-6">
               <div className="mb-8">
                 <h2 className="text-4xl md:text-5xl font-bold text-[#0B2545] mb-4">
-                  Get Your Free Estimate
+                  Send Us a Message
                 </h2>
                 <p className="text-xl text-gray-600">
-                  Ready to solve your plumbing problems? Contact us today for professional service.
+                  Have a question or need more info? Reach out and we&apos;ll get back to you.
                 </p>
               </div>
 
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                      First Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="Your first name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                      Last Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="lastName"
-                      name="lastName"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="Your last name"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number *
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="(555) 123-4567"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Service Needed
-                  </label>
-                  <select
-                    id="service"
-                    name="service"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                  >
-                    <option value="">Select a service</option>
-                    <option value="emergency">Emergency Repair</option>
-                    <option value="installation">Installation</option>
-                    <option value="maintenance">Maintenance</option>
-                    <option value="drain-cleaning">Drain Cleaning</option>
-                    <option value="water-heater">Water Heater Service</option>
-                    <option value="hydro-jetting">Hydro Jetting</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors resize-vertical bg-white text-[#0B2545]"
-                    placeholder="Please describe your plumbing needs or any questions you have..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#0B2545] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#091B36] transition-colors shadow-lg"
-                >
-                  Send Message
-                </button>
-              </form>
+              <div className="bg-white rounded-xl shadow-lg p-8">
+                <ContactForm />
+              </div>
             </div>
 
             {/* Right side - Contact Info & Map */}

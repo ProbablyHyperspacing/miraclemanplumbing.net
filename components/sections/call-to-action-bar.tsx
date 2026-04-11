@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
+import { BookNowButton } from '@/components/ui/book-now-button'
 import { Phone, Calculator } from 'lucide-react'
 import { SITE_CONFIG } from '@/lib/constants'
 
@@ -19,13 +22,9 @@ export function CallToActionBar() {
               Call Now: 928-830-3575
             </Link>
           </Button>
-          <Button
-            size="lg"
-            asChild
-            className="w-full bg-[#0B2545] hover:bg-[#091B36] text-white py-4 text-lg font-semibold rounded-full"
-          >
-            <Link href="/contact">Get Free Estimate</Link>
-          </Button>
+          <BookNowButton className="w-full bg-[#0B2545] hover:bg-[#091B36] text-white py-4 text-lg font-semibold rounded-full inline-flex items-center justify-center">
+            Book Now
+          </BookNowButton>
         </div>
 
         {/* Desktop Layout */}
@@ -53,13 +52,9 @@ export function CallToActionBar() {
             </div>
             <div>
               <p className="text-lg font-medium text-[#0B2545] mb-2">Want a Free Quote?</p>
-              <Button
-                size="lg"
-                asChild
-                className="bg-[#0B2545] hover:bg-[#C08222] text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
-              >
-                <Link href="/contact">Get Free Estimate</Link>
-              </Button>
+              <BookNowButton className="bg-[#0B2545] hover:bg-[#C08222] text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all rounded-md">
+                Book Now
+              </BookNowButton>
             </div>
           </div>
         </div>
