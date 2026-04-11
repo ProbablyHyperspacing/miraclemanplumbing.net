@@ -71,29 +71,38 @@ export function ReviewsSection() {
 
   return (
     <>
-      <section className="py-10 lg:py-20 bg-white">
-        <div className="container mx-auto px-4 lg:px-16">
-          <div className="text-center mb-8 lg:mb-16">
-            <h2 className="text-2xl lg:text-4xl font-bold text-[#0B2545] mb-2 lg:mb-4 nav-font">
+      <section className="py-8 lg:py-12 bg-white">
+        <div className="mx-auto px-4 lg:px-8">
+          <div className="text-center mb-6 lg:mb-8">
+            <h2 className="text-2xl lg:text-3xl font-bold text-[#0B2545] mb-1 lg:mb-2 nav-font">
               What Our Customers Say
             </h2>
-            <p className="text-sm lg:text-xl text-gray-600">
+            <p className="text-sm lg:text-base text-gray-600">
               Real reviews from satisfied customers in Prescott Valley
             </p>
+            <div className="flex items-center justify-center gap-2 mt-2">
+              <div className="flex items-center gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className={`w-5 h-5 ${i < 5 ? 'fill-yellow-400 text-yellow-400' : 'fill-gray-200 text-gray-200'}`} />
+                ))}
+              </div>
+              <span className="text-lg font-bold text-[#0B2545]">4.9</span>
+              <span className="text-sm text-gray-500">from 435 reviews</span>
+            </div>
           </div>
 
           <Carousel
-            className="w-full max-w-6xl mx-auto"
+            className="w-full"
             opts={{
               align: "start",
               loop: true,
             }}
           >
-            <CarouselContent className="-ml-2">
+            <CarouselContent className="-ml-4 pb-4">
               {reviews.map((review, index) => (
-                <CarouselItem key={index} className="pl-2 basis-[85%] md:basis-1/2 lg:basis-1/3">
+                <CarouselItem key={index} className="pl-4 basis-[85%] md:basis-1/3 lg:basis-1/5">
                   <Card
-                    className="h-[300px] lg:h-[350px] flex flex-col shadow-lg hover:shadow-xl transition-shadow cursor-pointer bg-white border-none"
+                    className="h-[300px] lg:h-[350px] flex flex-col shadow-md hover:shadow-lg transition-shadow cursor-pointer bg-white border border-gray-100"
                     onClick={() => setSelectedReview(index)}
                   >
                     <CardContent className="p-4 lg:p-6 flex flex-col h-full">
@@ -147,12 +156,10 @@ export function ReviewsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
-            <CarouselNext className="hidden lg:flex bg-white border-gray-200 text-[#0B2545] hover:bg-gray-50" />
           </Carousel>
 
           {/* Leave a Review Button */}
-          <div className="text-center mt-8 lg:mt-12">
+          <div className="text-center mt-6 lg:mt-8">
             <Button
               asChild
               className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-4 lg:px-6 py-2 lg:py-3 text-sm lg:text-lg font-semibold"

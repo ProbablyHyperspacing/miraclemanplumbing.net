@@ -4,8 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { BookNowButton } from '@/components/ui/book-now-button'
-import { ContactForm } from '@/components/forms/contact-form'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { SITE_CONFIG } from '@/lib/constants'
 import { Phone } from 'lucide-react'
 
@@ -36,8 +34,8 @@ export function HeroSection() {
 
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center justify-center min-h-[60vh] px-6 py-12 text-center">
-            <h1 className="text-2xl font-bold text-white leading-tight mb-6 nav-font px-2">
-              Miracle Man Plumbing Specializes in Drain Cleaning, Hydro Jetting & Water Heaters
+            <h1 className="text-3xl font-bold text-[#95C4E2] leading-tight mb-6 nav-font px-2" style={{ WebkitTextStroke: '1px black', textShadow: '-2px 3px 0px black' }}>
+              Miracle Man Plumbing Specializes in Drain Cleaning<span className="font-sans">,</span> Water Filtration & Water Heaters
             </h1>
 
             <p className="text-white/90 mb-6">Our Expert Services Include:</p>
@@ -68,7 +66,7 @@ export function HeroSection() {
       </section>
 
       {/* Desktop Hero */}
-      <section className="hidden lg:block relative min-h-[70vh] flex items-center">
+      <section className="hidden lg:flex relative min-h-[70vh] items-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
@@ -84,12 +82,12 @@ export function HeroSection() {
 
         {/* Content */}
         <div className="relative z-10 container mx-auto px-8 lg:px-16 py-16">
-          <div className="grid grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-[3fr_2fr] gap-12 items-center">
             {/* Left Side - Text and Buttons */}
             <div className="text-white space-y-6">
               <div className="space-y-4">
-                <h1 className="text-4xl lg:text-5xl font-bold leading-tight nav-font">
-                  Miracle Man Plumbing Specializes in Drain Cleaning, Hydro Jetting & Water Heaters
+                <h1 className="text-5xl lg:text-6xl font-bold leading-tight nav-font text-[#95C4E2]" style={{ WebkitTextStroke: '1px black', textShadow: '-2px 3px 0px black' }}>
+                  Miracle Man Plumbing Specializes in Drain Cleaning<span className="font-sans">,</span> Water Filtration & Water Heaters
                 </h1>
               </div>
 
@@ -106,14 +104,13 @@ export function HeroSection() {
 
               {/* Action Buttons */}
               <div className="flex gap-4">
-                <BookNowButton className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold rounded-md">
+                <BookNowButton className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold rounded-md h-14">
                   Book Now
                 </BookNowButton>
 
                 <Button
-                  size="lg"
                   asChild
-                  className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold"
+                  className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold rounded-md h-14"
                 >
                   <Link href={`tel:${SITE_CONFIG.phone}`}>
                     {SITE_CONFIG.phoneDisplay}
@@ -122,19 +119,52 @@ export function HeroSection() {
               </div>
             </div>
 
-            {/* Right Side - Contact Form */}
+            {/* Right Side - Book & Contact Card */}
             <div className="flex justify-end">
-              <Card className="w-full max-w-md bg-white/95 backdrop-blur-sm shadow-2xl border-[#EDB23A]/20">
-                <CardHeader className="bg-[#EDB23A]/5 rounded-t-lg py-4">
-                  <CardTitle className="text-2xl text-center text-[#0B2545]">Get a Free Quote</CardTitle>
-                  <CardDescription className="text-center text-[#0B2545]/80 text-sm">
-                    Fill out the form below and we&apos;ll get back to you quickly!
-                  </CardDescription>
-                </CardHeader>
-                <CardContent className="pt-4 pb-6">
-                  <ContactForm />
-                </CardContent>
-              </Card>
+              <div className="w-full max-w-md bg-white/95 backdrop-blur-sm shadow-2xl rounded-lg border border-[#EDB23A]/20 overflow-hidden">
+                <div className="bg-[#0B2545] py-5 px-6">
+                  <h2 className="text-2xl text-center text-white font-bold">Ready to Get Started?</h2>
+                  <p className="text-center text-white/80 text-sm mt-1">
+                    Schedule your service in just a few clicks
+                  </p>
+                </div>
+                <div className="p-6 space-y-5">
+                  <button
+                    className="se-booking-show w-full bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors shadow-lg"
+                    type="button"
+                  >
+                    Schedule Online Now
+                  </button>
+
+                  <div className="flex items-center gap-3">
+                    <div className="flex-1 h-px bg-gray-200"></div>
+                    <span className="text-sm text-gray-400 uppercase tracking-wider">or</span>
+                    <div className="flex-1 h-px bg-gray-200"></div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <Link
+                      href={`tel:${SITE_CONFIG.phone}`}
+                      className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <div className="bg-[#0B2545] rounded-full p-2">
+                        <Phone className="w-4 h-4 text-[#EDB23A]" />
+                      </div>
+                      <div>
+                        <p className="text-sm text-gray-500">Call or Text 24/7</p>
+                        <p className="font-bold text-[#0B2545]">{SITE_CONFIG.phoneDisplay}</p>
+                      </div>
+                    </Link>
+
+                    <Link
+                      href="/contact"
+                      className="flex items-center justify-center gap-2 w-full border-2 border-[#0B2545] text-[#0B2545] hover:bg-[#0B2545] hover:text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                    >
+                      Send a Message
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

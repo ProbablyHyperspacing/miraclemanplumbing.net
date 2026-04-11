@@ -20,13 +20,13 @@ export default function HomePage() {
       <TrustBadges />
       <MobileContactForm />
       <ServicesOverview />
+      <ReviewsSection />
       <CallToActionBar />
       <WhyChooseUs />
       <AboutUs />
       <OurServices />
       <CallToActionBar />
       <ExcellenceSection />
-      <ReviewsSection />
       <RecentProjectsSection />
       <SocialMediaSection />
       <FAQSection />
