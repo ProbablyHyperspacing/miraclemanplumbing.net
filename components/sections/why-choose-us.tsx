@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 
 const reasons = [
@@ -40,13 +39,14 @@ export function WhyChooseUs() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start">
-          {/* Left side - Image (hidden on mobile) */}
+          {/* Left side - Video (hidden on mobile) */}
           <div className="hidden lg:flex justify-start h-[450px]">
-            <Image
-              src="/images/MMPworker.jpg.webp"
-              alt="Miracle Man Plumbing Professional"
-              width={400}
-              height={450}
+            <video
+              src="/Website Loop.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
               className="rounded-lg shadow-xl object-cover h-full w-auto"
             />
           </div>
