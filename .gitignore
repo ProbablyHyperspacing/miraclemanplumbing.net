@@ -56,4 +56,7 @@ temp/
 
 # TypeScript
 *.tsbuildinfo
-next-env.d.tspublic.zip
+next-env.d.ts
+
+# Archives
+public.zip
