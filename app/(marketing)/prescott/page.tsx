@@ -1,412 +1,533 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Phone } from 'lucide-react'
+import Script from 'next/script'
+import {
+  Phone,
+  MapPin,
+  Clock,
+  Star,
+  Shield,
+  CheckCircle,
+  ChevronRight,
+} from 'lucide-react'
+import { generatePageMetadata } from '@/lib/metadata'
 
-export const metadata: Metadata = {
-  title: 'Plumbing Services in Prescott, AZ | Miracle Man Plumbing',
-  description: 'Professional plumbing services in Prescott, Arizona. Emergency repairs, installations, and maintenance. Fast, reliable service.',
+// ---------------------------------------------------------------------------
+// Prescott location — real NAP for the dedicated Prescott listing.
+// Keep this in sync with the Google Business Profile for this office.
+// ---------------------------------------------------------------------------
+const PRESCOTT = {
+  name: 'Miracle Man Plumbing Inc. - Prescott',
+  street: '430 N Mount Vernon Ave, Suite 16',
+  city: 'Prescott',
+  state: 'AZ',
+  zip: '86301',
+  phone: '(928) 216-5012',
+  phoneHref: 'tel:+19282165012',
+  // Coordinates of the Prescott office for the embedded map / schema.
+  lat: 34.5455,
+  lng: -112.4604,
+}
+
+export const metadata: Metadata = generatePageMetadata({
+  title: 'Plumber in Prescott, AZ',
+  description:
+    'Licensed plumbers serving Prescott, AZ from our office at 430 N Mount Vernon Ave. Drain cleaning, water heaters, leak detection, repiping and 24/7 emergency service. Call (928) 216-5012.',
+  path: '/prescott',
+})
+
+// Genuinely local, Prescott-specific service notes — written for this city,
+// not swapped placeholders. These reference real local plumbing realities.
+const prescottServices = [
+  {
+    title: 'Drain Cleaning & Hydro Jetting',
+    blurb:
+      'Tree roots from Prescott’s mature pines and junipers are a leading cause of recurring drain clogs and sewer backups, especially in older Mile-High Middle School and Mount Vernon district homes. We clear them with cabling or high-pressure hydro jetting.',
+  },
+  {
+    title: 'Water Heater Repair & Installation',
+    blurb:
+      'At 5,400 feet, Prescott’s hard water builds sediment quickly inside tanks. We service, flush, and replace tank and tankless units, and size new heaters correctly for cooler incoming groundwater temperatures.',
+  },
+  {
+    title: 'Leak Detection & Slab Leaks',
+    blurb:
+      'Many homes around Courthouse Plaza and the historic downtown core still run galvanized or cast-iron lines that corrode and leak. We use electronic leak detection to find slab and underground leaks without tearing up your whole floor.',
+  },
+  {
+    title: 'Repiping & Pipe Repair',
+    blurb:
+      'Prescott’s older neighborhoods often have decades-old pipe that pinholes or restricts flow. We repipe in PEX or copper and handle freeze-damaged pipe after cold winter snaps in the high country.',
+  },
+  {
+    title: 'Sewer Line Inspection & Repair',
+    blurb:
+      'Granite bedrock and shifting soils common in the Prescott area put stress on sewer lines. We run camera inspections to pinpoint breaks, bellies, and root intrusion before recommending a repair.',
+  },
+  {
+    title: 'Water Treatment & Softeners',
+    blurb:
+      'Yavapai County water is hard and mineral-heavy. We install and maintain water softeners and filtration systems that protect fixtures, water heaters, and appliances throughout your Prescott home.',
+  },
+]
+
+// Prescott-specific FAQs (distinct copy from the home page FAQ section).
+const prescottFaqs = [
+  {
+    question: 'Do you really serve the City of Prescott, not just Prescott Valley?',
+    answer:
+      'Yes. We operate a Prescott office at 430 N Mount Vernon Ave, Suite 16, and our licensed plumbers work throughout Prescott, including downtown, the historic districts, Cliff Rose, Yavapai Hills, Timber Ridge, and the surrounding Yavapai County communities.',
+  },
+  {
+    question: 'How fast can you get to my home in Prescott for an emergency?',
+    answer:
+      'For burst pipes, major leaks, and sewage backups we offer 24/7 emergency dispatch. Because we have a Prescott office, our team is local, not driving in from the Valley, so we can usually reach most Prescott addresses quickly. Call (928) 216-5012 and we’ll give you an honest arrival window.',
+  },
+  {
+    question: 'Why does Prescott water cause so many plumbing problems?',
+    answer:
+      'Prescott sits above 5,400 feet with hard, mineral-rich groundwater. That hardness builds scale inside water heaters, faucets, and valves, shortening their lifespan. Combined with older galvanized and cast-iron pipe downtown and freeze risk in winter, it’s why we recommend annual water heater flushes and, for many homes, a water softener.',
+  },
+  {
+    question: 'Are you licensed and insured to work in Arizona?',
+    answer:
+      'Absolutely. Miracle Man Plumbing Inc. is fully licensed and insured (ROC# 206195 and 232054) with work performed under a certified Master Plumber. We’ve served the greater Prescott area since 2005.',
+  },
+  {
+    question: 'Do you give free estimates in Prescott?',
+    answer:
+      'Yes. We provide free, upfront estimates for plumbing projects in Prescott with transparent pricing before any work begins, so there are no surprises on the invoice.',
+  },
+]
+
+// Real Google reviews (same verified reviews used across the site).
+const reviews = [
+  {
+    name: 'Ron Walker',
+    text: 'Caleb showed up to help on a very challenging Saturday afternoon, even though I didn’t have an appointment. A pipe in the wall had failed and the house was flooded. He immediately set about fixing the issue and suggested a company that could assist with drying the house out. Caleb’s work was top notch and fast. I would highly recommend Caleb with Miracle Man Plumbing for your plumbing needs.',
+  },
+  {
+    name: 'Anthony Veneziano',
+    text: 'Michael and Caleb lived up to the name of the business, they worked a miracle for us and fully replaced our water heater on a same day call! They were excellent at communicating with us the issue at hand, all the while being fast and efficient. Would highly recommend them to anyone 5 stars.',
+  },
+  {
+    name: 'Alexis Rounds',
+    text: 'Hands down the best plumbing experience we’ve ever had. Neil replaced all three of our toilets quickly and with great attention to detail. Extremely knowledgeable, thorough, and clearly committed to quality — no shortcuts taken. We’ll definitely be using Miracle Man Plumbing again.',
+  },
+  {
+    name: 'Calli Murray',
+    text: 'Caleb and Neil did an excellent job fixing our toilet! They arrived promptly, were polite and respectful, and even put on shoe covers before entering the house. They quickly diagnosed the problem, repaired it efficiently, and left everything spotless. Highly recommend them!',
+  },
+]
+
+// LocalBusiness + FAQ structured data scoped to the Prescott office. This
+// helps Google understand this is a real local entity, not a doorway page.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Plumber',
+      '@id': 'https://miraclemanplumbing.com/prescott#business',
+      name: PRESCOTT.name,
+      image: 'https://miraclemanplumbing.com/MiracleMan_Logo_Colour.png',
+      url: 'https://miraclemanplumbing.com/prescott',
+      telephone: PRESCOTT.phone,
+      priceRange: '$$',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: PRESCOTT.street,
+        addressLocality: PRESCOTT.city,
+        addressRegion: PRESCOTT.state,
+        postalCode: PRESCOTT.zip,
+        addressCountry: 'US',
+      },
+      geo: {
+        '@type': 'GeoCoordinates',
+        latitude: PRESCOTT.lat,
+        longitude: PRESCOTT.lng,
+      },
+      areaServed: [
+        { '@type': 'City', name: 'Prescott, AZ' },
+        { '@type': 'City', name: 'Prescott Valley, AZ' },
+        { '@type': 'City', name: 'Chino Valley, AZ' },
+        { '@type': 'City', name: 'Dewey-Humboldt, AZ' },
+      ],
+      openingHoursSpecification: {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+          'Sunday',
+        ],
+        opens: '08:00',
+        closes: '18:00',
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.9',
+        reviewCount: '435',
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      mainEntity: prescottFaqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: { '@type': 'Answer', text: f.answer },
+      })),
+    },
+  ],
 }
 
 export default function PrescottPage() {
   return (
     <div>
-      {/* Hero Section */}
-      <section className="relative h-[35vh] flex items-center bg-gradient-to-br from-[#0B2545] via-[#0B2545] to-[#EDB23A]">
-        {/* Background Image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: "url('/Miracle-Man-Site-Header-Background.jpg')"
-          }}
-        ></div>
+      <Script
+        id="prescott-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
-        {/* Dark Tint for text readability */}
-        <div className="absolute inset-0 bg-black/40"></div>
-
-        {/* Decorative Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-xl"></div>
-          <div className="absolute bottom-20 right-20 w-48 h-48 bg-white/5 rounded-full blur-2xl"></div>
-          <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-[#EDB23A]/20 rounded-full blur-lg"></div>
+      {/* Hero */}
+      <section className="relative min-h-[55vh] flex items-center">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/Miracle-Man-Site-Header-Background.jpg"
+            alt="Miracle Man Plumbing serving Prescott, Arizona"
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-black/60"></div>
         </div>
 
-        {/* Content */}
-        <div className="relative z-10 container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="text-center text-white">
-            <h1 className="text-[1.75rem] md:text-[2.25rem] lg:text-[2.75rem] font-bold leading-tight text-white">
-              PRESCOTT, AZ
-            </h1>
-            <p className="text-xl mt-4 text-white/90">
-              Professional Plumbing Services
+        <div className="relative z-10 container mx-auto px-6 lg:px-16 py-16">
+          <div className="max-w-3xl text-white">
+            <p className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#EDB23A] mb-4">
+              <MapPin className="w-4 h-4" />
+              Prescott, Arizona
             </p>
-            <div className="mt-8 flex justify-center">
-              <div className="w-24 h-1 bg-white/50 rounded-full"></div>
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight nav-font text-[#95C4E2]" style={{ WebkitTextStroke: '1px black', textShadow: '-2px 3px 0px black' }}>
+              Trusted Plumbers in Prescott, AZ
+            </h1>
+            <p className="text-lg lg:text-xl text-white/90 mt-6 leading-relaxed">
+              Drain cleaning, water heaters, leak detection, repiping, and 24/7
+              emergency service from our Prescott office on Mount Vernon Ave.
+              Licensed, insured, and serving the high country since 2005.
+            </p>
+
+            <div className="flex flex-col sm:flex-row gap-4 mt-8">
+              <a
+                href={PRESCOTT.phoneHref}
+                className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors shadow-lg inline-flex items-center justify-center gap-2"
+              >
+                <Phone className="w-5 h-5" />
+                Call {PRESCOTT.phone}
+              </a>
+              <button
+                type="button"
+                className="se-booking-show border-2 border-white text-white px-8 py-4 rounded-md font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
+              >
+                Schedule Online
+              </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0B2545] mb-8 text-center">
-              Residential & Commercial Plumbing Services in Prescott, AZ
-            </h2>
-
-            <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
-              <p>
-                Plumbing is more than simply pipes and fixtures - it&apos;s about providing dependable infrastructure that supports everyday life, commercial activities, and long-term property value. Plumbing systems for homes and businesses need to be carefully planned, installed, and maintained to meet the needs of contemporary life and business. From making sure water flows effectively in homes to installing customized systems in intricate business areas, skilled residential & commercial plumbing services are essential to creating surroundings that are both healthy and useful.
-              </p>
-
-              <p>
-                Whether installing a new water heater, fixing a concealed leak, or modernizing outdated pipes for increased efficiency, the goal of residential plumbing services is to create dependability at every stage. In order to keep minor problems from turning into expensive emergencies, homeowners require prompt, clear solutions. Commercial plumbing, however, necessitates a more comprehensive approach. Strong systems that satisfy strict code standards and withstand high daily usage are necessary for offices, dining establishments, medical facilities, and industrial buildings. For activities to continue uninterrupted, smart design, preventative maintenance, and emergency response from residential & commercial plumbing services are essential.
-              </p>
-
-              <p>
-                The future of plumbing is smarter, more sustainable, and more resilient. Technologies like leak detection sensors, touchless fixtures, greywater recycling, and high-efficiency water heaters are becoming standard expectations rather than luxuries. Residential & commercial plumbing services are evolving into proactive partnerships, focused not only on fixing problems but on improving water management, conserving resources, and minimizing risk. As systems grow more integrated with smart home and building technologies, the role of expert plumbers continues to expand, combining traditional craftsmanship with cutting-edge innovation. Expert plumbing remains one of the most critical investments in any property&apos;s future.
-              </p>
-
-              <div className="bg-white rounded-xl p-8 shadow-lg border-l-4 border-[#EDB23A] mt-8">
-                <p className="text-lg font-medium text-[#0B2545]">
-                  Miracle Man Plumbing Inc. in Prescott, AZ, offers expert residential and commercial plumbing services, including repairs, installations, maintenance, and emergency solutions. With decades of experience, we deliver reliable, high-quality plumbing support tailored to meet every property&apos;s unique needs.
-                </p>
-              </div>
+      {/* Trust strip */}
+      <section className="bg-[#0B2545] py-6">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+            <div className="flex flex-col items-center">
+              <Star className="w-6 h-6 text-[#EDB23A] mb-1" />
+              <p className="font-bold text-sm">4.9 Star Rated</p>
+              <p className="text-xs text-white/70">435+ Reviews</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <Shield className="w-6 h-6 text-[#EDB23A] mb-1" />
+              <p className="font-bold text-sm">Licensed &amp; Insured</p>
+              <p className="text-xs text-white/70">ROC# 206195 &amp; 232054</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <CheckCircle className="w-6 h-6 text-[#EDB23A] mb-1" />
+              <p className="font-bold text-sm">Local Since 2005</p>
+              <p className="text-xs text-white/70">Master Plumber</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <Clock className="w-6 h-6 text-[#EDB23A] mb-1" />
+              <p className="font-bold text-sm">24/7 Service</p>
+              <p className="text-xs text-white/70">Emergency Available</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Prescott Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            {/* Left side - Content */}
+      {/* Intro + local context */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#0B2545] mb-6">
-                About - Prescott, AZ
+              <h2 className="text-3xl lg:text-4xl font-bold text-[#0B2545] mb-6 nav-font">
+                Plumbing Built for Prescott&apos;s High Country
               </h2>
-              <div className="prose prose-lg max-w-none text-gray-700">
+              <div className="space-y-4 text-gray-700 leading-relaxed text-lg">
                 <p>
-                  Prescott, AZ, located roughly 100 miles north of Phoenix, is in the lap of the Bradshaw Mountains in central Arizona. Originally established as the capital of the Arizona Territory in 1864, the city developed from a military and mining outpost to a center of government and culture. With warm summers and sporadic winter snowfall, Prescott boasts a unique four-season environment due to its elevation of over 5,000 feet. A dynamic landscape is produced by the geography&apos;s combination of granite boulders, pine trees, and open plains. Due to its unique combination of frontier history and contemporary energy, Prescott stands out in Arizona&apos;s changing high-country narrative.
+                  Prescott isn&apos;t the desert valley floor, and its plumbing
+                  doesn&apos;t behave like it either. At over 5,400 feet, homes
+                  here deal with hard mineral water, real winter freeze risk, and
+                  a mix of brand-new construction in Yavapai Hills alongside
+                  century-old houses near Courthouse Plaza and Whiskey Row that
+                  still run original galvanized and cast-iron pipe.
                 </p>
-              </div>
-            </div>
-
-            {/* Right side - Image */}
-            <div className="relative">
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl">
-                <Image
-                  src="/images/prescott.jpeg"
-                  alt="Prescott, Arizona landscape and cityscape"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#0B2545] mb-4">
-              Our Residential & Commercial Plumbing Services in Prescott, AZ
-            </h2>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4">
-                {[
-                  'Plumbing Services',
-                  'Residential Plumbing',
-                  'Commercial Plumbing',
-                  'Drain Cleaning',
-                  'Water Heater Repair & Installation',
-                  'Hydro Jetting',
-                  'Toilet Repair & Replacement',
-                  'Faucet & Fixture Repair',
-                  'Leak Detection & Repair',
-                  'Garbage Disposal Repair & Replacement',
-                  'Sewer Line Inspection & Repair',
-                  'Pipe Repair & Repiping',
-                  'Water Filtration System Installation',
-                  'Water Softener Installation & Maintenance',
-                  'Emergency Plumbing Services',
-                  'Shower & Tub Plumbing Services',
-                  'Main Water Line Services'
-                ].map((service, index) => (
-                  <div key={index} className="flex items-center py-3 border-b border-gray-100 last:border-b-0">
-                    <div className="bg-[#EDB23A] rounded-full w-3 h-3 mr-4 flex-shrink-0"></div>
-                    <span className="text-[#0B2545] font-medium text-lg">{service}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="bg-gradient-to-r from-[#0B2545] to-[#EDB23A] rounded-2xl shadow-xl p-8 md:p-12 text-white">
-            <div className="text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Hire Us! Best and Top Rated Residential & Commercial Plumbing Services in Prescott, AZ
-              </h2>
-
-              <div className="max-w-4xl mx-auto mb-8">
-                <p className="text-lg text-white/90 leading-relaxed">
-                  At Miracle Man Plumbing Inc. in Prescott, AZ, we&apos;ve spent over 20 years delivering trusted residential and commercial plumbing solutions. We handle everything from drain cleaning, water heater repair & installation, and hydrojetting to pipe repair & repiping, water filtration system installation, and water softener installation & maintenance. Our expert team also specializes in leak detection & repair, sewer line inspections & repair, toilet repairs & replacement, faucet & fixture repair, garbage disposal repair & replacement, and main water line services. Whether it&apos;s emergency plumbing, shower upgrades, or softener maintenance, we are prepared for every job. We build lasting solutions you can rely on.
+                <p>
+                  Miracle Man Plumbing Inc. has worked on both ends of that
+                  spectrum since 2005. From our Prescott office on Mount Vernon
+                  Ave we handle everything from a quick faucet repair to a full
+                  repipe, sewer camera inspection, or an emergency water heater
+                  replacement, with honest, upfront pricing and a certified
+                  Master Plumber standing behind the work.
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+19288303575"
-                  className="bg-white text-[#0B2545] px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg inline-flex items-center justify-center"
+                  href={PRESCOTT.phoneHref}
+                  className="bg-[#0B2545] hover:bg-[#091B36] text-white px-6 py-3 rounded-md font-semibold transition-colors inline-flex items-center justify-center gap-2"
                 >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call (928) 830-3575
+                  <Phone className="w-5 h-5" />
+                  {PRESCOTT.phone}
                 </a>
                 <Link
                   href="/contact"
-                  className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
+                  className="border-2 border-[#0B2545] text-[#0B2545] px-6 py-3 rounded-md font-semibold hover:bg-[#0B2545] hover:text-white transition-colors inline-flex items-center justify-center"
                 >
-                  Contact Us
+                  Request a Free Estimate
                 </Link>
               </div>
+            </div>
+
+            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-xl">
+              <Image
+                src="/images/prescott.jpeg"
+                alt="Prescott, Arizona high-country landscape served by Miracle Man Plumbing"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Happy Customers Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#0B2545] mb-4">
-              HAPPY CUSTOMERS!
+      {/* Services with local detail */}
+      <section className="py-16 lg:py-20 bg-gray-50">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0B2545] mb-4 nav-font">
+              Our Plumbing Services in Prescott
             </h2>
-            <p className="text-xl text-gray-600">
-              What our customers say
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Residential and commercial plumbing, tuned to the realities of
+              living and working in Prescott.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                rating: 5,
-                text: "We had a major problem with our septic tank and Miracle Man personel handled this major excavation and repair in a very timely and fair way. Personnel were hard working, courteous and non-stop. Cost was extremely reasonable and I would not hesitate to call them again. I my opinion Miracle Man plumbing is the best in the state.",
-                author: "Ray P."
-              },
-              {
-                rating: 5,
-                text: "A copper pipe burst in the crawl space above my ceiling. Caleb and his assistant stayed late on Friday evening to get it repaired. It was a very tight crawlspace. I think that most plumbers would have cut a hole in my ceiling, but not these guys. I am so appreciative of the high level of service and dedication. Above and beyond!",
-                author: "Robert O."
-              },
-              {
-                rating: 5,
-                text: "My tub was bubbling and not draining properly. I called and got an appointment right away. Caleb and Michael came out, had to remove my toilet and run a snake through my main sewage line. They were very knowledgeable, fast and professional. Highly recommend",
-                author: "Volkmar S."
-              },
-              {
-                rating: 5,
-                text: "I've had some issues with my garbage disposal and a sink leak. I request maintenance through my rental company, but they seem to always come in a timely manner and are very kind, respectful, and communicative. Most recently had Caleb and Michael come help, and they did a great job!",
-                author: "Emma E."
-              }
-            ].map((review, index) => (
-              <div key={index} className="relative bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl border border-gray-200 hover:shadow-xl transition-all duration-300">
-                <div className="absolute top-4 right-4">
-                  <svg className="w-8 h-8 text-[#EDB23A] opacity-20" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z"/>
-                  </svg>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {prescottServices.map((service, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-xl p-6 shadow-md border-t-4 border-[#EDB23A] hover:shadow-xl transition-shadow"
+              >
+                <h3 className="text-xl font-bold text-[#0B2545] mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">{service.blurb}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/plumbing-services"
+              className="inline-flex items-center gap-1 text-[#0B2545] font-semibold hover:text-[#EDB23A] transition-colors"
+            >
+              See all plumbing services
+              <ChevronRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0B2545] mb-2 nav-font">
+              What Prescott Customers Say
+            </h2>
+            <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center gap-0.5">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <span className="text-lg font-bold text-[#0B2545]">4.9</span>
+              <span className="text-sm text-gray-500">from 435 Google reviews</span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {reviews.map((review, index) => (
+              <div
+                key={index}
+                className="bg-gray-50 p-6 rounded-2xl border border-gray-200"
+              >
+                <div className="flex text-yellow-400 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-5 h-5 fill-current" />
+                  ))}
                 </div>
-                <div className="flex items-center mb-6">
-                  <div className="flex text-yellow-400">
-                    {[...Array(review.rating)].map((_, i) => (
-                      <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
-                        <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
-                      </svg>
-                    ))}
-                  </div>
-                </div>
-                <p className="text-gray-700 leading-relaxed mb-6 italic">
+                <p className="text-gray-700 leading-relaxed mb-4 italic">
                   &ldquo;{review.text}&rdquo;
                 </p>
-                <div className="text-[#0B2545] font-bold text-lg">
-                  - {review.author}
+                <div className="flex items-center gap-2">
+                  <div className="w-5 h-5 bg-gradient-to-r from-blue-500 via-red-500 to-green-500 rounded-full flex items-center justify-center">
+                    <span className="text-white text-xs font-bold">G</span>
+                  </div>
+                  <span className="font-bold text-[#0B2545]">{review.name}</span>
                 </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-10">
+            <Link
+              href="/reviews"
+              className="inline-flex items-center gap-1 text-[#0B2545] font-semibold hover:text-[#EDB23A] transition-colors"
+            >
+              Read more reviews
+              <ChevronRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 lg:py-20 bg-gray-50">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-[#0B2545] mb-4 nav-font">
+              Prescott Plumbing FAQs
+            </h2>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-4">
+            {prescottFaqs.map((faq, index) => (
+              <div key={index} className="bg-white rounded-lg shadow-md p-6">
+                <h3 className="text-lg font-bold text-[#0B2545] mb-2">
+                  {faq.question}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-8 md:px-12 lg:px-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            {/* Left side - Contact Form */}
-            <div className="space-y-6">
-              <div className="mb-8">
-                <h2 className="text-4xl md:text-5xl font-bold text-[#0B2545] mb-4">
-                  Get Your Free Estimate
-                </h2>
-                <p className="text-xl text-gray-600">
-                  Contact us today for professional plumbing services in Prescott, AZ
+      {/* Location / NAP + map */}
+      <section className="py-16 lg:py-20 bg-white">
+        <div className="container mx-auto px-6 lg:px-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div>
+              <h2 className="text-3xl lg:text-4xl font-bold text-[#0B2545] mb-6 nav-font">
+                Visit Our Prescott Office
+              </h2>
+              <div className="space-y-5 text-gray-700">
+                <p className="flex items-start gap-3">
+                  <MapPin className="w-6 h-6 text-[#EDB23A] flex-shrink-0 mt-0.5" />
+                  <span className="text-lg">
+                    {PRESCOTT.street}
+                    <br />
+                    {PRESCOTT.city}, {PRESCOTT.state} {PRESCOTT.zip}
+                  </span>
+                </p>
+                <p className="flex items-center gap-3">
+                  <Phone className="w-6 h-6 text-[#EDB23A] flex-shrink-0" />
+                  <a
+                    href={PRESCOTT.phoneHref}
+                    className="text-lg font-semibold text-[#0B2545] hover:text-[#EDB23A] transition-colors"
+                  >
+                    {PRESCOTT.phone}
+                  </a>
+                </p>
+                <p className="flex items-center gap-3">
+                  <Clock className="w-6 h-6 text-[#EDB23A] flex-shrink-0" />
+                  <span className="text-lg">
+                    7 Days a Week, 8AM&ndash;6PM &middot; 24/7 Emergency Service
+                  </span>
                 </p>
               </div>
 
-              <form className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
-                      First Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="firstName"
-                      name="firstName"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="Your first name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
-                      Last Name *
-                    </label>
-                    <input
-                      type="text"
-                      id="lastName"
-                      name="lastName"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="Your last name"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="your.email@example.com"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Phone Number *
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      required
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                      placeholder="(555) 123-4567"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Service Needed
-                  </label>
-                  <select
-                    id="service"
-                    name="service"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors bg-white text-[#0B2545]"
-                  >
-                    <option value="">Select a service</option>
-                    <option value="emergency">Emergency Repair</option>
-                    <option value="installation">Installation</option>
-                    <option value="maintenance">Maintenance</option>
-                    <option value="drain-cleaning">Drain Cleaning</option>
-                    <option value="backflow">Backflow Prevention & Testing</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#0B2545] focus:border-transparent transition-colors resize-vertical bg-white text-[#0B2545]"
-                    placeholder="Please describe your plumbing needs or any questions you have..."
-                  ></textarea>
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#0B2545] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#091B36] transition-colors shadow-lg"
+              <div className="mt-8">
+                <a
+                  href={PRESCOTT.phoneHref}
+                  className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors shadow-lg inline-flex items-center justify-center gap-2"
                 >
-                  Send Message
-                </button>
-              </form>
-            </div>
-
-            {/* Right side - Map */}
-            <div className="space-y-6">
-              <div className="mb-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-[#0B2545] mb-4">
-                  Our Service Area
-                </h3>
-                <div className="space-y-2 text-gray-600">
-                  <p className="flex items-center">
-                    <svg className="w-5 h-5 mr-2 text-[#0B2545]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                    </svg>
-                    Prescott Valley, AZ & surrounding areas
-                  </p>
-                  <p className="flex items-center">
-                    <svg className="w-5 h-5 mr-2 text-[#0B2545]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    (928) 830-3575
-                  </p>
-                  <p className="flex items-center">
-                    <svg className="w-5 h-5 mr-2 text-[#0B2545]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                    24/7 Emergency Service Available
-                  </p>
-                </div>
-              </div>
-
-              {/* Map Container */}
-              <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg h-[450px]">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52668.24429313935!2d-112.355577!3d34.610587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872d48b8a92b31dd%3A0x4b8b8b8b8b8b8b8b!2sPrescott%20Valley%2C%20AZ!5e0!3m2!1sen!2sus!4v1642684937000!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Miracle Man Plumbing Location"
-                ></iframe>
+                  <Phone className="w-5 h-5" />
+                  Call {PRESCOTT.phone}
+                </a>
               </div>
             </div>
+
+            <div className="bg-gray-100 rounded-xl overflow-hidden shadow-lg h-[400px] lg:h-[450px]">
+              <iframe
+                src={`https://www.google.com/maps?q=${encodeURIComponent(
+                  `${PRESCOTT.street}, ${PRESCOTT.city}, ${PRESCOTT.state} ${PRESCOTT.zip}`
+                )}&output=embed`}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Miracle Man Plumbing Prescott office location"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-16 lg:py-20 bg-[#0B2545]">
+        <div className="container mx-auto px-6 lg:px-16 text-center text-white">
+          <h2 className="text-3xl lg:text-4xl font-bold mb-4 nav-font">
+            Need a Plumber in Prescott Today?
+          </h2>
+          <p className="text-lg text-white/85 max-w-2xl mx-auto mb-8">
+            Call our Prescott team for fast, honest service and a free estimate.
+            We&apos;re local, licensed, and available 24/7 for emergencies.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href={PRESCOTT.phoneHref}
+              className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors shadow-lg inline-flex items-center justify-center gap-2"
+            >
+              <Phone className="w-5 h-5" />
+              Call {PRESCOTT.phone}
+            </a>
+            <Link
+              href="/contact"
+              className="border-2 border-white text-white px-8 py-4 rounded-md font-semibold text-lg hover:bg-white hover:text-[#0B2545] transition-colors inline-flex items-center justify-center"
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </section>
