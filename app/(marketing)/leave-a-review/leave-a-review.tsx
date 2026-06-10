@@ -133,14 +133,15 @@ export function LeaveAReview() {
           Thanks for choosing Miracle Man Plumbing.
         </p>
         <p className="text-white/80 text-lg mb-8">
-          Which side of town are you on?
+          We have two locations. Pick the one that served you so your review
+          goes to the right place.
         </p>
 
         {/* Use my location (tap-triggered so it works on iOS) */}
         <button
           onClick={useMyLocation}
           disabled={status === 'locating'}
-          className="w-full bg-white/10 hover:bg-white/20 disabled:opacity-70 border border-white/30 text-white rounded-xl px-6 py-4 mb-6 flex items-center justify-center gap-2 font-semibold transition-colors"
+          className="w-full bg-white/10 hover:bg-white/20 disabled:opacity-70 border border-white/30 text-white rounded-xl px-6 py-4 mb-2 flex items-center justify-center gap-2 font-semibold transition-colors"
         >
           {status === 'locating' ? (
             <>
@@ -150,21 +151,24 @@ export function LeaveAReview() {
           ) : (
             <>
               <Navigation className="w-5 h-5" />
-              Use my location
+              Find the closest location for me
             </>
           )}
         </button>
+        <p className="text-white/60 text-sm mb-6">
+          Lets us match you to the nearest location automatically.
+        </p>
 
         {status === 'error' && (
           <p className="text-white/70 text-sm mb-6 -mt-2">
-            Couldn&apos;t detect your location — just pick below.
+            Couldn&apos;t detect your location — just pick your area below.
           </p>
         )}
 
         <div className="flex items-center gap-3 mb-6">
           <div className="flex-1 h-px bg-white/20"></div>
           <span className="text-white/50 text-sm uppercase tracking-wider">
-            or choose
+            or pick your area
           </span>
           <div className="flex-1 h-px bg-white/20"></div>
         </div>
@@ -190,7 +194,8 @@ export function LeaveAReview() {
         </div>
 
         <p className="text-white/50 text-sm mt-8">
-          Tap your location to leave a Google review. It only takes a minute!
+          You&apos;ll be taken to Google to leave your review. It only takes a
+          minute!
         </p>
       </div>
     </section>
