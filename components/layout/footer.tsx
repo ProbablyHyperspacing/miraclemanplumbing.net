@@ -72,12 +72,12 @@ export function Footer() {
                   <p>Prescott Valley, AZ 86314</p>
                 </div>
               </div>
-              <a href="mailto:service@miraclemanplumbing.net" className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
+              <Link href="/contact" className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
                 <Mail className="w-4 h-4 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
-                <span className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base break-all">
-                  service@miraclemanplumbing.net
+                <span className="text-gray-200 hover:text-[#EDB23A] transition-colors text-xs lg:text-base">
+                  Email Us
                 </span>
-              </a>
+              </Link>
             </div>
 
             {/* Social Media */}

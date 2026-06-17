@@ -76,13 +76,13 @@ export default function CareersPage() {
 
               <div className="bg-[#0B2545] rounded-xl p-6 text-white">
                 <h3 className="text-xl font-bold mb-3">Prefer to reach out directly?</h3>
-                <p className="text-white/80 mb-4">Text Caleb or send us an email</p>
+                <p className="text-white/80 mb-4">Text Caleb or apply using the form</p>
                 <div className="space-y-2">
                   <a href="tel:9283003606" className="flex items-center gap-2 text-[#EDB23A] font-bold text-lg hover:text-[#C08222] transition-colors">
                     928-300-3606
                   </a>
-                  <a href="mailto:miraclemanplumbing@yahoo.com" className="flex items-center gap-2 text-[#EDB23A] font-bold hover:text-[#C08222] transition-colors">
-                    miraclemanplumbing@yahoo.com
+                  <a href="#apply-form" className="flex items-center gap-2 text-[#EDB23A] font-bold hover:text-[#C08222] transition-colors">
+                    Apply online &rsaquo;
                   </a>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function CareersPage() {
 
             {/* Right - Application Form */}
             <div>
-              <div className="bg-gray-50 rounded-xl shadow-lg p-8 border border-gray-100">
+              <div id="apply-form" className="bg-gray-50 rounded-xl shadow-lg p-8 border border-gray-100 scroll-mt-24">
                 <h3 className="text-2xl font-bold text-[#0B2545] mb-2">Apply Now</h3>
                 <p className="text-gray-600 mb-6">Fill out the form below and we&apos;ll be in touch.</p>
                 <CareersForm />

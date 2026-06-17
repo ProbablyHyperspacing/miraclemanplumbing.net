@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const faqs = [
   {
@@ -184,12 +185,12 @@ export function FAQSection() {
             >
               Call (928) 713-0004
             </a>
-            <a
-              href="mailto:info@miraclemanplumbing.com"
+            <Link
+              href="/contact"
               className="inline-flex items-center justify-center px-4 lg:px-6 py-2.5 lg:py-3 border-2 border-[#0B2545] text-[#0B2545] hover:bg-[#0B2545] hover:text-white font-semibold rounded-lg transition-colors text-sm lg:text-base"
             >
-              Send Email
-            </a>
+              Send a Message
+            </Link>
           </div>
         </div>
       </div>

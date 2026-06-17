@@ -80,7 +80,7 @@ export default function ContactPage() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-xl shadow-lg p-8">
+              <div id="contact-form" className="bg-white rounded-xl shadow-lg p-8 scroll-mt-24">
                 <ContactForm />
               </div>
             </div>
@@ -104,13 +104,13 @@ export default function ContactPage() {
                     </div>
                   </a>
 
-                  <a href="mailto:service@miraclemanplumbing.net" className="flex items-center hover:bg-gray-50 p-2 -m-2 rounded-lg transition-colors">
+                  <a href="#contact-form" className="flex items-center hover:bg-gray-50 p-2 -m-2 rounded-lg transition-colors">
                     <div className="bg-[#0B2545] rounded-lg p-3 mr-4">
                       <Mail className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#0B2545]">Email</h4>
-                      <p className="text-[#EDB23A] font-semibold">service@miraclemanplumbing.net</p>
+                      <p className="text-[#EDB23A] font-semibold">Send us a message</p>
                     </div>
                   </a>
 
