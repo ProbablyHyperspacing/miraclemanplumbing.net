@@ -3,7 +3,7 @@
 import { useRef, useState } from 'react'
 import { Check, Copy } from 'lucide-react'
 
-const PHONE_DEFAULT = '928-228-0377'
+const PHONE_DEFAULT = '928-830-3575'
 
 // Build the exact signature HTML from the team member's details. Kept as a
 // string so we can both render a preview and copy it to the clipboard.
