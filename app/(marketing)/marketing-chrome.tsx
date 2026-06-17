@@ -6,7 +6,7 @@ import { Footer } from '@/components/layout/footer'
 
 // Routes that should render without the site header/footer (e.g. the QR review
 // landing page, which is a standalone utility page).
-const BARE_ROUTES = ['/leave-a-review']
+const BARE_ROUTES = ['/leave-a-review', '/email-signature']
 
 export function MarketingChrome({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
