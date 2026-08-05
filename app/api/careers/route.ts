@@ -14,6 +14,8 @@ const careersFormSchema = z.object({
   name: z.string().min(1, 'Name is required'),
   email: z.string().email('Invalid email address'),
   phone: z.string().min(10, 'Phone number is required'),
+  yearsExperience: z.string().min(1, 'Years of experience is required'),
+  driversLicense: z.boolean().optional(),
   experience: z.string().min(1, 'Experience is required'),
   resumeLink: z.string().url().optional().or(z.literal('')),
   message: z.string().optional(),
@@ -42,6 +44,8 @@ export async function POST(request: Request) {
         <p><strong>Name:</strong> ${validatedData.name}</p>
         <p><strong>Email:</strong> ${validatedData.email}</p>
         <p><strong>Phone:</strong> ${validatedData.phone}</p>
+        <p><strong>Years of Experience:</strong> ${validatedData.yearsExperience}</p>
+        <p><strong>Valid Driver's License:</strong> ${validatedData.driversLicense ? 'Yes' : 'No'}</p>
         <p><strong>Experience:</strong></p>
         <p>${validatedData.experience.replace(/\n/g, '<br>')}</p>
         ${validatedData.resumeLink ? `<p><strong>Resume:</strong> <a href="${validatedData.resumeLink}">${validatedData.resumeLink}</a></p>` : ''}
