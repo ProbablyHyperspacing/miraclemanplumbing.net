@@ -38,8 +38,9 @@ export async function POST(request: Request) {
     // Send email using Resend
     const resend = getResendInstance()
     await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL || 'noreply@miraclemanplumbing.com',
-      to: process.env.CONTACT_EMAIL || 'info@miraclemanplumbing.com',
+      from: process.env.RESEND_FROM_EMAIL || 'Miracle Man Plumbing <notifications@miraclemanplumbing.net>',
+      to: process.env.CONTACT_EMAIL || 'miraclemanplumbing@yahoo.com',
+      replyTo: validatedData.email,
       subject: `New Contact Form Submission - ${validatedData.service}`,
       html: `
         <h2>New Contact Form Submission</h2>
