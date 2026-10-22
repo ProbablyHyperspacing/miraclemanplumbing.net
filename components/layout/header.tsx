@@ -24,6 +24,7 @@ import {
 } from 'lucide-react'
 import { SITE_CONFIG, SOCIAL_LINKS, REVIEW_LINK, LOCATION_LINK, NAVIGATION_ITEMS } from '@/lib/constants'
 import { useState } from 'react'
+import { usePhone } from '@/hooks/use-phone'
 
 const iconMap = {
   Facebook,
@@ -34,6 +35,7 @@ const iconMap = {
 }
 
 export function Header() {
+  const phone = usePhone()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -69,9 +71,9 @@ export function Header() {
                   asChild
                   className="flex items-center space-x-2 bg-[#0B2545] hover:bg-[#C08222] text-white border-none"
                 >
-                  <Link href={`tel:${SITE_CONFIG.phone}`}>
+                  <Link href={phone.href}>
                     <Phone className="h-3 w-3" />
-                    <span className="text-xs font-semibold">{SITE_CONFIG.phoneDisplay}</span>
+                    <span className="text-xs font-semibold">{phone.spaces}</span>
                   </Link>
                 </Button>
 
@@ -198,7 +200,7 @@ export function Header() {
                 asChild
                 className="bg-[#EDB23A] hover:bg-[#C08222] text-white font-semibold px-6 rounded-md"
               >
-                <Link href={`tel:${SITE_CONFIG.phone}`}>
+                <Link href={phone.href}>
                   Call Now
                 </Link>
               </Button>
@@ -280,9 +282,9 @@ export function Header() {
                 asChild
                 className="justify-start bg-[#EDB23A] hover:bg-[#C08222] text-white"
               >
-                <Link href={`tel:${SITE_CONFIG.phone}`}>
+                <Link href={phone.href}>
                   <Phone className="h-4 w-4 mr-2" />
-                  {SITE_CONFIG.phoneDisplay}
+                  {phone.spaces}
                 </Link>
               </Button>
 

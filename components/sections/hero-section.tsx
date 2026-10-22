@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { BookNowButton } from '@/components/ui/book-now-button'
-import { SITE_CONFIG } from '@/lib/constants'
+import { usePhone } from '@/hooks/use-phone'
 import { Phone } from 'lucide-react'
 
 const serviceHighlights = [
@@ -16,6 +16,7 @@ const serviceHighlights = [
 ]
 
 export function HeroSection() {
+  const phone = usePhone()
   return (
     <>
       {/* Mobile Hero */}
@@ -56,9 +57,9 @@ export function HeroSection() {
               asChild
               className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-6 text-lg font-semibold rounded-full shadow-lg"
             >
-              <Link href={`tel:${SITE_CONFIG.phone}`} className="flex items-center gap-2">
+              <Link href={phone.href} className="flex items-center gap-2">
                 <Phone className="w-5 h-5" />
-                Call Now: {SITE_CONFIG.phoneDisplay}
+                Call Now: {phone.spaces}
               </Link>
             </Button>
           </div>
@@ -112,8 +113,8 @@ export function HeroSection() {
                   asChild
                   className="bg-[#EDB23A] hover:bg-[#C08222] text-white px-8 py-4 text-lg font-semibold rounded-md h-14"
                 >
-                  <Link href={`tel:${SITE_CONFIG.phone}`}>
-                    {SITE_CONFIG.phoneDisplay}
+                  <Link href={phone.href}>
+                    {phone.spaces}
                   </Link>
                 </Button>
               </div>
@@ -144,7 +145,7 @@ export function HeroSection() {
 
                   <div className="space-y-3">
                     <Link
-                      href={`tel:${SITE_CONFIG.phone}`}
+                      href={phone.href}
                       className="flex items-center gap-3 p-3 rounded-lg hover:bg-gray-50 transition-colors"
                     >
                       <div className="bg-[#0B2545] rounded-full p-2">
@@ -152,7 +153,7 @@ export function HeroSection() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500">Call or Text 24/7</p>
-                        <p className="font-bold text-[#0B2545]">{SITE_CONFIG.phoneDisplay}</p>
+                        <p className="font-bold text-[#0B2545]">{phone.spaces}</p>
                       </div>
                     </Link>
 

@@ -3,6 +3,7 @@
 import { Phone, MapPin, Clock, Award, Shield, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { usePhone } from '@/hooks/use-phone'
 
 const serviceAreas = [
   "Prescott Valley, AZ",
@@ -17,6 +18,7 @@ const serviceAreas = [
 ]
 
 export function FullSpectrumSection() {
+  const phone = usePhone()
   return (
     <section className="py-10 lg:py-20 bg-white">
       <div className="container mx-auto px-4 lg:px-16">
@@ -69,8 +71,8 @@ export function FullSpectrumSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-800 mb-1 text-sm lg:text-base">Phone</p>
-                  <a href="tel:928-830-3575" className="text-lg lg:text-2xl font-bold text-[#EDB23A] hover:text-[#C08222] transition-colors">
-                    928-830-3575
+                  <a href={phone.href} className="text-lg lg:text-2xl font-bold text-[#EDB23A] hover:text-[#C08222] transition-colors">
+                    {phone.dashes}
                   </a>
                 </div>
               </div>
@@ -136,9 +138,9 @@ export function FullSpectrumSection() {
               asChild
               className="bg-[#0B2545] text-white hover:bg-[#C08222] font-bold text-sm lg:text-lg px-4 lg:px-8 py-2 lg:py-4"
             >
-              <a href="tel:928-830-3575" className="flex items-center justify-center">
+              <a href={phone.href} className="flex items-center justify-center">
                 <Phone className="w-4 h-4 lg:w-5 lg:h-5 mr-2" />
-                Call Now: 928-830-3575
+                Call Now: {phone.dashes}
               </a>
             </Button>
             <Button

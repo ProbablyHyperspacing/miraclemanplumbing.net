@@ -4,9 +4,10 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { BookNowButton } from '@/components/ui/book-now-button'
 import { Phone, Calculator } from 'lucide-react'
-import { SITE_CONFIG } from '@/lib/constants'
+import { usePhone } from '@/hooks/use-phone'
 
 export function CallToActionBar() {
+  const phone = usePhone()
   return (
     <section className="bg-[#EDB23A] py-6 lg:py-12">
       <div className="container mx-auto px-4 lg:px-16">
@@ -17,9 +18,9 @@ export function CallToActionBar() {
             asChild
             className="w-full bg-[#0B2545] hover:bg-[#C08222] text-white py-4 text-lg font-semibold rounded-full"
           >
-            <Link href={`tel:${SITE_CONFIG.phone}`} className="flex items-center justify-center gap-2">
+            <Link href={phone.href} className="flex items-center justify-center gap-2">
               <Phone className="w-5 h-5" />
-              Call Now: 928-830-3575
+              Call Now: {phone.dashes}
             </Link>
           </Button>
           <BookNowButton className="w-full bg-[#0B2545] hover:bg-[#091B36] text-white py-4 text-lg font-semibold rounded-full inline-flex items-center justify-center">
@@ -36,10 +37,10 @@ export function CallToActionBar() {
             <div>
               <p className="text-lg font-medium">Need Help Now?</p>
               <Link
-                href={`tel:${SITE_CONFIG.phone}`}
+                href={phone.href}
                 className="text-3xl font-bold hover:text-[#C08222] transition-colors"
               >
-                928-830-3575
+                {phone.dashes}
               </Link>
             </div>
           </div>

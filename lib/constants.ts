@@ -12,6 +12,13 @@ export const SITE_CONFIG = {
   }
 }
 
+// ServiceTitan tracking numbers for ad landing pages, keyed by path. On these
+// pages every phone number (header, footer, home sections) shows this number
+// instead of the main line, so calls are attributed to the ad source.
+export const TRACKING_PHONES: Record<string, string> = {
+  // '/fb': '(928) 000-0000', // Facebook ads landing page: add the ServiceTitan number
+}
+
 // Import service data to generate navigation dynamically
 import serviceDataFile from './service-pages-data.json'
 

@@ -1,8 +1,12 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { Phone, MapPin, Clock, Mail, Facebook, Instagram } from 'lucide-react'
+import { usePhone } from '@/hooks/use-phone'
 
 export function Footer() {
+  const phone = usePhone()
   return (
     <footer className="bg-[#0B2545] text-white">
       <div className="container mx-auto px-4 lg:px-16 py-10 lg:py-16">
@@ -22,10 +26,10 @@ export function Footer() {
               Professional plumbing services you can trust. Serving Prescott Valley and surrounding areas since 2005.
             </p>
             <div className="space-y-3 lg:space-y-3">
-              <a href="tel:+19288303575" className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
+              <a href={phone.href} className="flex items-center justify-center lg:justify-start hover:opacity-80 transition-opacity">
                 <Phone className="w-6 h-6 lg:w-5 lg:h-5 text-[#EDB23A] mr-2 lg:mr-3" />
                 <span className="text-[#EDB23A] font-bold text-xl lg:text-base">
-                  (928) 830-3575
+                  {phone.parens}
                 </span>
               </a>
               <div className="flex items-center justify-center lg:justify-start">

@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePhone } from '@/hooks/use-phone'
 
 const faqs = [
   {
@@ -62,6 +63,7 @@ const additionalFaqs = [
 ]
 
 export function FAQSection() {
+  const phone = usePhone('(928) 713-0004')
   const [openIndex, setOpenIndex] = useState<number | null>(null)
   const [additionalOpenIndex, setAdditionalOpenIndex] = useState<number | null>(null)
 
@@ -180,10 +182,10 @@ export function FAQSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 lg:gap-4 justify-center">
             <a
-              href="tel:(928) 713-0004"
+              href={phone.href}
               className="inline-flex items-center justify-center px-4 lg:px-6 py-2.5 lg:py-3 bg-[#EDB23A] hover:bg-[#C08222] text-white font-semibold rounded-lg transition-colors text-sm lg:text-base"
             >
-              Call (928) 713-0004
+              Call {phone.parens}
             </a>
             <Link
               href="/contact"
