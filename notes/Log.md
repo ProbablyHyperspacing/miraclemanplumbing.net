@@ -4,6 +4,7 @@ Newest first. ✅ done · 🔹 decision · ⚠️ decision that needs your OK
 Write your comments on the 💬 line under any decision; Claude reads them before each task.
 
 ## 2026-10-22
+- ✅ Set the Facebook tracking number (928) 227-0602 on /fb and pushed it live
 - ✅ Added the ad campaign's Meta pixel (2226641014864021) to every page, next to the old one
 - ✅ Lead event now fires when the contact form sends and when someone taps a phone number
 - 🔹 Phone taps on Careers and the email signature page don't count as leads (hiring line, internal page)

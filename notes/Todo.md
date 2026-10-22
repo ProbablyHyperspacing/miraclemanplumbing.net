@@ -1,7 +1,7 @@
 # Todo: MMP Website
 
 ## Next
-- Add the Facebook ServiceTitan number to /fb (one line), then point FB ads at miraclemanplumbing.com/fb
+- You: point the Facebook ads at miraclemanplumbing.com/fb
 - You: check the pixel with Meta Pixel Helper and the Test events tab in Events Manager
 - You: enter pixel 2226641014864021 in ServiceTitan's scheduler settings so online bookings count as leads
 
