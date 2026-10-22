@@ -2,9 +2,11 @@
 
 ## Next
 - Add the Facebook ServiceTitan number to /fb (one line), then point FB ads at miraclemanplumbing.com/fb
-- Idea: send call clicks and form sends to Meta as conversions so ads can optimize for them
+- You: check the pixel with Meta Pixel Helper and the Test events tab in Events Manager
+- You: enter pixel 2226641014864021 in ServiceTitan's scheduler settings so online bookings count as leads
 
 ## Needs your OK
+- Remove the old pixel (1789514218903451)?
 - Keep the tracking number on other pages after someone lands on /fb?
 
 ## Waiting on client

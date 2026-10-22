@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { useToast } from '@/hooks/use-toast'
+import { trackLead } from '@/lib/meta-pixel'
 
 const contactFormSchema = z.object({
   name: z.string().min(1, 'Name is required'),
@@ -56,6 +57,7 @@ export function ContactForm() {
       const result = await response.json()
       
       if (response.ok) {
+        trackLead()
         toast({
           title: 'Message sent!',
           description: result.message,
