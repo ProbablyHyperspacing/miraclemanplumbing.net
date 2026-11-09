@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   name: 'Miracle Man Plumbing',
   description: 'Professional plumbing services you can trust. Emergency repairs, installations, and maintenance.',
-  url: 'https://miraclemanplumbing.com',
+  url: 'https://www.miraclemanplumbing.net',
   phone: '(928) 830-3575',
   phoneDisplay: '928 830 3575',
   email: 'service@miraclemanplumbing.net',

@@ -120,10 +120,10 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Plumber',
-      '@id': 'https://miraclemanplumbing.com/dewey-humboldt#business',
+      '@id': 'https://www.miraclemanplumbing.net/dewey-humboldt#business',
       name: 'Miracle Man Plumbing Inc.',
-      image: 'https://miraclemanplumbing.com/MiracleMan_Logo_Colour.png',
-      url: 'https://miraclemanplumbing.com/dewey-humboldt',
+      image: 'https://www.miraclemanplumbing.net/MiracleMan_Logo_Colour.png',
+      url: 'https://www.miraclemanplumbing.net/dewey-humboldt',
       telephone: PHONE,
       priceRange: '$$',
       address: {

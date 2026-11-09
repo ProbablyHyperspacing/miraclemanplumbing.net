@@ -128,10 +128,10 @@ const jsonLd = {
   '@graph': [
     {
       '@type': 'Plumber',
-      '@id': 'https://miraclemanplumbing.com/prescott#business',
+      '@id': 'https://www.miraclemanplumbing.net/prescott#business',
       name: PRESCOTT.name,
-      image: 'https://miraclemanplumbing.com/MiracleMan_Logo_Colour.png',
-      url: 'https://miraclemanplumbing.com/prescott',
+      image: 'https://www.miraclemanplumbing.net/MiracleMan_Logo_Colour.png',
+      url: 'https://www.miraclemanplumbing.net/prescott',
       telephone: PRESCOTT.phone,
       priceRange: '$$',
       address: {
