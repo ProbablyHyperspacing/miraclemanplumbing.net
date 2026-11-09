@@ -5,7 +5,7 @@ import './globals.css'
 import { AnalyticsProviders } from '@/components/analytics'
 import { Toaster } from '@/components/ui/toaster'
 import { ServiceTitanScheduler } from '@/components/servicetitan-scheduler'
-import { META_PIXEL_IDS } from '@/lib/meta-pixel'
+import { META_PIXEL_IDS, OPENAI_PIXEL_ID } from '@/lib/ad-pixels'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -51,6 +51,17 @@ export default function RootLayout({
               'https://connect.facebook.net/en_US/fbevents.js');
               ${META_PIXEL_IDS.map((id) => `fbq('init', '${id}');`).join('\n')}
               fbq('track', 'PageView');`,
+          }}
+        />
+        <Script
+          id="openai-pixel"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};
+              q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;
+              var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)
+              }(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");
+              oaiq("init",{pixelId:"${OPENAI_PIXEL_ID}"});`,
           }}
         />
       </head>

@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Script from 'next/script'
 import { useEffect } from 'react'
-import { trackLead } from '@/lib/meta-pixel'
+import { trackLead } from '@/lib/ad-pixels'
 
 export function GoogleAnalytics({ gaId }: { gaId?: string }) {
   if (!gaId) return null
@@ -34,9 +34,9 @@ export function GoogleAnalytics({ gaId }: { gaId?: string }) {
 // and the internal email signature builder.
 const NON_LEAD_PATHS = ['/careers', '/email-signature']
 
-// Counts a tap on any phone link as a Meta Lead. This counts the tap, not
-// whether the call connected.
-export function MetaPhoneLeads() {
+// Counts a tap on any phone link as a lead (Meta and ChatGPT ads). This
+// counts the tap, not whether the call connected.
+export function PhoneLeads() {
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
       const link = (e.target as Element | null)?.closest?.('a[href^="tel:"]')
@@ -56,7 +56,7 @@ export function AnalyticsProviders() {
   return (
     <>
       <GoogleAnalytics gaId={gaId} />
-      <MetaPhoneLeads />
+      <PhoneLeads />
       <Analytics />
       <SpeedInsights />
     </>

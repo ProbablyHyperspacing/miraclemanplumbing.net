@@ -3,6 +3,12 @@
 Newest first. ✅ done · 🔹 decision · ⚠️ decision that needs your OK
 Write your comments on the 💬 line under any decision; Claude reads them before each task.
 
+## 2026-11-08
+- ✅ Set up ChatGPT ads conversion tracking: Lead conversion created in OpenAI Ads Manager, pixel added to every page
+- ✅ Contact form sends and phone taps now count as leads for ChatGPT ads too, same as Meta
+- 🔹 Left the ChatGPT pixel's debug mode off on the live site (it only adds console logging for testing)
+  - 💬 
+
 ## 2026-10-22
 - ✅ Set the Facebook tracking number (928) 227-0602 on /fb and pushed it live
 - ✅ Added the ad campaign's Meta pixel (2226641014864021) to every page, next to the old one
