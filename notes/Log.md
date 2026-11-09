@@ -4,6 +4,7 @@ Newest first. ✅ done · 🔹 decision · ⚠️ decision that needs your OK
 Write your comments on the 💬 line under any decision; Claude reads them before each task.
 
 ## 2026-11-08
+- ✅ Online bookings in the ServiceTitan widget now count as leads for Meta and ChatGPT ads (not tested yet: needs a real booking)
 - ✅ Set up ChatGPT ads conversion tracking: Lead conversion created in OpenAI Ads Manager, pixel added to every page
 - ✅ Contact form sends and phone taps now count as leads for ChatGPT ads too, same as Meta
 - 🔹 Left the ChatGPT pixel's debug mode off on the live site (it only adds console logging for testing)

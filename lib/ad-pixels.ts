@@ -16,8 +16,9 @@ declare global {
   }
 }
 
-// Report a lead (contact form sent or phone number tapped) to Meta and
-// ChatGPT ads. No-op for any pixel that is blocked or hasn't loaded.
+// Report a lead (contact form sent, phone number tapped, or online booking
+// completed) to Meta and ChatGPT ads. No-op for any pixel that is blocked or
+// hasn't loaded.
 export function trackLead() {
   window.fbq?.('track', 'Lead')
   window.oaiq?.('measure', 'lead_created', { type: 'customer_action' })

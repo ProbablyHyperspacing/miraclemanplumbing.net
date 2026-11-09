@@ -1,6 +1,15 @@
 'use client'
 
 import { useEffect } from 'react'
+import { trackLead } from '@/lib/ad-pixels'
+
+declare global {
+  interface Window {
+    ScheduleEngine?: {
+      addEventListener: (event: string, listener: () => void) => void
+    }
+  }
+}
 
 export function ServiceTitanScheduler() {
   useEffect(() => {
@@ -13,6 +22,10 @@ export function ServiceTitanScheduler() {
     s.setAttribute('data-api-key', 'd6x7vyzymgttqqkzfknobns7')
     s.setAttribute('data-schedulerid', 'sched_nmq8ab4anmna49825sra380q')
     s.defer = true
+    // Count a finished online booking as a lead (Meta and ChatGPT ads). The
+    // booking happens inside ServiceTitan's iframe; the embed script relays
+    // its "BookingBooked" event to the page when the booking is completed.
+    s.onload = () => window.ScheduleEngine?.addEventListener('BookingBooked', trackLead)
     document.body.appendChild(s)
   }, [])
 
